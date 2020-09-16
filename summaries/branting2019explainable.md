@@ -10,8 +10,8 @@ Tags: `Legal Reasoning`, `Computational Models of Argument`
 
 ### Contributions
 This paper describes two approaches to *explainable outcome prediction* that that operate on textual inputs and obviate both annotation of an entire decision corpus and manual processing of new cases.
-  (1) **NFE** (No Feature Engineering): uses an *Attention Network* for prediction and attention weights to highlight salient case text. It was shown to be capable of predicting decisions, but attention-weight-based text highlighting did not demonstrably improve human decision speed or accuracy.
-  (ii) **SCALE** (Semi-supervised Case Annotation for Legal Explanations): the justification structure of a representative set of cases is annotated, and tags for factual and legal findings are propagated to sentences in unannotated cases that share a high degree of simi- larity to the annotated sentences in a semantic embedding space. This approach exploits the structural and semantic regularities in case corpora to identify fact patterns with predictable relationships to case decisions.
+   (1) **NFE** (No Feature Engineering): uses an *Attention Network* for prediction and attention weights to highlight salient case text. It was shown to be capable of predicting decisions, but attention-weight-based text highlighting did not demonstrably improve human decision speed or accuracy.
+   (2) **SCALE** (Semi-supervised Case Annotation for Legal Explanations): the justification structure of a representative set of cases is annotated, and tags for factual and legal findings are propagated to sentences in unannotated cases that share a high degree of simi- larity to the annotated sentences in a semantic embedding space. This approach exploits the structural and semantic regularities in case corpora to identify fact patterns with predictable relationships to case decisions.
 
 
 ### Take away
