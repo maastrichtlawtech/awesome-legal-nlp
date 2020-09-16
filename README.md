@@ -10,7 +10,7 @@
 
 ## 1. Books <a name="books"></a>
 
-- Artificial Intelligence and Legal Analytics: New Tools for Law Practice in the Digital Age [[link]](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0)
+- Artificial Intelligence and Legal Analytics: New Tools for Law Practice in the Digital Age [[book]](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0)
 
 ## 2. Papers <a name="papers"></a>
 
@@ -21,3 +21,6 @@
 
 
 ## 3. Videos <a name="videos"></a>
+
+- Artificial Intelligence and Law – An Overview and History, by Harry Surden from University of Colorado [[video]](https://www.youtube.com/watch?v=BG6YR0xGMRA)
+- Artificial Intelligence, Technology and the Future of Law, by Pr. Dana Remus from UToronto [[video]](https://www.youtube.com/watch?v=UYSZeHqZnaA)
