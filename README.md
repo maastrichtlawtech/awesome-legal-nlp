@@ -4,7 +4,7 @@
 ## Table of contents
 1. [Books](#books)
 2. [Papers](#papers)
-    - Explainable Legal Prediction (#explainable)
+    - [Explainable Legal Prediction] (#explainable)
 3. [Videos](#videos)
 
 
