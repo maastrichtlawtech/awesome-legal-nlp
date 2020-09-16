@@ -4,7 +4,7 @@
 ## Table of contents
 1. [Books](#books)
 2. [Papers](#papers)
-    1. [Explainable Legal Prediction] (#explainable)
+    - [Explainable Legal Prediction](#explainable)
 3. [Videos](#videos)
 
 
@@ -14,7 +14,7 @@
 
 ## 2. Papers <a name="papers"></a>
 
-### 1. Explainbale Legal Prediction <a name="explainable"></a>
+### A. Explainbale Legal Prediction <a name="explainable"></a>
 
 ##### [`2019-06`] Semi-Supervised Methods for Explainable Legal Prediction [[pdf]](https://www.researchgate.net/publication/334643454_Semi-Supervised_Methods_for_Explainable_Legal_Prediction)[[summary]](./summaries/branting2019explainable.md)
 
