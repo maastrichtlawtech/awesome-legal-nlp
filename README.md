@@ -16,9 +16,7 @@
 
 ### A. Explainbale Legal Prediction <a name="explainable"></a>
 
-##### Semi-Supervised Methods for Explainable Legal Prediction [[pdf]](https://www.researchgate.net/publication/334643454_Semi-Supervised_Methods_for_Explainable_Legal_Prediction)[[Summary]]()
-- *K. Branting, B. Weiss, B. Brown, C. Pfeifer, A. Chakraborty, L. Ferro, M. Pfaff, A. Yeh*
-- `2019-06`
+##### [`2019-06`] Semi-Supervised Methods for Explainable Legal Prediction [[pdf]](https://www.researchgate.net/publication/334643454_Semi-Supervised_Methods_for_Explainable_Legal_Prediction)[[Summary]]()
 
 
 
