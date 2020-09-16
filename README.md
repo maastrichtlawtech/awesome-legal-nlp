@@ -22,5 +22,5 @@
 
 ## 3. Videos <a name="videos"></a>
 
-- Artificial Intelligence and Law – An Overview and History, by Harry Surden from University of Colorado [[video]](https://www.youtube.com/watch?v=BG6YR0xGMRA)
-- Artificial Intelligence, Technology and the Future of Law, by Pr. Dana Remus from UToronto [[video]](https://www.youtube.com/watch?v=UYSZeHqZnaA)
+- Artificial Intelligence and Law – An Overview and History, by Pr. Harry Surden from University of Colorado [[video]](https://www.youtube.com/watch?v=BG6YR0xGMRA)
+- Artificial Intelligence, Technology and the Future of Law, by Pr. Dana Remus from University of Toronto [[video]](https://www.youtube.com/watch?v=UYSZeHqZnaA)
