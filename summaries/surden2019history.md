@@ -1,5 +1,7 @@
 ## Artificial Intelligence and Law – An Overview and History
 
+Speaker: Pr. Harry Surden (University of Colorado)
+
 ### AI Approaches
 
 - 2 major AI approaches: **Logic and Rules-based (KR) Approach** and **Machine Learning (Pattern-based approach)**.
@@ -39,3 +41,8 @@
     - Legal chatbots and automated legal self-help: e.g., DoNotPay
     - Automated legal document assembly
     
+### Limits on AI today
+
+- AI still requires data: expert data is expensive to collect.
+- No thinking computers, no abstract reasoning.
+
