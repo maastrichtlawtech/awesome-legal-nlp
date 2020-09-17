@@ -27,6 +27,7 @@
 - [`2019`] *Artificial Intelligence and Law – An Overview and History* [[video]](https://www.youtube.com/watch?v=BG6YR0xGMRA)[[summary]](./summaries/surden2019history.md)
 - [`2019`] *Artificial Intelligence, Technology and the Future of Law* [[video]](https://www.youtube.com/watch?v=UYSZeHqZnaA)
 - [`2019`] *Law as Data: The Promise and Challenges of Natural Language Processing for Legal Research* [[slides]](https://drive.google.com/open?id=14zWlp2Hkm866MTup_oMZJa5T80fxsWtR)[[summary]](./summaries/dyevre2019nllp.md)
+- [`2017`] *Artificial Intelligence and the Practice of Law* [[video]](https://www.youtube.com/watch?v=YNaT9VD8290)
 
 
 ## 4. Conferences & Workshops <a name="conferences"></a>
