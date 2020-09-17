@@ -27,14 +27,14 @@
   - Law firm management.
   
 - **"Users" of Law**: ordinary individuals or business that have to comply with law.
-  - Businesses:
+  - <ins>Businesses</ins>:
     - Regulatory compliance engines: interest in using ML and rulew engines for complying (e.g., with GDPR).
     - Computable contracts
     - Expert systems
     - Computable policies and mbedded law
     - Automated dispute resolution
     - Automated legeal document analysis
-  - Ordinary people:
+  - <ins>Ordinary people</ins>:
     - Legal expert systems: e.g., TurboTax
     - Legal chatbots and automated legal self-help: e.g., DoNotPay
     - Automated legal document assembly
