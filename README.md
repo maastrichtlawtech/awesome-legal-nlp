@@ -7,7 +7,7 @@
     - [Explainable Legal Prediction](#explainable)
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
-5. [Labs](#labs)
+5. [Research labs](#labs)
 
 
 ## 1. Books <a name="books"></a>
@@ -35,7 +35,7 @@
 - Workshop on Natural Legal Language Processing (NLLP) [[website]](https://sites.google.com/view/nllp/nllp-2019)
 
 
-## 5. Labs <a name="labs"></a>
+## 5. Research labs <a name="labs"></a>
 
 - Maastricht Law & Tech Lab [[website]](https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab)[[github]](https://github.com/maastrichtlawtech)
 - Stanford CodeX [[website]](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/)
