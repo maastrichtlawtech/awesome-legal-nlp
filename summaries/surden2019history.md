@@ -17,7 +17,7 @@ Speaker: Pr. Harry Surden (University of Colorado)
   - Government Officials: in governement benefits decision, legal officials are using this to make decisions about whether somebody qualifies to get a certain benefit or not.
   - Police: predictive policing for likely crime areas and facial recognition for suspects.
   
-- **Practitioners of Law**: attorney and others interpreting or advocating in legal system.
+- **Practitioners of Law**: attorneys (and others interpreting or advocating in legal system).
   - Litigation e-discovery and Technology assisted review: Use of machine learning algorithms in technology assisted document review which are better and faster at detecting documents that are likely to be relevant or privileged to litigation.
   - Legal analytics: trying to predict how a judge might rule on a particular case or how a venue might  treat a favorable case based upon past outcomes.
   - Case outcome prediction: some hedge funds are trying to use various predictive algorithms to try and bet on litigation finance.
