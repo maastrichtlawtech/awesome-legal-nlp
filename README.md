@@ -23,9 +23,9 @@
 
 ## 3. Talks <a name="talks"></a>
 
-- [`2019`] *Artificial Intelligence and Law – An Overview and History*, by Pr. Harry Surden from University of Colorado [[video]](https://www.youtube.com/watch?v=BG6YR0xGMRA)[[summary]](./summaries/surden2019history.md)
+- [`2019`] *Artificial Intelligence and Law – An Overview and History* [[video]](https://www.youtube.com/watch?v=BG6YR0xGMRA)[[summary]](./summaries/surden2019history.md)
 - [`2019`] *Artificial Intelligence, Technology and the Future of Law*, by Pr. Dana Remus from University of Toronto [[video]](https://www.youtube.com/watch?v=UYSZeHqZnaA)
-- [`2019`] *Law as Data: The Promise and Challenges of Natural Language Processing for Legal Research*, by Pr. Arthur Dyevre from KU Leuven [[slides]](https://drive.google.com/open?id=14zWlp2Hkm866MTup_oMZJa5T80fxsWtR)[[summary]](./summaries/dyevre2019nllp.md)
+- [`2019`] *Law as Data: The Promise and Challenges of Natural Language Processing for Legal Research* [[slides]](https://drive.google.com/open?id=14zWlp2Hkm866MTup_oMZJa5T80fxsWtR)[[summary]](./summaries/dyevre2019nllp.md)
 
 
 ## 4. Conferences & Workshops <a name="conferences"></a>
