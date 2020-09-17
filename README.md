@@ -32,8 +32,9 @@
 
 ## 4. Conferences & Workshops <a name="conferences"></a>
 
-- International Conference on Artificial Intelligence and Law (ICAIL) [[website]](https://dl.acm.org/doi/proceedings/10.1145/3322640#issue-downloads)
-- Workshop on Natural Legal Language Processing (NLLP) [[website]](https://sites.google.com/view/nllp/nllp-2019)
+- The International Conference on Artificial Intelligence and Law (ICAIL) [[website]](https://dl.acm.org/doi/proceedings/10.1145/3322640#issue-downloads)
+- The Natural Legal Language Processing (NLLP) Workshop [[website]](https://sites.google.com/view/nllp/nllp-2019)
+- The EXplainable AI in Law (XAILA) Workshop [[website]](https://www.geist.re/xaila:start)
 
 
 ## 5. Research labs <a name="labs"></a>
