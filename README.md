@@ -5,7 +5,8 @@
 1. [Books](#books)
 2. [Papers](#papers)
     - [Explainable Legal Prediction](#explainable)
-3. [Videos](#videos)
+3. [Talks](#talks)
+4. [Conferences & Workshops](#conferences)
 
 
 ## 1. Books <a name="books"></a>
@@ -20,7 +21,13 @@
 
 
 
-## 3. Videos <a name="videos"></a>
+## 3. Talks <a name="talks"></a>
 
 - *Artificial Intelligence and Law – An Overview and History*, by Pr. Harry Surden from University of Colorado [[video]](https://www.youtube.com/watch?v=BG6YR0xGMRA)
 - *Artificial Intelligence, Technology and the Future of Law*, by Pr. Dana Remus from University of Toronto [[video]](https://www.youtube.com/watch?v=UYSZeHqZnaA)
+- *Law as Data: The Promise and Challenges of Natural Language Processing for Legal Research*, by Pr. Arthur Dyevre from KU Leuven [[slides]](https://drive.google.com/open?id=14zWlp2Hkm866MTup_oMZJa5T80fxsWtR)
+
+
+## 4. Conferences & Workshops <a name="conferences"></a>
+- International Conference on Artificial Intelligence and Law [[website]](https://dl.acm.org/doi/proceedings/10.1145/3322640#issue-downloads)
+- Workshop on Natural Legal Language Processing (NLLP) [[website]](https://sites.google.com/view/nllp/nllp-2019)
