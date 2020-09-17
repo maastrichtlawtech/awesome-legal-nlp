@@ -46,3 +46,15 @@ Speaker: Pr. Harry Surden (University of Colorado)
 - AI still requires data: expert data is expensive to collect.
 - No thinking computers, no abstract reasoning.
 
+
+### The Future of AI & Law
+
+- **Mechanical** attorney tasks will likely be automated: today's AI is much more likely to be able to automated a task if there's underlying *structure* or *pattern* that it can harness.
+- At the opposite, **abstract, conceptual, people** tasks are less likely to be automated in the near future (i.e., tasks involving abstract thinking, problem-solving, advocacy, client consueling, human emotional intelligence, policy-analysis, big picture strategy, creative thinking, etc.)
+
+
+### Concerns in AI & Law
+
+- Lack of interpretability in AI systems.
+- Biased datasets used to build AI systems.
+- Lack of explanatory AI.
