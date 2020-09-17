@@ -1,5 +1,9 @@
 ## Law as Data: The Promise and Challenges of Natural Language Processing for Legal Research
 
+Speaker: Pr. Arthur Dyevre (KU Leuven)
+
+### Take away
+
 - Practical goal of NLLP: information retrieval, litigation analytics, automated document assembly...
 - Document classification is a central task to documents analysis in empirical legal research. 
   - Techniques: topic modelling (unsupervised text classification), Bayes classifiers (supervised text classification), Latent semantic analysis, word embeddings. 
