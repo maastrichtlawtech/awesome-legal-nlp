@@ -4,7 +4,7 @@
 ## Table of contents
 1. [Books](#books)
 2. [Papers](#papers)
-    - [Explainable Legal Prediction](#explainable)
+    - [Legal Prediction](#prediction)
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
 5. [Research labs](#labs)
@@ -16,9 +16,10 @@
 
 ## 2. Papers <a name="papers"></a>
 
-#### A. Explainbale Legal Prediction <a name="explainable"></a>
+#### A. Legal Prediction <a name="prediction"></a>
 
 - [`2019-06`] *Semi-Supervised Methods for Explainable Legal Prediction* [[pdf]](https://www.researchgate.net/publication/334643454_Semi-Supervised_Methods_for_Explainable_Legal_Prediction)[[summary]](./summaries/branting2019explainable.md)
+- [`2015`] *Inducing Predictive Models for Decision Support in Administrative Adjudication* [[pdf]](https://www.mirelproject.eu/MIRELws@ICAIL/MIRELwsPubs/Branting-etal-MIRELwsAtICAIL.pdf)[[summary]](./summaries/branting2015inducing.md)
 
 
 
