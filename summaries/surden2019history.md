@@ -4,8 +4,8 @@ Speaker: Pr. Harry Surden (University of Colorado)
 
 ### AI Approaches
 
-- 2 major AI approaches: **Logic and Rules-based (KR) Approach** and **Machine Learning (Pattern-based approach)**.
-- Logic and Rules-Based Approach: Modeling real world processes or systems using *logical* rules. Then computers can reason about thoses rules. Once you have laws represented in computer processable form, you can engage in computer deductive reasoning that is basically difficult or impossible for humans to do on your own (e.g., TurboTax: expert system in tax liability).
+- 2 major AI approaches: *Logic and Rules-based (KR) Approach* and *Machine Learning (Pattern-based approach)*.
+- **Logic and Rules-based Approach**: Modeling real world processes or systems using *logical* rules. Then computers can reason about thoses rules. Once you have laws represented in computer processable form, you can engage in computer deductive reasoning that is basically difficult or impossible for humans to do on your own (e.g., TurboTax: expert system in tax liability).
 - Don't have to choose one or the other approach: many successful AI systems are hybrids.
 (- Legal Tech and Machine Learning Era: Stanford CodeX)
 
