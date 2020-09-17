@@ -1,6 +1,6 @@
 ## Artificial Intelligence and Law – An Overview and History
 
-#### AI Approaches
+### AI Approaches
 
 - 2 major AI approaches: **Logic and Rules-based (KR) Approach** and **Machine Learning (Pattern-based approach)**.
 - Logic and Rules-Based Approach: Modeling real world processes or systems using *logical* rules. Then computers can reason about thoses rules. Once you have laws represented in computer processable form, you can engage in computer deductive reasoning that is basically difficult or impossible for humans to do on your own (e.g., TurboTax: expert system in tax liability).
@@ -8,7 +8,7 @@
 (- Legal Tech and Machine Learning Era: Stanford CodeX)
 
 
-#### Categories of AI and Law use
+### Categories of AI and Law use
 
 - **Administrators of Law**: those who create and apply the law (judges, legislators, regulators, etc)
   - Judges: we see judges starting to rely on sentencing and bail reports produced primarily by a machine learning algorithm that gives risk of reoffending and the judges are not bound by these reports but often they follow them.
