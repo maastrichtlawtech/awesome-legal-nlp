@@ -12,7 +12,7 @@
 
 ## 1. Books <a name="books"></a>
 
-- [`2017`] *Artificial Intelligence and Legal Analytics: New Tools for Law Practice in the Digital Age*, K. Ashley. [[book]](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0)
+- [`2017-07`] *Artificial Intelligence and Legal Analytics: New Tools for Law Practice in the Digital Age*, K. Ashley. [[book]](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0)
 
 ## 2. Papers <a name="papers"></a>
 
@@ -25,10 +25,10 @@
 
 ## 3. Talks <a name="talks"></a>
 
-- [`2019`] *Artificial Intelligence and Law – An Overview and History*, H. Surden. [[video]](https://www.youtube.com/watch?v=BG6YR0xGMRA)[[summary]](./summaries/surden2019history.md)
-- [`2019`] *Artificial Intelligence, Technology and the Future of Law*, D. Remus. [[video]](https://www.youtube.com/watch?v=UYSZeHqZnaA)
-- [`2019`] *Law as Data: The Promise and Challenges of Natural Language Processing for Legal Research*, A. Dyevre. [[slides]](https://drive.google.com/open?id=14zWlp2Hkm866MTup_oMZJa5T80fxsWtR)[[summary]](./summaries/dyevre2019nllp.md)
-- [`2017`] *Artificial Intelligence and the Practice of Law*, S. Crawford. [[video]](https://www.youtube.com/watch?v=YNaT9VD8290)
+- [`2019-06`] *Law as Data: The Promise and Challenges of Natural Language Processing for Legal Research*, A. Dyevre. [[slides]](https://drive.google.com/open?id=14zWlp2Hkm866MTup_oMZJa5T80fxsWtR)[[summary]](./summaries/dyevre2019nllp.md)
+- [`2019-04`] *Artificial Intelligence and Law – An Overview and History*, H. Surden. [[video]](https://www.youtube.com/watch?v=BG6YR0xGMRA)[[summary]](./summaries/surden2019history.md)
+- [`2019-04`] *Artificial Intelligence, Technology and the Future of Law*, D. Remus. [[video]](https://www.youtube.com/watch?v=UYSZeHqZnaA)
+- [`2017-11`] *Artificial Intelligence and the Practice of Law*, S. Crawford. [[video]](https://www.youtube.com/watch?v=YNaT9VD8290)
 
 
 ## 4. Conferences & Workshops <a name="conferences"></a>
