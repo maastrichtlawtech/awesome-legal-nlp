@@ -9,7 +9,15 @@ Administrative adjudications are the most common form of legal decisions in many
 
 ### Contributions
 
-- They explore the hypothesis that predictive models induced from previous administrative decisions can improve subsequent decision-making processes. This paper describes three data sets for exploring this hypothesis:
+- They explore the hypothesis that predictive models induced from previous administrative decisions can improve subsequent decision-making processes.
+  - Step 1:  show the feasibility of creating models that predict the outcomes of routine administrative cases. 
+  - Step 2: demonstrate how such predictive models can be used to improve decision processes. 
+  
+- Their focus is on assisting individual decision makers by using predictive models to:
+  - (1) identify the aspects of the instant case that are most relevant to its outcome;
+  - (2) determine the prior cases that share the most relevant similarities to the instant case.
+
+- Three data sets used:
   - motion-rulings;
   - Board of Veterans Appeals (BVA) decisions;
   - World Intellectual Property Organization (WIPO) domain name dispute decisions.
