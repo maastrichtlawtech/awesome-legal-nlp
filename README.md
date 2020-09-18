@@ -38,7 +38,7 @@
 - The EXplainable AI in Law (XAILA) Workshop [[website]](https://www.geist.re/xaila:start)
 
 
-## 🚀🧬🧪 Research labs <a name="labs"></a>
+## 🧪 Research labs <a name="labs"></a>
 
 - Maastricht Law & Tech Lab [[website]](https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab)[[github]](https://github.com/maastrichtlawtech)
 - Stanford CodeX [[website]](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/)
