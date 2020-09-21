@@ -27,17 +27,24 @@ Administrative adjudications are the most common form of legal decisions in many
   - SVM over token n-grams;
   - Hierarchical Attention Network (HAN) applied to the full text.
   
-- Results: each approach was capable of predicting outcomes, with the simpler WIPO cases appearing to be much more predictable than BVA or motion-ruling cases.
- 
-- They also explore several approaches to using predictive models to identify salient phrases in the predictive texts (i.e., motion or contentions and factual background), and propose a design for displaying this information to decision makers.
+- Results: each approach was capable of predicting outcomes, with the simpler WIPO cases appearing to be much more predictable than BVA or motion-ruling cases. But since this approach does not perform argumentation mining and has no explicit model of the applicable legal issues and rules, there is a limit to the predictive accuracy that this approach can achieve except in highly routine and predictable domains.
+
+- They emphasize that one of the challenges of decision making is sifting through irrelevant portions of the case record to locate the most important facts. They distinguish two uses of predictive text:
+  - **Highlighting the parts of a document most relevant outcome** so that the decision maker can quickly identify the facts determinative of the outcome (e.g., granting or denying a motion, or accepting or rejecting a claim for benefits);
+  - **Highlighting the parts of one document most relevant to assessing the similarity or difference between the cases**.
+
+- In practice, identification of the most predictive text is a special case of feature selection. Hence, they explore several approaches to using predictive models to identify salient phrases in the predictive texts (i.e., motion or contentions and factual background):
+  - Mutual information;
+  - Neural network attention weights;
+  - Linear model weights (maximum entropy and SVM with linear kernels).
+
+- Finally, they propose a design for displaying this information to decision makers (e.g., allows a user to view the most relevant cases in multiple ways).
 
 
 ### Conclusions
 
-- The results of the prediction experiments indicate that routine adjudications and orders are predictable to some extent from models trained from text representing the facts of the case.
-
-- But since this approach does not perform argumentation mining and has no explicit model of the applicable legal issues and rules, there is a limit to the predictive accuracy that this approach can achieve except in highly routine and predictable domains.
-
-- They emphasize that one of the challenges of decision making is sifting through irrelevant portions of the case record to locate the most important facts. Hence, they distinguish two uses of predictive text:
-  - <mark>Highlighting the parts of a document most relevant outcome</mark> so that the decision maker can quickly identify the facts determinative of the outcome (e.g., granting or denying a motion, or accepting or rejecting a claim for benefits);
-  - 
+- This paper studies the ability to predict outcomes from previous administrative decisions using three different approaches: maximum entropy over token n-grams; SVM over token n-grams; and a hierarchical attention network applied to the full text. 
+- The evaluation did not establish the superiority of one approach over another, but rather indicates that the outcome of routine decisions is predictable using multiple alternative models from the text of the motion or contentions and factual background alone and that predictive accuracy varies depending on the domain and the nature of the predictive texts.
+- They propose use of feature weights or network attention weights from these predictive models to identify salient phrases in motions or contentions and case facts.
+- They have developed an interface design for presenting this information to improve decision making.
+- The ultimate objective of this work is to improve the eciency, accuracy, and consistency of administrative decision making, the form of adjudication that has the greatest impact on most citizens, by integrating automated decision models into the human decision process.
