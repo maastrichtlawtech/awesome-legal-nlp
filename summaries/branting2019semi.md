@@ -1,5 +1,7 @@
 ## Semi-Supervised Methods for Explainable Legal Prediction
 
+Authors: K. Branting et al.  
+Date: 2019-06  
 Tags: `Legal Reasoning`, `Computational Models of Argument`
 
 ### Intro
