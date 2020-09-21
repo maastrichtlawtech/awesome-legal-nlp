@@ -20,7 +20,7 @@
 
 - [`2019-09`] *A Brief History of the Changing Roles of Case Prediction in AI and Law*, K. Ashley [[pdf]](https://journals.latrobe.edu.au/index.php/law-in-context/article/download/88/157)[[summary]](./summaries/ashley2019history.md)
 - [`2019-06`] *Semi-Supervised Methods for Explainable Legal Prediction*, K. Branting et al. [[pdf]](https://www.researchgate.net/profile/Alex_Yeh/publication/334643454_Semi-Supervised_Methods_for_Explainable_Legal_Prediction/links/5e33eb4792851c7f7f0ecb26/Semi-Supervised-Methods-for-Explainable-Legal-Prediction.pdf)[[summary]](./summaries/branting2019explainable.md)
-- [`2015-05`] *Inducing Predictive Models for Decision Support in Administrative Adjudication*, K. Branting et al. [[pdf]](https://www.mirelproject.eu/MIRELws@ICAIL/MIRELwsPubs/Branting-etal-MIRELwsAtICAIL.pdf)[[summary]](./summaries/branting2015inducing.md)
+- [`2017-05`] *Inducing Predictive Models for Decision Support in Administrative Adjudication*, K. Branting et al. [[pdf]](https://www.mirelproject.eu/MIRELws@ICAIL/MIRELwsPubs/Branting-etal-MIRELwsAtICAIL.pdf)[[summary]](./summaries/branting2017inducing.md)
 - [`2014-07`] *Predicting the Behavior of the Supreme Court of the United States: A General Approach*, D. Katz et al. [[pdf]](https://arxiv.org/pdf/1407.6333)[[summary]](./summaries/katz2014predicting.md)
 
 
