@@ -2,7 +2,7 @@
 
 Authors: K. Branting et al.  
 Date: 2017   
-tags: `legal prediction`, àttention network`  
+Tags: `legal prediction`, `attention network`  
 
 ### Intro
 
