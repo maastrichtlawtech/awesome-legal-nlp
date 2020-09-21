@@ -47,6 +47,6 @@
 
 ## 🧐 Active authors <a name="authors"></a>
 
-- Karl Branting [[Scholar]](https://scholar.google.com/citations?hl=en&user=s6Z4NH0AAAAJ&view_op=list_works&sortby=pubdate)
-- Kevin Ashley [[Scholar]](https://scholar.google.com/citations?hl=en&user=ouEDJ0EAAAAJ&view_op=list_works&sortby=pubdate)
-- Ilias Chalkidis [[Scholar]](https://scholar.google.gr/citations?hl=en&user=BrtAqz8AAAAJ&view_op=list_works&sortby=pubdate)
+- Karl Branting, *Chief Scientist in Machine Learning for Computational Law @ The MITRE Corporation*. [[Scholar]](https://scholar.google.com/citations?hl=en&user=s6Z4NH0AAAAJ&view_op=list_works&sortby=pubdate)
+- Kevin Ashley, *Professor of Law and Intelligent Systems @ the University of Pittsburgh*. [[Scholar]](https://scholar.google.com/citations?hl=en&user=ouEDJ0EAAAAJ&view_op=list_works&sortby=pubdate)
+- Ilias Chalkidis, *PhD Candidate @ Athens University of Economics and Business*. [[Scholar]](https://scholar.google.gr/citations?hl=en&user=BrtAqz8AAAAJ&view_op=list_works&sortby=pubdate)
