@@ -39,5 +39,5 @@ Administrative adjudications are the most common form of legal decisions in many
 - But since this approach does not perform argumentation mining and has no explicit model of the applicable legal issues and rules, there is a limit to the predictive accuracy that this approach can achieve except in highly routine and predictable domains.
 
 - They emphasize that one of the challenges of decision making is sifting through irrelevant portions of the case record to locate the most important facts. Hence, they distinguish two uses of predictive text:
-  - <span style="background-color: #FFFF00">Highlighting the parts of a document most relevant outcome</span> so that the decision maker can quickly identify the facts determinative of the outcome (e.g., granting or denying a motion, or accepting or rejecting a claim for benefits);
+  - <mark>Highlighting the parts of a document most relevant outcome</mark> so that the decision maker can quickly identify the facts determinative of the outcome (e.g., granting or denying a motion, or accepting or rejecting a claim for benefits);
   - 
