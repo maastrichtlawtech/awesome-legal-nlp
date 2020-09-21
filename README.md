@@ -8,6 +8,7 @@
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
 5. [Research labs](#labs)
+6. [Active authors](#authors)
 
 
 ## 📚  Books <a name="books"></a>
@@ -18,7 +19,8 @@
 
 #### A. Legal Prediction <a name="prediction"></a>
 
-- [`2019-06`] *Semi-Supervised Methods for Explainable Legal Prediction*, K. Branting et al. [[pdf]](https://www.researchgate.net/publication/334643454_Semi-Supervised_Methods_for_Explainable_Legal_Prediction)[[summary]](./summaries/branting2019explainable.md)
+- [`2019-09`] *A Brief History of the Changing Roles of Case Prediction in AI and Law*, K. Ashley [[pdf]](https://journals.latrobe.edu.au/index.php/law-in-context/article/download/88/157)[[summary]](./summaries/ashley2019history.md)
+- [`2019-06`] *Semi-Supervised Methods for Explainable Legal Prediction*, K. Branting et al. [[pdf]](https://www.researchgate.net/profile/Alex_Yeh/publication/334643454_Semi-Supervised_Methods_for_Explainable_Legal_Prediction/links/5e33eb4792851c7f7f0ecb26/Semi-Supervised-Methods-for-Explainable-Legal-Prediction.pdf)[[summary]](./summaries/branting2019explainable.md)
 - [`2015`] *Inducing Predictive Models for Decision Support in Administrative Adjudication*, K. Branting et al. [[pdf]](https://www.mirelproject.eu/MIRELws@ICAIL/MIRELwsPubs/Branting-etal-MIRELwsAtICAIL.pdf)[[summary]](./summaries/branting2015inducing.md)
 
 
@@ -42,3 +44,9 @@
 
 - Maastricht Law & Tech Lab [[website]](https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab)[[github]](https://github.com/maastrichtlawtech)
 - Stanford CodeX [[website]](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/)
+
+## 🧐 Active authors <a name="authors"></a>
+
+- Karl Branting [[Scholar]](https://scholar.google.com/citations?hl=en&user=s6Z4NH0AAAAJ&view_op=list_works&sortby=pubdate)
+- Kevin Ashley [[Scholar]](https://scholar.google.com/citations?hl=en&user=ouEDJ0EAAAAJ&view_op=list_works&sortby=pubdate)
+- Ilias Chalkidis [[Scholar]](https://scholar.google.gr/citations?hl=en&user=BrtAqz8AAAAJ&view_op=list_works&sortby=pubdate)
