@@ -1,5 +1,7 @@
 ## A Brief History of the Changing Roles of Case Prediction in AI and Law
 
+Authors: K. Ashley  
+Date: 2019-09  
 Tags: `history`, `legal prediction`
 
 ### Intro
