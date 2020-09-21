@@ -1,8 +1,8 @@
-## A Brief History of the Changing Roles of Case Prediction in AI and Law
+# A Brief History of the Changing Roles of Case Prediction in AI and Law
 
 Tags: `history`
 
-### Intro
+## Intro
 
 Predicting case outcomes has long played a role in research on Artificial Intelligence and Law.
 
