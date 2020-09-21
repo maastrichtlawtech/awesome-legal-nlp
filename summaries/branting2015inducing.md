@@ -32,6 +32,12 @@ Administrative adjudications are the most common form of legal decisions in many
 - They also explore several approaches to using predictive models to identify salient phrases in the predictive texts (i.e., motion or contentions and factual background), and propose a design for displaying this information to decision makers.
 
 
-### Take away
+### Conclusions
 
-[...]
+- The results of the prediction experiments indicate that routine adjudications and orders are predictable to some extent from models trained from text representing the facts of the case.
+
+- But since this approach does not perform argumentation mining and has no explicit model of the applicable legal issues and rules, there is a limit to the predictive accuracy that this approach can achieve except in highly routine and predictable domains.
+
+- They emphasize that one of the challenges of decision making is sifting through irrelevant portions of the case record to locate the most important facts. Hence, they distinguish two uses of predictive text:
+  - <span style="background-color: #FFFF00">Highlighting the parts of a document most relevant outcome</span> so that the decision maker can quickly identify the facts determinative of the outcome (e.g., granting or denying a motion, or accepting or rejecting a claim for benefits);
+  - 
