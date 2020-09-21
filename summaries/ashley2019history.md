@@ -21,7 +21,7 @@ Predicting case outcomes has long played a role in research on Artificial Intell
   2. **How to represent the legal knowledge?**: Knowledge representation techniques may take many forms (i.e., formal representations of legal rules, representations of generalized case facts, stereotypical fact patterns that strengthen or weaken a side’s claim, or representations of legal document texts
 as term vectors).
   3. **Which inference methods to implement?**: whether to employ generic methods (such as logical inference with rules) or statistical inference based on frequencies. One must also consider how to explain the inferences (e.g., statistical inferences may make accurate predictions but not be able to explain those predictions in terms that legal professionals would recognize). Evaluation is a further consideration: it includes how to evaluate both the predictions and the explanations.
-  4.**Wow to acquire the legal knowledge?**: determine how to acquire information with which to populate the knowledge representations for the domain and use case. What technical and domain expertise is needed to create and fill domain representations?
+  4. **Wow to acquire the legal knowledge?**: determine how to acquire information with which to populate the knowledge representations for the domain and use case. What technical and domain expertise is needed to create and fill domain representations?
 
 
 ### Brief history of AI & Law
