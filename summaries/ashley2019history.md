@@ -29,6 +29,8 @@ as term vectors).
 - 1970s: nearest neighbor algorithm (k-NN).
 - 1980s: rule induction and decision trees.
 - 2014: Katz et al. have developed and evaluated the first supervised machine learning program to predict if a US Supreme Court Justice or the whole will affirm or reverse a lower court’s judgment. It employs an extremely randomized forest of decision trees to evaluate a case, input as a set of feature values, and to predict its outcome, based on all previous decisions for that Justice, the Court, and all previous cases. Starting in 1816 and carrying through the conclusion of the October 2014 term, their model correctly predicts 70.2% of the Court's decisions.
+- 2017: Falakmasir and Ashley employed a word-embedding text representation technique, Doc2Vec, to capture contextual semantic information in trade secret cases from CourtListener , trained a machine learning model for each factor, and predicted the factors that apply in each case document. In an evaluation applying the model to 30% of the documents as a hold-out test set, the result was an F1 measure of .69/.65 (micro/macro).
+- 2019: Branting et al. present the [SCALE approach](branting2019explainable.md) as a semi-supervised machine learning method for achieving explainable legal prediction. SCALE employs a small set of annotated data and maps it onto a larger set of candidate documents. It applies word-embedding representations and clustering algorithms that can identify semantically similar descriptive text segments across the case texts.
 
 
 
