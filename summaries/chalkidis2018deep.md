@@ -22,10 +22,17 @@ Tags: `survey`, `legal word vectors`, `information retrieval`, `text classificat
 - They also share pre-trained legal word embeddings model (called **Law2Vec**) based on the word2vec skip-gram model over large corpora of English legislations (123,000 documents).
 
 
-### Text classification
+### A. Text classification
 
 #### Classifying sentential modality in legal language: a use case in financial regulations, acts and directives (O’Neill et al., 2017)
 
-- 
+- Classical logic may be ineffective in classifying sentential modality as modality in legal language strongly relies on the use of modal verbs which have multiple functions and may also be misused in several occasions. These are strong indications that the context in each case is very important for deciphering the actual role of these modal verbs, hence a machine-learning approach seems more promising.
+- The authors experimented with a training set consisting of 1297 annotated sentences including obligations, prohibitions, and permissions; while the gold standard test set was composed of 622 sentences. The documents were annotated by domain-experts.
+- The authors experimented with various methods, including Logistic Regression, SVMs, AdaBoost, Gradient Boosting and Random Forests. Those methods were examined using two alternative feature representations:
+  - Baselines: n-grams, POS tags and normalized tf-idf scores;
+  - Sentence concatenations of word embeddings: Google embeddings (pre-trained from Google news articles) and legal embeddings (pre-trained over a corpus of 7,500 EU legislation documents).
+- The authors also experimented with neural network methods including a Multi-Layer Perceptron (MLP) with 2 hidden layers, unidirectional and bidirectional LSTMs, followed by a fully-connected layer, multi-filter CNNs, and CNNs followed by LSTMs and a fully-connected hidden layer. All neural methods were examined using two alternative feature representations. First, only the Google vectors were considered. Second, the authors used their domain-specific pre-trained word and phrase embeddings, to feed LSTMs or CNNs.
+- The conclusions are the following:
+  - 
   
 
