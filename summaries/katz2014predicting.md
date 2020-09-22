@@ -16,9 +16,11 @@ As these are typically questions considered in both academic and popular circles
 
 - They constructed a model designed to predict the voting behavior of the Supreme Court of the United States using the extremely randomized tree method.
 - There are two forms of prediction in this study:  
-    (1) justice level vote prediction;
-    (2) the prediction of the overall case outcome. 
-Applying the extremely randomized trees approach to each case from 1953-2013, our model correctly forecasts 69.7% of Case Outcomes and 70.9% of Justice Level Vote Outcomes over the sixty year period.
+  - justice level vote prediction;
+  - the prediction of the overall case outcome. 
+- Applying the extremely randomized trees approach to each case from 1953-2013, their model correctly forecasts 69.7% of Case Outcomes and 70.9% of Justice Level Vote Outcomes over the sixty year period.
 
 
 ### Conclusions
+
+- Using only information known prior to the Court’s decision, case by case and term by term, they construct a model that predicts each decision of the Supreme Court of the United States from 1953 - 2013.
