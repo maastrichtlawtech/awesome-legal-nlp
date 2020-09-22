@@ -2,7 +2,7 @@
 
 Authors: I. Chalkidis et al.  
 Date: 2018-12  
-Tags: `survey`, `deep learning`, `legal word vectors`
+Tags: `survey`, `legal word vectors`, `information retrieval`, `text classification`, `information extraction`
 
 ### Intro
 
