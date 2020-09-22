@@ -33,6 +33,10 @@ Tags: `survey`, `legal word vectors`, `information retrieval`, `text classificat
   - Sentence concatenations of word embeddings: Google embeddings (pre-trained from Google news articles) and legal embeddings (pre-trained over a corpus of 7,500 EU legislation documents).
 - The authors also experimented with neural network methods including a Multi-Layer Perceptron (MLP) with 2 hidden layers, unidirectional and bidirectional LSTMs, followed by a fully-connected layer, multi-filter CNNs, and CNNs followed by LSTMs and a fully-connected hidden layer. All neural methods were examined using two alternative feature representations. First, only the Google vectors were considered. Second, the authors used their domain-specific pre-trained word and phrase embeddings, to feed LSTMs or CNNs.
 - The conclusions are the following:
-  - 
+  - Classic ML algorithms were vastly overfitting the training set.
+  - All Neural Networks (except the naive MLP) outperformed the classic ML algorithms by over 10% on average. This indicates the superiority of RNNs and more specifically LSTMs when dealing with complex language semantics.
+  - BiLSTMs was the best-of method, outperforming the unidirectional LSTMs and naive CNNs approaches.
+  - Providing domain-specific (legal) embeddings further improved the performance of the neural methods.
   
 
+#### 
