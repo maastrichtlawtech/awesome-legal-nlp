@@ -1,8 +1,10 @@
 ## Predicting the behavior of the supreme court of the united states: A general approach
 
-Authors: D. Katz et al.  
-Date: 2014-07  
-Tags: `legal prediction`, `extremely randomized tree`
++++++++++++++++++++++++++++++++  
+<ins>Authors</ins>: D. Katz et al.  
+<ins>Date</ins>: 2014-07  
+<ins>Tags</ins>: `legal prediction`, `extremely randomized tree`  
++++++++++++++++++++++++++++++++
 
 ### Intro
 
