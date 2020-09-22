@@ -1,8 +1,10 @@
 ## Inducing Predictive Models for Decision Support in Administrative Adjudication
 
-Authors: K. Branting et al.  
-Date: 2017   
-Tags: `legal prediction`, `attention network`  
++++++++++++++++++++++++++++++++  
+<ins>Authors</ins>: K. Branting et al.  
+<ins>Date</ins>: 2017   
+<ins>Tags</ins>: `legal prediction`, `attention network`  
++++++++++++++++++++++++++++++++
 
 ### Intro
 
