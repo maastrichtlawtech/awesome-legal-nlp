@@ -3,7 +3,8 @@
 ## Table of contents
 1. [Books](#books)
 2. [Papers](#papers)
-    - [Legal Prediction](#prediction)
+    - [Legal prediction](#prediction)
+    - [Information retrieval](#retrieval)
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
 5. [Research labs](#labs)
@@ -16,14 +17,17 @@
 
 ## 📄  Papers <a name="papers"></a>
 
-#### A. Legal Prediction <a name="prediction"></a>
+#### A. Legal prediction <a name="prediction"></a>
 
 - [`2019-09`] *A Brief History of the Changing Roles of Case Prediction in AI and Law*, K. Ashley [[pdf]](https://journals.latrobe.edu.au/index.php/law-in-context/article/download/88/157)[[summary]](./summaries/ashley2019history.md)
 - [`2019-06`] *Semi-Supervised Methods for Explainable Legal Prediction*, K. Branting et al. [[pdf]](https://www.researchgate.net/profile/Alex_Yeh/publication/334643454_Semi-Supervised_Methods_for_Explainable_Legal_Prediction/links/5e33eb4792851c7f7f0ecb26/Semi-Supervised-Methods-for-Explainable-Legal-Prediction.pdf)[[summary]](./summaries/branting2019semi.md)
-- [`2018-12`] *Deep learning in law: early adaptation and legal word embeddings trained on large corpora*, I. Chalkidis et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-018-9238-9.pdf)[[summary]](./summaries/chalkidis2018deep.md)
 - [`2017-05`] *Inducing Predictive Models for Decision Support in Administrative Adjudication*, K. Branting et al. [[pdf]](https://www.mirelproject.eu/MIRELws@ICAIL/MIRELwsPubs/Branting-etal-MIRELwsAtICAIL.pdf)[[summary]](./summaries/branting2017inducing.md)
 - [`2014-07`] *Predicting the Behavior of the Supreme Court of the United States: A General Approach*, D. Katz et al. [[pdf]](https://arxiv.org/pdf/1407.6333)[[summary]](./summaries/katz2014predicting.md)
 
+
+#### B. Information retrieval <a name="retrieval"></a>
+
+- [`2018-12`] *Deep learning in law: early adaptation and legal word embeddings trained on large corpora*, I. Chalkidis et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-018-9238-9.pdf)[[summary]](./summaries/chalkidis2018deep.md)
 
 
 ## 🎙  Talks <a name="talks"></a>
