@@ -1,8 +1,11 @@
 ## Deep learning in law: early adaptation and legal word embeddings trained on large corpora
 
-Authors: I. Chalkidis et al.  
-Date: 2018-12  
-Tags: `survey`, `legal word vectors`, `information retrieval`, `text classification`, `information extraction`
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
++ Authors: I. Chalkidis et al.  
++ Date: 2018-12  
++ Tags: `survey`, `legal word vectors`, `information retrieval`, `text classification`, `information extraction`  
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
 ### Intro
 
