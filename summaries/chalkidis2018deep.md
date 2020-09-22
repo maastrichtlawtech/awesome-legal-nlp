@@ -19,6 +19,11 @@ Tags: `survey`, `legal word vectors`, `information retrieval`, `text classificat
   - **text classification**: they present some representative works relevant with to the categorization of textual units, such as sentences, paragraphs, sections or even long documents;
   - **information extraction**: they review characteristic articles related to sequence labeling (tagging) tasks, such as chunking and named-entity recognition;
   - **information retrieval**: they sort works that tackle the problem of retrieving articles of interest out of a collection of legal documents or articles that entail a query.
-- They also share pre-trained legal word embeddings using the **word2vec** model over large corpora (comprised legislations from UK, EU, Canada, Australia, USA, and Japan among others).
+- They also share pre-trained legal word embeddings model (called **Law2Vec**) based on the word2vec skip-gram model over large corpora of English legislations (123,000 documents).
 
+
+### Survey
+
+#### Text classification
+  
 
