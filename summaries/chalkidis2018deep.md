@@ -22,8 +22,10 @@ Tags: `survey`, `legal word vectors`, `information retrieval`, `text classificat
 - They also share pre-trained legal word embeddings model (called **Law2Vec**) based on the word2vec skip-gram model over large corpora of English legislations (123,000 documents).
 
 
-### Survey
+### Text classification
 
-#### Text classification
+#### Classifying sentential modality in legal language: a use case in financial regulations, acts and directives (O’Neill et al., 2017)
+
+- 
   
 
