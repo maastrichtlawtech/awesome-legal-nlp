@@ -55,4 +55,4 @@
   
 #### Inducing predictive models for decision support in administrative adjudication ([Branting et al., 2017](branting2017inducing.md))
 
-- 
+- They experimented with predictive models for assisting Administrative Adjudication.
