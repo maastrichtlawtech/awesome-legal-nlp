@@ -1,8 +1,10 @@
 ## Semi-Supervised Methods for Explainable Legal Prediction
 
-Authors: K. Branting et al.  
-Date: 2019-06  
-Tags: `Legal Reasoning`, `Computational Models of Argument`
++++++++++++++++++++++++++++++++  
+<ins>Authors</ins>: K. Branting et al.  
+<ins>Date</ins>: 2019-06  
+<ins>Tags</ins>: `Legal Reasoning`, `Computational Models of Argument`
++++++++++++++++++++++++++++++++
 
 ### Intro
  - Effective decision-support systems could potentially improve access to justice for significant numbers of citizens by improving transparency, compensating for lack of affordable human legal assistance, and speeding case decisions. A useful form of decision support is **explainable legal decision prediction**. For example, benefits applicants could make better-informed decisions if they knew (1) the likelihood of success of an application and (2) the strengths or weaknesses of their application (i.e., the reasons for the predicted likelihood). Similarly, adjudicators and decision processes could be more productive and consistent if the strengths or weaknesses of each application could be automatically identified and presented along with the application itself.
