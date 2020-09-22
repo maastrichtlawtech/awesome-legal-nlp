@@ -10,7 +10,7 @@ Every year thousands of petitioners appeal to have their case considered by the 
   1. Will the Court affirm or reverse the lower Court’s judgment?  
   2. How will each individual Justice vote on the question before him or her?
   
-As these are typically questions considered in both academic and popular circles, these are the questions we seek to predict.
+These are the questions they seek to predict.
 
 
 ### Contributions
