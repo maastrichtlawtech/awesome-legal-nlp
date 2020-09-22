@@ -15,6 +15,10 @@ As these are typically questions considered in both academic and popular circles
 ### Contributions
 
 - They constructed a model designed to predict the voting behavior of the Supreme Court of the United States using the extremely randomized tree method.
-- Using only data available prior to the date of decision, our model correctly identifies 69.7% of the Court’s overall affirm / reverse decisions and correctly forecasts 70.9% of the votes of individual justices
+- There are two forms of prediction in this study:  
+    (1) justice level vote prediction;
+    (2) the prediction of the overall case outcome. 
+Applying the extremely randomized trees approach to each case from 1953-2013, our model correctly forecasts 69.7% of Case Outcomes and 70.9% of Justice Level Vote Outcomes over the sixty year period.
+
 
 ### Conclusions
