@@ -3,7 +3,7 @@
 +++++++++++++++++++++++++++++++  
 <ins>Authors</ins>: K. Branting et al.  
 <ins>Date</ins>: 2019-06  
-<ins>Tags</ins>: `Legal Reasoning`, `Computational Models of Argument`
+<ins>Tags</ins>: `Legal Reasoning`, `Computational Models of Argument`  
 +++++++++++++++++++++++++++++++
 
 ### Intro
