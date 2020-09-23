@@ -84,8 +84,15 @@
 - The authors represented each token using the following features: word embeddings (self-trained by the networks or pre-trained using word2vec over a
 collection of Japanese legal documents), self-trained POS tag embeddings, and self-trained chunk embeddings (verb and noun phrases).
 - The authors experimented with four derivatives of BiLSTM-CRF:
-  - single BiLSTM-CRF model: This model was initially fed with word, POS tag, and chunk for each token, which were embedded in three individual vectors representations. These three embeddings were then concatenated and passed into a bidirectional lstm chain, which produced context-aware token embeddings. Forward and backward context-aware token embeddings were then concatenated and passed into a chain of linear CRFs, which classified each token.
+  - A single BiLSTM-CRF model: This model was initially fed with word, POS tag, and chunk for each token, which were embedded in three individual vectors representations. These three embeddings were then concatenated and passed into a bidirectional lstm chain, which produced context-aware token embeddings. Forward and backward context-aware token embeddings were then concatenated and passed into a chain of linear CRFs, which classified each token.
   - Three consecutive BiLSTM-CRF models: each model predicted another group of tags (requisite, effectuation, exception) and was trained independently.
   - A cascaded network consisting of three BiLSTM-CRF models: trained jointly based on the losses from all CRF layers. Each BiLSTM-CRF sub-model was fed with the initial feature representations (word, pos tag, chunk), concatenated with the bilstm outputs of the previous sub-models. Each CRF layer predicted another group of tags (requisite, effectuation, exception).
   - A cascaded network comprised three BiLSTM-MLP-CRF models: similar to the previous one, while it also incorporated one or two fully-connected layers between each bidirectional LSTM chain and the corresponding CRF layer. The initial feature representations (word, pos tag, chunk) are concatenated with the MLP outputs of the previous sub-models, instead of the BiLSTM outputs.
+- Results:
+  - For the JPL-RRE dataset, the BiLSTM model outperformed the CRF baseline by 4.46%.
+  - For the JCC-RRE dataset, the joint BiLSTM-MLP-CRF model with two fully-connected hidden layers performed better that all other models and outperformed by 4.54% the CRF baseline.
+  
+#### A deep learning approach to contract element extraction (Chalkidis et al., 2017)
+
+- They focused on extracting contract elements (e.g., contractor names, legislation references, start and end dates, amounts), a task which is similar to named entity recognition.
 
