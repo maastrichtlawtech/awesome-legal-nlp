@@ -72,6 +72,7 @@
 - The two latter articles exploited hierarchical networks to better encode information with respect to the text structure and the cross-segment relationships.
 - However, there is no extended research with respect to CNN-based architectures that are rapidly introduced in text classification tasks, offering competitive results while being trained much faster than the gated RNNs.
 
+***
 
 ### B. Information extraction
 
@@ -113,6 +114,7 @@ collection of Japanese legal documents), self-trained POS tag embeddings, and se
 - In the aforementioned articles, LSTMs were utilized in order to provide context-aware/task-specific word representations.
 - Both articles reported great performance improvements utilizing BiLSTM-CRF models compared to traditional ML algorithms (i.e., SVMs, LR, CRFs), while they also reported marginal improvement compared to networks that do not employ CRFs on top of LSTMs.
 
+***
 
 ### C. Information retrieval
 
