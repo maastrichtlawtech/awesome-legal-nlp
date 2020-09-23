@@ -95,4 +95,20 @@ collection of Japanese legal documents), self-trained POS tag embeddings, and se
 #### A deep learning approach to contract element extraction (Chalkidis et al., 2017)
 
 - They focused on extracting contract elements (e.g., contractor names, legislation references, start and end dates, amounts), a task which is similar to named entity recognition.
+- They used a dataset of ~3,500 English contracts, annotated with eleven types of contract element.
+- The authors examined three alternative LSTM-based methods:
+  - A bidirectional LSTM chain fed with the concatenation of word, pos tag and token-shape (custom embedding representingd six possible shapes of tokens: uppercase, lowercase, first character uppercase, digits, punctuations, other) embeddings, which produced context-aware token embeddings. The context-aware token embeddings passed through a fully-connected layer followed by a sigmoid activation function.
+  - Same as first method but injected an additional unidirectional (forward) LSTM chain between the first bidirectional LSTM chain and the fully-connected layer.
+  - Same as first method but instead of using a fully connected layer or additional LSTMs, it employed a linear chain of CRFs.
+- The authors evaluated the new methods in two different manners. Firstly, they evaluated the performance of classification token by token. Secondly, they evaluated the performance of classification over complete contract elements, which were multi-word expressions.
+- Results for the per token evaluation:
+  - The three LSTM-based methods performed better than Logistic Regression and linear Support Vector Machines operating on fixed-sized sliding windows of tokens (their previous work).
+  - The second method obtained top F1 scores for all but the *contract period* type.
+- Results for the per element evaluation:
+  - Overall, BiLSTM-CRF appeared to be better than the second method.
+  
+#### Discussion
 
+- In the aforementioned articles, LSTMs were utilized in order to provide context-aware/task-specific word representations.
+- Both articles reported great performance improvements utilizing BiLSTM-CRF models compared to traditional ML algorithms (i.e., SVMs, LR, CRFs), while they also reported marginal improvement compared to networks that do not employ CRFs on top of LSTMs.
+  
