@@ -111,4 +111,14 @@ collection of Japanese legal documents), self-trained POS tag embeddings, and se
 
 - In the aforementioned articles, LSTMs were utilized in order to provide context-aware/task-specific word representations.
 - Both articles reported great performance improvements utilizing BiLSTM-CRF models compared to traditional ML algorithms (i.e., SVMs, LR, CRFs), while they also reported marginal improvement compared to networks that do not employ CRFs on top of LSTMs.
-  
+
+
+### C. Information retrieval
+
+This section discusses seven papers that address the retrieval of relevant excerpts of text with respect to a particular query. The majority of the papers address the **legal question answering task** of the Competition on Legal Information Extraction/ Entailment (COLIEE) from 2014 to 2017. Particularly, the competition focuses on two aspects related to a binary (yes/no) question answering as follows:
+  - Phase one of the legal question answering task involves reading a question Q and extract the legal articles of the Civil Code that are relevant to the question. 
+  - In phase two the systems should return a yes or no answer if the retrieved articles from phase one entail or not the question Q.
+
+#### A convolutional neural network in legal question answering (Kim et al., 2015)
+
+- 
