@@ -65,8 +65,27 @@
 - The neural model achieved a mean F1 of 73.8% in BVA cases while the SVM achieved a mean F1 of 73.1%. For the WIPO dataset, the neural model achieved a mean F1 of 94.4% while the SVM achieved 95%. Hence, it is not clear wheter one approach performed better.
 
 
-##### Discussion
+#### Discussion
 
 - In the presented articles, gated RNNs (i.e., LSTMs, GRUs) were utilized as the main component of the systems (neural networks) in order to provide context-aware/ task-specific word representations.
 - The two latter articles exploited hierarchical networks to better encode information with respect to the text structure and the cross-segment relationships.
 - However, there is no extended research with respect to CNN-based architectures that are rapidly introduced in text classification tasks, offering competitive results while being trained much faster than the gated RNNs.
+
+
+### B. Information extraction
+
+#### Recurrent neural network‑based models for recognizing requisite and effectuation parts in legal texts (Nguyen et al., 2018)
+
+- They proposed several approaches that utilize Deep Learning models to recognize requisite and effectuation parts in legal texts (i.e., to solve the RRE task, which can be modeled as a sequence labeling problem).
+- The relationship between requesite and effectuation parts is the following: requisite part ⇒ effectuation part. Requisite and effectuation parts are constructed from one or more logical parts such as antecedence parts, consequence parts, and topic parts. Each logical part carries a specific meaning of legal texts according to its type. A consequent part describes a law provision, an antecedent part describes cases or the context in which the law provision can be applied, and a topic part describes subjects related to the law provision.
+- They used two related datasets for the given task:
+  - Japanese National Pension Law RRE dataset (JPL-RRE): contains sentences that were segmented into chunks. Each chunk was labelled using lower level categories (topic parts, antecedent, and consequent parts).
+  - Japanese Civil Code RRE dataset (JCC-RRE): includes the English-translated version of the Japanese Civil Code and was manually annotated with three type of logical parts: requisite, effectuation and exception parts.
+- The authors represented each token using the following features: word embeddings (self-trained by the networks or pre-trained using word2vec over a
+collection of Japanese legal documents), self-trained POS tag embeddings, and self-trained chunk embeddings (verb and noun phrases).
+- The authors experimented with four derivatives of BiLSTM-CRF:
+  - single BiLSTM-CRF model: This model was initially fed with word, POS tag, and chunk for each token, which were embedded in three individual vectors representations. These three embeddings were then concatenated and passed into a bidirectional lstm chain, which produced context-aware token embeddings. Forward and backward context-aware token embeddings were then concatenated and passed into a chain of linear CRFs, which classified each token.
+  - Three consecutive BiLSTM-CRF models: each model predicted another group of tags (requisite, effectuation, exception) and was trained independently.
+  - A cascaded network consisting of three BiLSTM-CRF models: trained jointly based on the losses from all CRF layers. Each BiLSTM-CRF sub-model was fed with the initial feature representations (word, pos tag, chunk), concatenated with the bilstm outputs of the previous sub-models. Each CRF layer predicted another group of tags (requisite, effectuation, exception).
+  - A cascaded network comprised three BiLSTM-MLP-CRF models: similar to the previous one, while it also incorporated one or two fully-connected layers between each bidirectional LSTM chain and the corresponding CRF layer. The initial feature representations (word, pos tag, chunk) are concatenated with the MLP outputs of the previous sub-models, instead of the BiLSTM outputs.
+
