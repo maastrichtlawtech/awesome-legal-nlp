@@ -56,3 +56,17 @@
 #### Inducing predictive models for decision support in administrative adjudication ([Branting et al., 2017](branting2017inducing.md))
 
 - They experimented with predictive models for assisting Administrative Adjudication.
+- The authors two datasets for training:
+  - Board of Veterans Appeals (BVA) cases: ~3,800 4-class samples and ~1,600 2-class (*met* or *unmet*) samples.
+  - World Intellectual Property Organization (WIPO) related to complaints about domain names that possibly violated trademarks: ~5,600 2-class (*transferred* or *not transferred*) samples (but quite imbalance with a 10-to-1 ratio).
+- The authors experimented with several methods:
+  - Baseline: SVMs that operate on n-gram frequency vectors.
+  - Neural network: Hierarchical Attention Network (HAN) that has a 2-level encoding mechanism for text classification tasks. In the first level, a BiGRU encoder to produce context-aware word embeddings, which are subsequently summed up based on an attention mechanism that indicates the weighting scheme to form sentence representations. In the second level, the BiGRU produce context-aware sentence representations that are also followed by a similar attention mechanism to create a final document (paragraph) representation. The latter finally passes through a fully-connected layer and softmax function in order to be classified. Here, the authors processed documents that comprised multiple sections (paragraphs), so they extended the former model with an intermediate fully-connected layer, which combined the underlying paragraph representations in order to form a deeper document representation (NB: the authors stated that a 3rd GRU encoder on top of the paragraph encoders was also examined, but the fully-connected layer performed better).
+- The neural model achieved a mean F1 of 73.8% in BVA cases while the SVM achieved a mean F1 of 73.1%. For the WIPO dataset, the neural model achieved a mean F1 of 94.4% while the SVM achieved 95%. Hence, it is not clear wheter one approach performed better.
+
+
+##### Discussion
+
+- In the presented articles, gated RNNs (i.e., LSTMs, GRUs) were utilized as the main component of the systems (neural networks) in order to provide context-aware/ task-specific word representations.
+- The two latter articles exploited hierarchical networks to better encode information with respect to the text structure and the cross-segment relationships.
+- However, there is no extended research with respect to CNN-based architectures that are rapidly introduced in text classification tasks, offering competitive results while being trained much faster than the gated RNNs.
