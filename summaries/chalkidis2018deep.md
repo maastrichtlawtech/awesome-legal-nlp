@@ -32,10 +32,10 @@
 
 - Classical logic may be ineffective in classifying sentential modality as modality in legal language strongly relies on the use of modal verbs which have multiple functions and may also be misused in several occasions. These are strong indications that the context in each case is very important for deciphering the actual role of these modal verbs, hence a machine-learning approach seems more promising.
 - The authors experimented with a training set consisting of ~1,900 annotated (by domain-experts) sentences including obligations, prohibitions, and permissions.
-- The authors experimented with various methods, including Logistic Regression, SVMs, AdaBoost, Gradient Boosting and Random Forests. Those methods were examined using two alternative feature representations:
+- The authors experimented with various methods, including **Logistic Regression, SVMs, AdaBoost, Gradient Boosting and Random Forests**. Those methods were examined using two alternative feature representations:
   - Baselines: n-grams, POS tags and normalized tf-idf scores;
   - Sentence concatenations of word embeddings: Google embeddings (pre-trained from Google news articles) and legal embeddings (pre-trained over a corpus of 7,500 EU legislation documents).
-- The authors also experimented with neural network methods including a Multi-Layer Perceptron (MLP) with 2 hidden layers, unidirectional and bidirectional LSTMs, followed by a fully-connected layer, multi-filter CNNs, and CNNs followed by LSTMs and a fully-connected hidden layer. All neural methods were examined using two alternative feature representations. First, only the Google vectors were considered. Second, the authors used their domain-specific pre-trained word and phrase embeddings, to feed LSTMs or CNNs.
+- The authors also experimented with neural network methods including a **Multi-Layer Perceptron (MLP)** with 2 hidden layers, unidirectional and bidirectional **LSTMs**, followed by a fully-connected layer, multi-filter **CNNs**, and CNNs followed by LSTMs and a fully-connected hidden layer. All neural methods were examined using two alternative feature representations. First, only the Google vectors were considered. Second, the authors used their domain-specific pre-trained word and phrase embeddings, to feed LSTMs or CNNs.
 - The conclusions were the following:
   - Classic ML algorithms were vastly overfitting the training set.
   - All Neural Networks (except the naive MLP) outperformed the classic ML algorithms by over 10% on average. This indicates the superiority of RNNs and more specifically LSTMs when dealing with complex language semantics.
@@ -48,7 +48,7 @@
 - They improved the state-of-art on sentence modality classification by proposing a more refined scheme of annotations that incorporate sub-sentence classification.
 - The authors experimented with an in-house dataset of ~9,400 sections from the main bodies of a hundred randomly selected English service agreements. The sections were then split into ~45,100 sub-sentences annotated by law students.
 - They used domain-specific pre-trained word embeddings and POS embeddings obtained by applying word2vec to ~750K and ~50K English contracts respectively, as well as token shape embeddings (e.g., all capital, all digit). Each token was represented by the concatenation of its word, POS and shape embeddings.
-- They experimented with several LSTM-based methods.
+- They experimented with several **LSTM-based methods**.
 - The conclusions were the following:
   - The self-attention mechanism led to an overall improvement compared to the plain BiLSTM.
   - The hierarchical model significantly outperformed the other methods.
@@ -61,8 +61,8 @@
   - Board of Veterans Appeals (BVA) cases: ~3,800 4-class samples and ~1,600 2-class (*met* or *unmet*) samples.
   - World Intellectual Property Organization (WIPO) related to complaints about domain names that possibly violated trademarks: ~5,600 2-class (*transferred* or *not transferred*) samples (but quite imbalance with a 10-to-1 ratio).
 - The authors experimented with several methods:
-  - Baseline: SVMs that operate on n-gram frequency vectors.
-  - Neural network: Hierarchical Attention Network (HAN) that has a 2-level encoding mechanism for text classification tasks. In the first level, a BiGRU encoder to produce context-aware word embeddings, which are subsequently summed up based on an attention mechanism that indicates the weighting scheme to form sentence representations. In the second level, the BiGRU produce context-aware sentence representations that are also followed by a similar attention mechanism to create a final document (paragraph) representation. The latter finally passes through a fully-connected layer and softmax function in order to be classified. Here, the authors processed documents that comprised multiple sections (paragraphs), so they extended the former model with an intermediate fully-connected layer, which combined the underlying paragraph representations in order to form a deeper document representation (NB: the authors stated that a 3rd GRU encoder on top of the paragraph encoders was also examined, but the fully-connected layer performed better).
+  - Baseline: **SVMs** that operate on n-gram frequency vectors.
+  - Neural network: **Hierarchical Attention Network (HAN)** that has a 2-level encoding mechanism for text classification tasks. In the first level, a BiGRU encoder to produce context-aware word embeddings, which are subsequently summed up based on an attention mechanism that indicates the weighting scheme to form sentence representations. In the second level, the BiGRU produce context-aware sentence representations that are also followed by a similar attention mechanism to create a final document (paragraph) representation. The latter finally passes through a fully-connected layer and softmax function in order to be classified. Here, the authors processed documents that comprised multiple sections (paragraphs), so they extended the former model with an intermediate fully-connected layer, which combined the underlying paragraph representations in order to form a deeper document representation (NB: the authors stated that a 3rd GRU encoder on top of the paragraph encoders was also examined, but the fully-connected layer performed better).
 - The neural model achieved a mean F1 of 73.8% in BVA cases while the SVM achieved a mean F1 of 73.1%. For the WIPO dataset, the neural model achieved a mean F1 of 94.4% while the SVM achieved 95%. Hence, it is not clear wheter one approach performed better.
 
 
@@ -85,7 +85,7 @@
   - Japanese Civil Code RRE dataset (JCC-RRE): includes the English-translated version of the Japanese Civil Code and was manually annotated with three type of logical parts: requisite, effectuation and exception parts.
 - The authors represented each token using the following features: word embeddings (self-trained by the networks or pre-trained using word2vec over a
 collection of Japanese legal documents), self-trained POS tag embeddings, and self-trained chunk embeddings (verb and noun phrases).
-- The authors experimented with four derivatives of BiLSTM-CRF:
+- The authors experimented with four derivatives of **BiLSTM-CRF**:
   - A single BiLSTM-CRF model: This model was initially fed with word, POS tag, and chunk for each token, which were embedded in three individual vectors representations. These three embeddings were then concatenated and passed into a bidirectional lstm chain, which produced context-aware token embeddings. Forward and backward context-aware token embeddings were then concatenated and passed into a chain of linear CRFs, which classified each token.
   - Three consecutive BiLSTM-CRF models: each model predicted another group of tags (requisite, effectuation, exception) and was trained independently.
   - A cascaded network consisting of three BiLSTM-CRF models: trained jointly based on the losses from all CRF layers. Each BiLSTM-CRF sub-model was fed with the initial feature representations (word, pos tag, chunk), concatenated with the bilstm outputs of the previous sub-models. Each CRF layer predicted another group of tags (requisite, effectuation, exception).
@@ -98,7 +98,7 @@ collection of Japanese legal documents), self-trained POS tag embeddings, and se
 
 - They focused on extracting contract elements (e.g., contractor names, legislation references, start and end dates, amounts), a task which is similar to named entity recognition.
 - They used a dataset of ~3,500 English contracts, annotated with eleven types of contract element.
-- The authors examined three alternative LSTM-based methods:
+- The authors examined three alternative **LSTM-based methods**:
   - A bidirectional LSTM chain fed with the concatenation of word, pos tag and token-shape (custom embedding representingd six possible shapes of tokens: uppercase, lowercase, first character uppercase, digits, punctuations, other) embeddings, which produced context-aware token embeddings. The context-aware token embeddings passed through a fully-connected layer followed by a sigmoid activation function.
   - Same as first method but injected an additional unidirectional (forward) LSTM chain between the first bidirectional LSTM chain and the fully-connected layer.
   - Same as first method but instead of using a fully connected layer or additional LSTMs, it employed a linear chain of CRFs.
@@ -132,7 +132,7 @@ This section discusses seven papers that address the retrieval of relevant excer
   - They introduced a binary classification model for *yes/no* answering to the legal queries. 
   - The authors assumed that the correct answer has a high semantic similarity to a question. 
   - The semantic representation of the questions was comprised of word embeddings and linguistic features. 
-  - They trained a CNN-based classifier based on a triple <img src="https://render.githubusercontent.com/render/math?math=(q_i, a_{ij},y_i)">, where <img src="https://render.githubusercontent.com/render/math?math=q_i"> was the question, <img src="https://render.githubusercontent.com/render/math?math=a_{ij}"> was the *j*th sentence of the *i*th article, and <img src="https://render.githubusercontent.com/render/math?math=y_i"> was the response (i.e., yes or no). The classifier learned the probability <img src="https://render.githubusercontent.com/render/math?math=p(y=yes| q, a)"> of a sentence being relevant to a question.
+  - They trained a **CNN-based classifier** based on a triple <img src="https://render.githubusercontent.com/render/math?math=(q_i, a_{ij},y_i)">, where <img src="https://render.githubusercontent.com/render/math?math=q_i"> was the question, <img src="https://render.githubusercontent.com/render/math?math=a_{ij}"> was the *j*th sentence of the *i*th article, and <img src="https://render.githubusercontent.com/render/math?math=y_i"> was the response (i.e., yes or no). The classifier learned the probability <img src="https://render.githubusercontent.com/render/math?math=p(y=yes| q, a)"> of a sentence being relevant to a question.
   - Authors trained 50-dimensional word embedding with the word2vec model based on the provided data.
   - The accuracy of the proposed CNN model with the pre-trained word embeddings and other relevant linguistic features outperformed a linear SVM model, as also a rule-based model with K-means clustering. The highest accuracy reported was 63.87%.
 
@@ -142,12 +142,12 @@ This section discusses seven papers that address the retrieval of relevant excer
 - In phase 1 of COLIEE:
   - The methodology used to identify the similarity of a query to a civil law article comprised the extraction of the requirement (condition), the effect (conclusion) in law articles and the examined query T.
   - The authors extracted the legal requirement and effect parts from queries and articles using rule-based (i.e., pattern-matching) methods. 
-  - The distance between a query Q and an article T was calculated as the sum of the Word Movers Distances of the required parts of Q and T and the Word Movers Distances between the effect parts of Q and T. 
+  - The distance between a query Q and an article T was calculated as the sum of the **Word Movers Distances** of the required parts of Q and T and the Word Movers Distances between the effect parts of Q and T. 
   - The articles to be retrieved should exceed a pre-defined threshold, that was tuned until the optimal one was identified.
 - In phase 2 of COLIEE:
   - The entailment model was based on Neural Networks with attention mechanism. The civil_vec[i] was the vector representation of the i-th article, which was a TF-IDF weighted sum of the word representations (embeddings) in the article, while t2_vec was the vector representation of the query given the same formula. The calculation of the attention was done by the inner product of the transpose of civil_vec and t2_vec, which led to a single vector whose size was the number of articles.
   - The authors pre-trained domain-specific word embeddings of 50 and 200 dimensions using word2vec on judgment documents extracted by the Japanese Supreme Judicial Court.
-  - The classification task was tackled by introducing a multi-layer perceptron (MLP), which received as inputs the concatenated attention_civil and t2_vec vectors.
+  - The classification task was tackled by introducing a **multi-layer perceptron (MLP)**, which received as inputs the concatenated attention_civil and t2_vec vectors.
   - The highest accuracy reported was 66.67%.
   
 #### Legal information retrieval using topic clustering and neural networks (Nanda et al., 2017)
