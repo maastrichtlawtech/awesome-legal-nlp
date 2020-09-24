@@ -122,6 +122,16 @@ This section discusses seven papers that address the retrieval of relevant excer
   - Phase 1: reading a question Q and extract the legal articles of the Civil Code that are relevant to the question. 
   - Phase 2: returning a yes or no answer if the retrieved articles from phase one entail or not the question Q.
 
+
 #### A convolutional neural network in legal question answering (Kim et al., 2015)
 
-- 
+- In phase 1 of COLIEE:
+  - They introduced an ad-hoc information retrieval method for retrieving Japan civil law articles related to a given question by employing a TF–IDF weighting method to capture the correlation of a query to an article, according to the word sets overlapping. The parameters were normalized to prevent a bias towards longer documents, which is a well-known error in ranking methods.
+  - The Ranking SVM model was alternatively applied to rank relevant documents according to users’ feedback, where the three types of features were used: binary representations of lemmas, dependency pairs in order to capture the prominent semantic content and TF–IDF scores.
+- In phase 2 of COLIEE:
+  - They introduced a binary classification model for *yes/no* answering to the legal queries. 
+  - The authors assumed that the correct answer has a high semantic similarity to a question. 
+  - The semantic representation of the questions was comprised of word embeddings and linguistic features. 
+  - They trained a classifier based on a triple $$(q_i , aij , yi )$$, where qi was the question, aij was the jth sentence of the ith article, and yi was the response (i.e., yes or no). The classifier learned the probability p(y = yes| q, a) of a sentence being relevant to a question.
+  
+  
