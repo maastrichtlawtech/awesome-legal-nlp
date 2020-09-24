@@ -37,6 +37,7 @@
 
 #### E. Text classification <a name="classification"></a>
 
+- [`2019-02`] *CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service*, M. Lippi et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-019-09243-2.pdf)[[summary]](./summaries/lippi2019claudette.md)
 
 
 
