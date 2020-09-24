@@ -11,7 +11,6 @@
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
 5. [Research labs](#labs)
-6. [Active authors](#authors)
 
 
 ## 📚  Books <a name="books"></a>
@@ -62,9 +61,3 @@
 
 - Maastricht Law & Tech Lab [[website]](https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab)[[github]](https://github.com/maastrichtlawtech)
 - Stanford CodeX [[website]](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/)
-
-## 🧐 Active authors <a name="authors"></a>
-
-- Karl Branting, *Chief Scientist in Machine Learning for Computational Law* @ The MITRE Corporation. [[Scholar]](https://scholar.google.com/citations?hl=en&user=s6Z4NH0AAAAJ&view_op=list_works&sortby=pubdate)
-- Kevin Ashley, *Professor of Law and Intelligent Systems* @ University of Pittsburgh. [[Scholar]](https://scholar.google.com/citations?hl=en&user=ouEDJ0EAAAAJ&view_op=list_works&sortby=pubdate)
-- Ilias Chalkidis, *PhD Candidate* @ Athens University. [[Scholar]](https://scholar.google.gr/citations?hl=en&user=BrtAqz8AAAAJ&view_op=list_works&sortby=pubdate)
