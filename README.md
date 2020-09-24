@@ -3,11 +3,11 @@
 ## Table of contents
 1. [Books](#books)
 2. [Papers](#papers)
-    - [Survey](#surveyn)
+    - [Survey](#survey)
     - [Legal prediction](#prediction)
-    - [Information retrieval](#retrieval)
-    - [Information extraction](#extraction)
-    - [Text classification](#classification)
+    - [Legal information retrieval](#retrieval)
+    - [Legal information extraction](#extraction)
+    - [Legal text classification](#classification)
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
 
