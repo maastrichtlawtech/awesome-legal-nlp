@@ -76,7 +76,12 @@
     - The best classifier in terms of F1 results to be a combination of eight SVMs, each considering a single unfairness category as the positive class, whereby a sentence is predicted as potentially unfair if at least one of the SVMs predicts it as such. The second best approach is a single SVM exploiting BoW (unigrams and bigrams for words and part-of-speech tags);
     - As for CNNs and LSTMs, the slightly worse performance with respect to the other approaches could also be ascribed to the limited size of the training set.
 - <ins>Categorization of potentially unfair clauses</ins>:
-  -
+  - They employed eight SVM classifiers, each trained to discriminate between potentially unfair clauses of one category with respect to all the other categories.
+  - The results show that discriminating amongst the different categories is a simpler task, since the F1 is larger than 74% for all tags, and is above 93% in four cases (jurisdiction, choice of law, limitation of liability, and contract by using).
   
-  
+### Conclusions
+
+- This study was motivated by a long-term goal concerned with the pursuit of effective consumer protection by way of AI-based consumer-empowering tools.
+- They are now investigating methods for exploiting contextual information, since the fairness of clauses might very well depend on the context.
+- Another challenging line of research we are pursuing is the adaptation of the methodology used for CLAUDETTE in order to enable the automated analysis of privacy policies.
 
