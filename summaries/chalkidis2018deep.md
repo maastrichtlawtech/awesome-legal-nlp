@@ -134,4 +134,6 @@ This section discusses seven papers that address the retrieval of relevant excer
   - The semantic representation of the questions was comprised of word embeddings and linguistic features. 
   - They trained a classifier based on a triple (*q*~i~ , aij , yi )$$, where qi was the question, aij was the jth sentence of the ith article, and yi was the response (i.e., yes or no). The classifier learned the probability p(y = yes| q, a) of a sentence being relevant to a question.
   
+  *E*~0~=*mc*^2^
+  
   
