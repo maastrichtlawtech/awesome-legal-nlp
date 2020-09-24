@@ -31,11 +31,11 @@
 - [`2014-07`] *Predicting the Behavior of the Supreme Court of the United States: A General Approach*, D. Katz et al. [[pdf]](https://arxiv.org/pdf/1407.6333)[[summary]](./summaries/katz2014predicting.md)
 
 
-#### C. Information retrieval <a name="retrieval"></a>
+#### C. Legal information retrieval <a name="retrieval"></a>
 
-#### D. Information extraction <a name="extraction"></a>
+#### D. Legal information extraction <a name="extraction"></a>
 
-#### E. Text classification <a name="classification"></a>
+#### E. Legal text classification <a name="classification"></a>
 
 - [`2019-02`] *CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service*, M. Lippi et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-019-09243-2.pdf)[[summary]](./summaries/lippi2019claudette.md)
 
