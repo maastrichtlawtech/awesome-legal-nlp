@@ -21,3 +21,12 @@
 - They propose a machine learning-based method and tool for partially automating the detection of potentially unfair clauses (contractual provisions).
 - In particular, they offer a sentence classification system able to detect full sentences, or paragraphs containing potentially unlawful clauses.
 - Such a tool could improve consumers’ understanding of what they agree upon by accepting a contract, as well as serve consumer protection organizations and agencies, by making their work more effective and efficient, by helping them scan and monitor a large number of documents automatically.
+
+
+***
+
+### Unfair contractual terms
+
+- According to Unfair Terms in Consumer Contracts, a contractual term is unfair if:
+  (1) it has not been individually negotiated; and
+  (2) contrary to the requirement of good faith, it causes a significant imbalance in the parties’ rights and obligations, to the detriment of the consumer.
