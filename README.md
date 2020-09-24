@@ -5,9 +5,9 @@
 2. [Papers](#papers)
     - [Survey](#survey)
     - [Legal Prediction](#prediction)
+    - [Legal Information Retrieval](#retrieval)
+    - [Legal Information Extraction](#extraction)
     - [Automated Analysis of Legal Text](#analysis)
-    - [Legal information retrieval](#retrieval)
-    - [Legal information extraction](#extraction)
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
 
