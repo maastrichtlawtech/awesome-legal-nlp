@@ -132,7 +132,26 @@ This section discusses seven papers that address the retrieval of relevant excer
   - They introduced a binary classification model for *yes/no* answering to the legal queries. 
   - The authors assumed that the correct answer has a high semantic similarity to a question. 
   - The semantic representation of the questions was comprised of word embeddings and linguistic features. 
-  - They trained a CNN-based classifier based on a triple <img src="https://render.githubusercontent.com/render/math?math=(q_i, a_{ij},y_i)">, where <img src="https://render.githubusercontent.com/render/math?math=q_i"> was the question, <img src="https://render.githubusercontent.com/render/math?math=a_{ij}"> was the *j*th sentence of the *i*th article, and <img src="https://render.githubusercontent.com/render/math?math=y_i"> was the response (i.e., yes or no). The classifier learned the probability <img src="https://render.githubusercontent.com/render/math?math=p(y=yes| q, a)"> of a sentence being relevant to a question. 
+  - They trained a CNN-based classifier based on a triple <img src="https://render.githubusercontent.com/render/math?math=(q_i, a_{ij},y_i)">, where <img src="https://render.githubusercontent.com/render/math?math=q_i"> was the question, <img src="https://render.githubusercontent.com/render/math?math=a_{ij}"> was the *j*th sentence of the *i*th article, and <img src="https://render.githubusercontent.com/render/math?math=y_i"> was the response (i.e., yes or no). The classifier learned the probability <img src="https://render.githubusercontent.com/render/math?math=p(y=yes| q, a)"> of a sentence being relevant to a question.
+  - Authors trained 50-dimensional word embedding with the word2vec model based on the provided data.
+  - The accuracy of the proposed CNN model with the pre-trained word embeddings and other relevant linguistic features outperformed a linear SVM model, as also a rule-based model with K-means clustering. The highest accuracy reported was 63.87%.
 
   
+#### Legal question answering system using neural attention (Morimoto et al., 2017)
+
+- In phase 1 of COLIEE:
+  - The methodology used to identify the similarity of a query to a civil law article comprised the extraction of the requirement (condition), the effect (conclusion) in law articles and the examined query T.
+  - The authors extracted the legal requirement and effect parts from queries and articles using rule-based (i.e., pattern-matching) methods. 
+  - The distance between a query Q and an article T was calculated as the sum of the Word Movers Distances of the required parts of Q and T and the Word Movers Distances between the effect parts of Q and T. 
+  - The articles to be retrieved should exceed a pre-defined threshold, that was tuned until the optimal one was identified.
+- In phase 2 of COLIEE:
+  - The entailment model was based on Neural Networks with attention mechanism. The civil_vec[i] was the vector representation of the i-th article, which was a TF-IDF weighted sum of the word representations (embeddings) in the article, while t2_vec was the vector representation of the query given the same formula. The calculation of the attention was done by the inner product of the transpose of civil_vec and t2_vec, which led to a single vector whose size was the number of articles.
+  - The authors pre-trained domain-specific word embeddings of 50 and 200 dimensions using word2vec on judgment documents extracted by the Japanese Supreme Judicial Court.
+  - The classification task was tackled by introducing a multi-layer perceptron (MLP), which received as inputs the concatenated attention_civil and t2_vec vectors.
+  - The highest accuracy reported was 66.67%.
   
+#### Legal information retrieval using topic clustering and neural networks (Nanda et al., 2017)
+
+- In phase 1 of COLIEE:
+  - They used a combination of a partial string matching and a topic clustering method in order to tackle the Information Retrieval task.
+
