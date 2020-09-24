@@ -10,7 +10,6 @@
     - [Text classification](#classification)
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
-5. [Research labs](#labs)
 
 
 ## 📚  Books <a name="books"></a>
@@ -55,9 +54,3 @@
 - The Natural Legal Language Processing (NLLP) Workshop [[website]](https://sites.google.com/view/nllp/nllp-2019)
 - The EXplainable AI in Law (XAILA) Workshop [[website]](https://www.geist.re/xaila:start)
 - The International Workshop on Juris-informatics (JURISIN) [[website]](http://research.nii.ac.jp/~ksatoh/jurisin2020/)
-
-
-## 🧪 Research labs <a name="labs"></a>
-
-- Maastricht Law & Tech Lab [[website]](https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab)[[github]](https://github.com/maastrichtlawtech)
-- Stanford CodeX [[website]](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/)
