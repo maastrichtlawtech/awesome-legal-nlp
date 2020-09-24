@@ -132,7 +132,7 @@ This section discusses seven papers that address the retrieval of relevant excer
   - They introduced a binary classification model for *yes/no* answering to the legal queries. 
   - The authors assumed that the correct answer has a high semantic similarity to a question. 
   - The semantic representation of the questions was comprised of word embeddings and linguistic features. 
-  - They trained a classifier based on a triple <img src="https://render.githubusercontent.com/render/math?math=(q_i, a_{ij},y_i)">, where <img src="https://render.githubusercontent.com/render/math?math=q_i"> was the question, <img src="https://render.githubusercontent.com/render/math?math=a_{ij}"> was the *j*th sentence of the *i*th article, and <img src="https://render.githubusercontent.com/render/math?math=y_i"> was the response (i.e., yes or no). The classifier learned the probability <img src="https://render.githubusercontent.com/render/math?math=p(y=yes| q, a)"> of a sentence being relevant to a question. 
+  - They trained a CNN-based classifier based on a triple <img src="https://render.githubusercontent.com/render/math?math=(q_i, a_{ij},y_i)">, where <img src="https://render.githubusercontent.com/render/math?math=q_i"> was the question, <img src="https://render.githubusercontent.com/render/math?math=a_{ij}"> was the *j*th sentence of the *i*th article, and <img src="https://render.githubusercontent.com/render/math?math=y_i"> was the response (i.e., yes or no). The classifier learned the probability <img src="https://render.githubusercontent.com/render/math?math=p(y=yes| q, a)"> of a sentence being relevant to a question. 
 
   
   
