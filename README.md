@@ -38,6 +38,7 @@
 #### E. Legal text classification <a name="classification"></a>
 
 - [`2019-02`] *CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service*, M. Lippi et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-019-09243-2.pdf)[[summary]](./summaries/lippi2019claudette.md)
+- [`2018-07`] *CLAUDETTE meets GDPR: Automating the Evaluation of Privacy Policies using Artificial Intelligence*, G. Contissa. [[pdf]](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3208596_code2114010.pdf?abstractid=3208596&mirid=1)[[summary]](./summaries/contissa2018claudette.md)
 
 
 
