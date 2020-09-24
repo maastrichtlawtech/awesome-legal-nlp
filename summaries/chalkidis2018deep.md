@@ -126,8 +126,8 @@ This section discusses seven papers that address the retrieval of relevant excer
 #### A convolutional neural network in legal question answering (Kim et al., 2015)
 
 - In phase 1 of COLIEE:
-  - They introduced an ad-hoc information retrieval method for retrieving Japan civil law articles related to a given question by employing a TF–IDF weighting method to capture the correlation of a query to an article, according to the word sets overlapping. The parameters were normalized to prevent a bias towards longer documents, which is a well-known error in ranking methods.
-  - The Ranking SVM model was alternatively applied to rank relevant documents according to users’ feedback, where the three types of features were used: binary representations of lemmas, dependency pairs in order to capture the prominent semantic content and TF–IDF scores.
+  - They introduced an ad-hoc information retrieval method for retrieving Japan civil law articles related to a given question by employing a **TF–IDF weighting method** to capture the correlation of a query to an article, according to the word sets overlapping. The parameters were normalized to prevent a bias towards longer documents, which is a well-known error in ranking methods.
+  - The **Ranking SVM model** was alternatively applied to rank relevant documents according to users’ feedback, where the three types of features were used: binary representations of lemmas, dependency pairs in order to capture the prominent semantic content and TF–IDF scores.
 - In phase 2 of COLIEE:
   - They introduced a binary classification model for *yes/no* answering to the legal queries. 
   - The authors assumed that the correct answer has a high semantic similarity to a question. 
@@ -154,4 +154,5 @@ This section discusses seven papers that address the retrieval of relevant excer
 
 - In phase 1 of COLIEE:
   - They used a combination of a partial string matching and a topic clustering method in order to tackle the Information Retrieval task.
+  
 
