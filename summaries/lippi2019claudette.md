@@ -59,5 +59,9 @@
   
 ### Machine learning methodology
 
--  
+-  The study focuses two different tasks: 
+  - A detection task, aimed at predicting whether a given sentence contains a (potentially) unfair clause;
+  - A classification task, aimed at predicting the category an unfair clause belongs to.
+- <ins>**Detecting potentially unfair contract clauses**<\ins>:
+  - 
 
