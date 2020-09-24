@@ -56,12 +56,27 @@
   6. *Contract by using*: stipulates that the consumer is bound by the terms of use of a specific service, simply by using the service, without even being required to mark that he or she has read and accepted them. Such clauses are always marked as potentially unfair.
   7. *Content removal*: gives the provider a right to modify/delete user’s content, including in-app purchases. Clauses that indicate conditions for content removal were marked as potentially unfair, whereas clauses stipulating that the service provider may remove content in his full discretion, and/or at any time for any or no reasons and/or without notice nor possibility to retrieve the content were marked as clearly unfair.
   8. *Arbitration*: requires or allows the parties to resolve their disputes through an arbitration process, before the case could go to court. Clauses stipulating that the arbitration should (1) take place in a state other than the state of consumer’s residence and/or (2) be based not on law but on arbiter’s discretion were marked as clearly unfair. Clauses defining arbitration as fully optional would have to be marked as clearly fair.
-  
+ 
+ 
 ### Machine learning methodology
 
 -  The study focuses two different tasks: 
   - A detection task, aimed at predicting whether a given sentence contains a (potentially) unfair clause;
   - A classification task, aimed at predicting the category an unfair clause belongs to.
-- <ins>Detecting potentially unfair contract clauses<\ins>:
-  - The problem is addressed as sentence classification task.
+- <ins>Detecting potentially unfair contract clauses</ins>:
+  - The problem is addressed as a binary sentence classification task. 
+  - Such a task could be tackled by treating sentences independently of one another (*sentence-wide classification*) or by taking into account the structure of the document, in particular the sequence of sentences, so as to perform a *collective classification*. The potential advantage of the latter approach becomes apparent if we observe that unfair clauses often span across consecutive sentences in a document.
+  - For sentence-wide classification, they compare Support Vector Machines (SVMs) with Convolutional Neural Networks (CNNs) and Long-Short Term Memory Networks (LSTMs).
+  - For collective classification, they rely on structured Support Vector Machines, and in particular on SVM-HMMs, which combine SVMs with Hidden Markov Models.
+  - They used three different approaches for sentence representation:
+    1. bag-of-words (BoW);
+    2. consituency parse tree;
+    3. word-embeddings.
+  - Results:
+    - The best classifier in terms of F1 results to be a combination of eight SVMs, each considering a single unfairness category as the positive class, whereby a sentence is predicted as potentially unfair if at least one of the SVMs predicts it as such. The second best approach is a single SVM exploiting BoW (unigrams and bigrams for words and part-of-speech tags);
+    - As for CNNs and LSTMs, the slightly worse performance with respect to the other approaches could also be ascribed to the limited size of the training set.
+- <ins>Categorization of potentially unfair clauses</ins>:
+  -
+  
+  
 
