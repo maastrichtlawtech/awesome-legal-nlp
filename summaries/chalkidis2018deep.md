@@ -165,7 +165,7 @@ This section discusses seven papers that address the retrieval of relevant excer
     - In the end, two fully connected layers were added, where the latter is followed by the softmax function to distribute values between 0 and + 1 for representing non-entailment and entailment respectively.
 
 
-### Legal question answering using ranking SVM and deep convolutional neural network (Do et al., 2017)
+#### Legal question answering using ranking SVM and deep convolutional neural network (Do et al., 2017)
 
 - In phase 1 of COLIEE:
   - A **Ranking SVM model** was used on the feature vectors of the query-article (QA) pair.
@@ -174,7 +174,7 @@ This section discusses seven papers that address the retrieval of relevant excer
   - The QA pair-fed a binary **CNN classifier** for question answering.
   
   
-### Matching law cases and reference law provision with a neural attention model (Tang et al., 2016)
+#### Matching law cases and reference law provision with a neural attention model (Tang et al., 2016)
 
 - They tackled the problem of finding law provisions relevant to law cases.
 - They proposed a neural attention model for automatically matching reference law provisions.
@@ -187,7 +187,7 @@ This section discusses seven papers that address the retrieval of relevant excer
   - An LSTM was fed with both vector distances and, at the last layer, a linear layer, and a log-softmax produced the output label.
 
 
-### A semi‑supervised training method for semantic search of legal facts in Canadian immigration cases (Nejadgholi et al., 2017)
+#### A semi‑supervised training method for semantic search of legal facts in Canadian immigration cases (Nejadgholi et al., 2017)
 
 - They introduced a semi-supervised approach to identify factasserting sentences from Canadian Immigration cases that are semantically close to a given query.
 - A single annotated dataset was used for training 100-dimensional word embeddings and a semi-supervised classifier that consisted of 46,000 immigration and refugee cases.
@@ -199,7 +199,7 @@ This section discusses seven papers that address the retrieval of relevant excer
 - The proposed method outperformed commonly used classifiers when the training set is relatively small. Particularly, the proposed model was significantly the most accurate classifier reaching an accuracy of 90%. SVMs with TF–IDF feature representation and domain-specific word embeddings achieved 81% and 83% respectively.
 
 
-### Discussion
+#### Discussion
 
 - **CNN-based models** have been widely adopted in order to tackle information retrieval tasks.
 - The research community is moving from intensive feature engineering towards more simplified networks that encode the text inputs by using standalone CNNs or combined with LSTMs.
