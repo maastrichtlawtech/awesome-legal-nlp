@@ -154,5 +154,53 @@ This section discusses seven papers that address the retrieval of relevant excer
 
 - In phase 1 of COLIEE:
   - They used a combination of a partial string matching and a topic clustering method in order to tackle the Information Retrieval task.
-  
+  - Initially, they applied a simple **pattern matching method** by capturing the similarity of a Question Q and an answer A based on the intersection of the common words. The problem with that approach is that due to the polysemy and synonymy of words, some queries may be relevant to particular articles without significant intersection of the words used.
+  - Therefore, the authors introduced a method that relies upon the semantic similarity. They used the **Latent Dirichlet Allocation (LDA) topic model** to represent each article and query with a topic vector.
+- In phase 2 of COLIEE:
+  - They introduced a system which combines **LSTMs with CNNs**.
+  - The authors used the 300-dimensional word embeddings from the Google News vectors to represent the articles and the queries.
+  - The neural model is the following:
+    - The sentential sequences of the article and the query concatenated to a 600-dimensional vector which was fed into the LSTM.
+    - The LSTM layer projected 64-dimensional vectors that were fed sequentially into a convolutional layer of six filters. A maxpooling layer retained the most prominent features.
+    - In the end, two fully connected layers were added, where the latter is followed by the softmax function to distribute values between 0 and + 1 for representing non-entailment and entailment respectively.
 
+
+### Legal question answering using ranking SVM and deep convolutional neural network (Do et al., 2017)
+
+- In phase 1 of COLIEE:
+  - A **Ranking SVM model** was used on the feature vectors of the query-article (QA) pair.
+  - For feature engineering, they considered the **TF–IDF, Euclidean, Manhattan, Jaccard distances, as also the Latent Semantic Indexing (LSI), and Latent Dirichlet Allocation (LDA)** using the gensim library.
+- In phase 2 of COLIEE:
+  - The QA pair-fed a binary **CNN classifier** for question answering.
+  
+  
+### Matching law cases and reference law provision with a neural attention model (Tang et al., 2016)
+
+- They tackled the problem of finding law provisions relevant to law cases.
+- They proposed a neural attention model for automatically matching reference law provisions.
+- The complexity of the problem was due to the fact that each law case is related to many law provision references, based on the case specifics. Rule-based and keyword-based methods were not effective enough to capture the semantics of legal documents.
+- The model is summarized as follows:
+  - The 50-dimensional word vectors used to represent the input words were trained from scratch, with an embedding layer as part of the neural network.
+  - Two independent **bidirectional LSTMs** with the same output dimensionality were used to build context-aware representations for the words of the case and the law provision.
+  - A word-by-word self-attention mechanism was used on top of each LSTM layer to produce the case and law provision representations (vectors).
+  - The Cosine and Euclidean distance were used to identify the element-wise and absolute distance of the vectors.
+  - An LSTM was fed with both vector distances and, at the last layer, a linear layer, and a log-softmax produced the output label.
+
+
+### A semi‑supervised training method for semantic search of legal facts in Canadian immigration cases (Nejadgholi et al., 2017)
+
+- They introduced a semi-supervised approach to identify factasserting sentences from Canadian Immigration cases that are semantically close to a given query.
+- A single annotated dataset was used for training 100-dimensional word embeddings and a semi-supervised classifier that consisted of 46,000 immigration and refugee cases.
+- The authors selected a semi-supervised approach using an annotated dataset of 12,220 annotated sentences from 150 cases.
+- A binary classifier was trained to distinguish sentences between *facts* and *non-facts*.
+- The classifier was a **fully-connected shallow neural network** with one hidden layer fed with the concatenationof word embeddings of each sentence.
+- The trained classifier was then deployed over an unlabelled corpus of sentences, which includes a broader vocabulary, to create additional automatically annotated data in order to re-train the classifier and improve the sentence encoder.
+- The cosine similarity of a query and a fact sentence was calculated, based on the vector representation produced by the hidden layer of the trained classifier. For every single query, the top three most similar fact sentences were selected as relevant.
+- The proposed method outperformed commonly used classifiers when the training set is relatively small. Particularly, the proposed model was significantly the most accurate classifier reaching an accuracy of 90%. SVMs with TF–IDF feature representation and domain-specific word embeddings achieved 81% and 83% respectively.
+
+
+### Discussion
+
+- **CNN-based models** have been widely adopted in order to tackle information retrieval tasks.
+- The research community is moving from intensive feature engineering towards more simplified networks that encode the text inputs by using standalone CNNs or combined with LSTMs.
+- Researchers improve the performance by adding additional features produced by various methods (e.g., **LDA, LSI, BM25** and well-known word distances).
