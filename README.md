@@ -8,6 +8,7 @@
     - [Legal Information Retrieval](#retrieval)
     - [Legal Information Extraction](#extraction)
     - [Automated Analysis of Legal Text](#analysis)
+    - [Natural Language Processing](#nlp)
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
 
@@ -41,6 +42,10 @@
 - [`2018-08`] *Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning*, H. Harkous et al. [[pdf]](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-harkous.pdf)[[summary]](./summaries/harkous2018polisis.md)
 - [`2018-07`] *CLAUDETTE meets GDPR: Automating the Evaluation of Privacy Policies using Artificial Intelligence*, G. Contissa. [[pdf]](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3208596_code2114010.pdf?abstractid=3208596&mirid=1)[[summary]](./summaries/contissa2018claudette.md)
 
+
+#### F. Natural Language Processing <a name="nlp"></a>
+
+- [`2016-06`] *Hierarchical Attention Networks for Document Classification*, Z. Yang et al. [[pdf]](https://www.aclweb.org/anthology/N16-1174.pdf)[[summary]](./summaries/yang2016hierarchical.md)
 
 
 ## 🎙  Talks <a name="talks"></a>
