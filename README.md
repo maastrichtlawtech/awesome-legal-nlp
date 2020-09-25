@@ -16,7 +16,7 @@
 ## 📚  Books <a name="books"></a>
 
 - [`2017-07`] *Artificial Intelligence and Legal Analytics: New Tools for Law Practice in the Digital Age*, K. Ashley. [[link]](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0)
-- [`2017-02`] *Introduction to Law*, J. Hage et al. [[link]](https://www.springer.com/gp/book/9783319572512)[[summary]](./summaries/hage2017introduction.md)
+- [`2017-02`] *Introduction to Law*, J. Hage et al. [[link]](https://www.springer.com/gp/book/9783319572512)
 
 ## 📄  Papers <a name="papers"></a>
 
