@@ -11,4 +11,6 @@
 
 ### Task 1 - The Legal Case Retrieval Task
 
-#### COLIEE-2020
+#### COLIEE-2020 approaches
+
+- 
