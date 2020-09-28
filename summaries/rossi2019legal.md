@@ -3,7 +3,7 @@
 +++++++++++++++++++++++++++++++  
 <ins>Authors</ins>: J. Rossi et al.  
 <ins>Date</ins>: 2019-06  
-<ins>Tags</ins>: `information retrieval` 
+<ins>Tags</ins>: `information retrieval`   
 +++++++++++++++++++++++++++++++
 
 ### Intro
