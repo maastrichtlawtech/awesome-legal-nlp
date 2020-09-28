@@ -31,9 +31,6 @@
 - [`2017-05`] *Inducing Predictive Models for Decision Support in Administrative Adjudication*, K. Branting et al. [[pdf]](https://www.mirelproject.eu/MIRELws@ICAIL/MIRELwsPubs/Branting-etal-MIRELwsAtICAIL.pdf)[[summary]](./summaries/branting2017inducing.md)
 - [`2014-07`] *Predicting the Behavior of the Supreme Court of the United States: A General Approach*, D. Katz et al. [[pdf]](https://arxiv.org/pdf/1407.6333)[[summary]](./summaries/katz2014predicting.md)
 
-##### NLP Background
-- [`2016-06`] *Hierarchical Attention Networks for Document Classification*, Z. Yang et al. [[pdf]](https://www.aclweb.org/anthology/N16-1174.pdf)[[summary]](./summaries/yang2016hierarchical.md)
-
 
 #### C. Legal Information Retrieval <a name="retrieval"></a>
 
@@ -46,6 +43,10 @@
 - [`2019-02`] *CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service*, M. Lippi et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-019-09243-2.pdf)[[summary]](./summaries/lippi2019claudette.md)
 - [`2018-08`] *Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning*, H. Harkous et al. [[pdf]](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-harkous.pdf)[[summary]](./summaries/harkous2018polisis.md)
 - [`2018-07`] *CLAUDETTE meets GDPR: Automating the Evaluation of Privacy Policies using Artificial Intelligence*, G. Contissa. [[pdf]](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3208596_code2114010.pdf?abstractid=3208596&mirid=1)[[summary]](./summaries/contissa2018claudette.md)
+
+
+#### F. NLP Background
+- [`2016-06`] *Hierarchical Attention Networks for Document Classification*, Z. Yang et al. [[pdf]](https://www.aclweb.org/anthology/N16-1174.pdf)[[summary]](./summaries/yang2016hierarchical.md)
 
 
 
