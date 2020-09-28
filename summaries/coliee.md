@@ -13,4 +13,5 @@
 
 #### COLIEE-2020 approaches
 
-- 
+- Legal Information Retrieval with Generalized Language Models, J. Rossi et al.
+  - H
