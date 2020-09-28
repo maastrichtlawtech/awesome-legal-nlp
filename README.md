@@ -35,6 +35,8 @@
 
 #### C. Legal Information Retrieval <a name="retrieval"></a>
 
+- [`2019-06`] *Legal Information Retrieval with Generalized Language Models*, J. Rossi et al. [[pdf]](https://pure.uva.nl/ws/files/44471967/COLIEE_2019.pdf)[[summary]](./summaries/rossi2019legal.md)
+
 #### D. Legal Information Extraction <a name="extraction"></a>
 
 #### E. Automated Analysis of Legal Text <a name="analysis"></a>
