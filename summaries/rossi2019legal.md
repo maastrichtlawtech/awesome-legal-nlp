@@ -31,3 +31,7 @@ the corpus, as implemented in gensim using TextRank.
 - The recall for BERT systems is also lower than the BM25 baseline.
 - Limitations of reducing a ranking problem to a pairwise relevance classification problem: the system learns to have a score on the right side of the decision threshold (0.5 in the binary classification setting), instead of learning that the score of any sample from the negative class should be lower than the score of any sample from the positive class. While this limitation is addressed by systems from the Learning to Rank family, this paper did not use the associated techniques.
 - They did not establish a new sota for this task.
+
+### Personal reflections
+
+- Pair-wise comparison with BERT is computationally expensive. According to the authors of sentence-BERT, finding which of the over 40 million existent questions of Quora is the most similar for a new question through a pair-wise comparison with BERT would take over 50 hours on a modern V100 GPU.
