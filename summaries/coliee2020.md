@@ -12,7 +12,8 @@
 ### Task 1 - The Legal Case Retrieval Task
 
 2. <ins>Legal Information Retrieval with Generalized Language Models</ins> (J. Rossi et al., 2019)
-  - Approach: They take as input a query case and a candidate case and pass it to a pre-trained **BERT** model (bert-base-uncased) on top of which stands an additional binary classification layer (**MLP**) that classifies the given pair of cases as "Noticed" or "Not noticed". The ranking of documents is based on the score for the positive class.
+  - Approach: 
+    - **BERT + MLP**: They take as input a query case and a candidate case and pass it to a pre-trained *BERT* model (bert-base-uncased) on top of which stands an additional binary classification layer (*MLP*) that classifies the given pair of cases as "Noticed" or "Not noticed". The ranking of documents is based on the score for the positive class.
   - Problem: the documents from the training corpus are longer than 512 tokens. For this reason, they introduce a summarization of the texts in the corpus, as implemented in gensim using **TextRank**.
   - Results: F1-score of 52.9%
   - Limitations: 
