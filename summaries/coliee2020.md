@@ -1,4 +1,4 @@
-## The Competition on Legal Information Extraction/Entailment (COLIEE)
+## The Competition on Legal Information Extraction/Entailment (COLIEE) - 2020
 
 ### Tasks description
 
@@ -10,8 +10,6 @@
 ***
 
 ### Task 1 - The Legal Case Retrieval Task
-
-#### COLIEE-2020 approaches
 
 2. <ins>Legal Information Retrieval with Generalized Language Models</ins> (J. Rossi et al., 2019)
   - They take as input a query case and a candidate case and pass it to a pre-trained **BERT** model (bert-base-uncased) on top of which stands an additional binary classification layer (**MLP**) that classifies the given pair of cases as "Noticed" or "Not noticed". The ranking of documents is based on the score for the positive class.
