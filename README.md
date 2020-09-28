@@ -43,7 +43,6 @@
 
 - [`2019-02`] *CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service*, M. Lippi et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-019-09243-2.pdf)[[summary]](./summaries/lippi2019claudette.md)
 - [`2018-08`] *Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning*, H. Harkous et al. [[pdf]](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-harkous.pdf)[[summary]](./summaries/harkous2018polisis.md)
-- [`2018-07`] *CLAUDETTE meets GDPR: Automating the Evaluation of Privacy Policies using Artificial Intelligence*, G. Contissa. [[pdf]](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3208596_code2114010.pdf?abstractid=3208596&mirid=1)[[summary]](./summaries/contissa2018claudette.md)
 
 
 #### F. NLP Background
