@@ -1,7 +1,7 @@
-# The Competition on Legal Information Extraction/Entailment (COLIEE)
+## The Competition on Legal Information Extraction/Entailment (COLIEE)
 
-## Tasks description
+### Tasks description
 
-- **Task 1:The Legal Case Retrieval Task** 
+- <ins>**Task 1: The Legal Case Retrieval Task**</ins>
 
 ## COLIEE-2020
