@@ -16,6 +16,7 @@
 - Introduced new method to identify text pairwise relevance, which combines text summarizing and a generalized language model (BERT) in order to assess pairwise relevance.
 - They translate this retrieval task into a ranking problem, which they formulate as a pairwise relevance classification problem.
 
+***
 
 ### Methodology
 
