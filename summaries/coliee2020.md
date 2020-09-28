@@ -12,13 +12,20 @@
 ### Task 1 - The Legal Case Retrieval Task
 
 2. <ins>Legal Information Retrieval with Generalized Language Models</ins> (J. Rossi et al., 2019)
-  - They take as input a query case and a candidate case and pass it to a pre-trained **BERT** model (bert-base-uncased) on top of which stands an additional binary classification layer (**MLP**) that classifies the given pair of cases as "Noticed" or "Not noticed". The ranking of documents is based on the score for the positive class.
+  - Approach: They take as input a query case and a candidate case and pass it to a pre-trained **BERT** model (bert-base-uncased) on top of which stands an additional binary classification layer (**MLP**) that classifies the given pair of cases as "Noticed" or "Not noticed". The ranking of documents is based on the score for the positive class.
   - Problem: the documents from the training corpus are longer than 512 tokens. For this reason, they introduce a summarization of the texts in the corpus, as implemented in gensim using **TextRank**.
-  - Results: F1-score of 52.96%
+  - Results: F1-score of 52.9%
   - Limitations: 
     - One limitation of reducing a ranking problem to a pairwise relevance classification problem is that the system learns to have a score on the right side of the decision threshold (0.5 in the binary classification setting), instead of learning that the score of any sample from the negative class should be lower than the score of any sample from the positive class. While this limitation is addressed by systems from the Learning to Rank family, this paper did not use the associated techniques.
     - Pair-wise comparison with BERT is computationally expensive. According to the authors of sentence-BERT, finding which of the over 40 million existent questions of Quora is the most similar for a new question through a pair-wise comparison with BERT would take over 50 hours on a modern V100 GPU.
 
 
 4. <ins>Legal Information Retrieval using BM25 and BERT</ins> (B. Gain et al., 2019)
-  - 
+  - Approaches:
+    - **Doc2Vec**: For every query, we compute the Doc2Vec similarity between the base case and all of its candidates. Top 10 candidates whose similarity was greater than 90% of average score of top two are returned.
+    - **BM25**: compute BM25 score of all the candidate cases for every base case using gensim library. Then the top 10 candidates whose similarity is greater than 90% of average score of top two are returned.
+    - **Doc2Vec + BM25**: combine the scores obtained from the previous two models by multiplying them (so that only documents with high scores on both Doc2Vec and BM25 are ranked). Top 10 candidates whose similarity was greater than 80% of average score of top two are returned.
+  - Results:
+    - *Doc2Vec + BM25*: F1-score of 48.2%
+    - *BM25*: F1-score of 47.7%
+    - *Doc2Vec*: F1-score of 39.7%
