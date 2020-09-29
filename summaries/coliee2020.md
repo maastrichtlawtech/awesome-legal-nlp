@@ -21,7 +21,7 @@
     - Pair-wise comparison with BERT is computationally expensive. According to the authors of sentence-BERT, finding which of the over 40 million existent questions of Quora is the most similar for a new question through a pair-wise comparison with BERT would take over 50 hours on a modern V100 GPU.
 
 
-4. <ins>Legal Information Retrieval using BM25 and BERT</ins> (B. Gain et al., 2019)
+3. <ins>Legal Information Retrieval using BM25 and BERT</ins> (B. Gain et al., 2019)
   - Approaches:
     - **Doc2Vec**: For every query, we compute the Doc2Vec similarity between the base case and all of its candidates. Top 10 candidates whose similarity was greater than 90% of average score of top two are returned.
     - **BM25**: compute BM25 score of all the candidate cases for every base case using gensim library. Then the top 10 candidates whose similarity is greater than 90% of average score of top two are returned.
@@ -30,3 +30,8 @@
     - *Doc2Vec + BM25*: F1-score of 48.2%
     - *BM25*: F1-score of 47.7%
     - *Doc2Vec*: F1-score of 39.7%
+    
+4. <ins>Combining Similarity and Transformer Methods for Case Law Entailment</ins> (J. Rabelo et al., 2019)
+  - Approach:
+    - **Universal Sentence Encoder + cosine similarity**: they used of the Universal Sentence Encoder to generate a vector representation of both the base case and each candidate, followed by the calculation of a similarity score using a cosine measure.
+  - Results: F1-score of 34.4%
