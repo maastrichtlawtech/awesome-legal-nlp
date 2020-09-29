@@ -43,13 +43,13 @@
 
 
 #### 2. doc2vec_SSM
-- Sentence Similarity Graph Network
+- <ins>Sentence Similarity Graph Network</ins>
   - They created a sentence similarity graph network using the semantic similarity measures between sentences by the TextRank algorithm.
   - They created a *document corpus*, which is a subset of the entire text corpus, where we picked the *k* most important sentences in each of the documents, from the sentence similarity graph network.
-- Text Preprocessing
+- <ins>Text Preprocessing</ins>
   - They pre-processed the *document corpus* to clean the text of unwanted characters and common words, in order to obtain the optimal size for the final vocabulary.
   - In the linguistic preprocessing step, we used lemmatizing and case-folding to lowercase.
-- Document Base Vector Creation
+- <ins>Document Base Vector Creation</ins>
 
 
 #### 3. doc2vec_NN
