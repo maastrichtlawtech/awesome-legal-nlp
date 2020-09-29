@@ -37,12 +37,12 @@ main. The lack of data brings obstacles to the training process of deep neural m
 ### Method
 
 - Multi-stage pipeline inspired by the cascade framework, consisting of three stages:
-  - In Stage 1, we select top-K candidates from the initial candidate corpus with respect to the query case q according to **BM25** scores. 
+  - **Stage 1**: they select top-K candidates from the initial candidate corpus with respect to the query case q according to **BM25** scores. 
     - This stage inevitably hurts both recall and precision, but allows to reduce computational cost compared to using BERT on all candidate cases.
-  - In Stage 2, we fine-tune the BERT model on a sentence pair classification task with the legal case entailment dataset of COLIEE-2019. 
+  - **Stage 2**: they fine-tune the **BERT** model on a sentence pair classification task with the legal case entailment dataset of COLIEE-2019. 
     - Fine-tuning on this task enables BERT to infer the supportive relationships between paragraphs, which is useful for the legal case retrieval task. 
     - They fine-tune all parameters of BERT on a sentence pair classification task in an end-to-end fashion. 
     - The input is composed of the decision paragraph of a query case and a candidate paragraph in the relevant case. The text pair is separated by the [SEP] token and a [CLS] token is prepended to the text pair. 
     - As for the output, they feed the final hidden state vector corresponding to the first input token ([CLS]) into a classification layer. In this task, they use a fully-connected layer to do binary classification, optimizing a cross-entropy loss.
-  - In Stage 3, BERT-PLI conducts relevance prediction with the fine-tuned BERT (Stage 2) among the selected candidates (Stage 1).
+  - **Stage 3**: BERT-PLI conducts relevance prediction with the fine-tuned BERT (Stage 2) among the selected candidates (Stage 1).
     - To tackle the challenge brought by long and complex documents, they first break a document into paragraphs and model the interactions between paragraphs in the semantic level.
