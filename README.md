@@ -33,6 +33,7 @@
 ## C. Legal Information Retrieval <a name="retrieval"></a>
 
 - [`2020-05`] *BERT-PLI: Modeling Paragraph-Level Interactions for Legal Case Retrieval*, Y. Shao et al. [[pdf]](https://www.ijcai.org/Proceedings/2020/0484.pdf)[[summary]](./summaries/shao2020bertpli.md)
+- [`2019-06`] *Legal Information Retrieval using BM25 and BERT*, B. Gain et al. [[pdf]](https://www.researchgate.net/profile/Baban_Gain/publication/334112555_IITP_in_COLIEEICAIL_2019_Legal_Information_Retrieval_using_BM25_and_BERT/links/5d177243299bf1547c87e7a6/IITP-in-COLIEEICAIL-2019-Legal-Information-Retrieval-using-BM25-and-BERT.pdf)[[summary]](./summaries/gain2019legal.md)
 - [`2018-07`] *Legal Document Retrieval using Document Vector Embeddings and Deep Learning*, K. Sugathadasa et al. [[pdf]](https://arxiv.org/pdf/1805.10685)[[summary]](./summaries/sugathadasa2018legal.md)
 
 
