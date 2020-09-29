@@ -11,6 +11,10 @@
 
 ### Task 1 - The Legal Case Retrieval Task
 
+1. <ins>Building legal case retrieval systems with lexical matching and summarization using a pre-trained phrase scoring model.</ins> (V. Tran et al., 2019)
+  - Approach:
+  
+
 2. <ins>Legal Information Retrieval with Generalized Language Models</ins> (J. Rossi et al., 2019)
   - Approach: 
     - **BERT + MLP**: They take as input a query case and a candidate case and pass it to a pre-trained *BERT* model (bert-base-uncased) on top of which stands an additional binary classification layer (*MLP*) that classifies the given pair of cases as "Noticed" or "Not noticed". The ranking of documents is based on the score for the positive class.
