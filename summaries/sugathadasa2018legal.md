@@ -3,7 +3,7 @@
 +++++++++++++++++++++++++++++++  
 <ins>Authors</ins>: K. Sugathadasa et al.  
 <ins>Date</ins>: 2018-07  
-<ins>Tags</ins>:   
+<ins>Tags</ins>: `tf-idf`, `graph`  
 +++++++++++++++++++++++++++++++  
 
 
@@ -35,14 +35,14 @@
   - **doc2vec_NN** (Mapper Neural Network Model) 
 
 
-#### doc2vec_NV
+#### 1. doc2vec_NV
 
 - The doc2vec_NV model was created using the **node2vec algorithm**, which is a scalable feature learning technique for networks inspired by the word2vec model. It learns continuous representations for nodes in any (un)directed or (un)weighted graph.
 - The input for this algorithm was an Edgelist, which contained the list of edges generated from the *mention map*.
 - The output was a vector space that contains a set of feature vectors for the list of documents in the legal text corpus.
 
 
-#### doc2vec_SSM
+#### 2. doc2vec_SSM
 - Sentence Similarity Graph Network
   - They created a sentence similarity graph network using the semantic similarity measures between sentences by the TextRank algorithm.
   - They created a *document corpus*, which is a subset of the entire text corpus, where we picked the *k* most important sentences in each of the documents, from the sentence similarity graph network.
@@ -52,6 +52,6 @@
 - Document Base Vector Creation
 
 
-#### doc2vec_NN
+#### 3. doc2vec_NN
 - The Mapper Neural Network model doc2vec_NN was trained using the both models: doc2vec_NV and doc2vec_SSM.
 
