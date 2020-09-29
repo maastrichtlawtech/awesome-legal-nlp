@@ -9,11 +9,21 @@
 
 ### Intro
 
-- 
+- This study targets the information retrieval for the legal domain. Specifically, it focuses on the process of representing legal case documents into different vector spaces.
+- The legal domain contains considerable amount of domain specific jargon where the etymology lies with mainly Latin and English, which makes the information retrieval (IR) task multilingual. To complicate this fact, in certain cases, the meaning of the words and context differs by the legal officers’ interpretations.
 
 
 ### Contributions
 
-- 
+- Developed three novel models which incorporate vector space representations of the legal domain, where document vector generation was done in two different mechanisms and as an ensemble of the above two.
+- Proposed a system that includes a page ranking graph network with TF-IDF to build document embeddings by creating a vector space for the legal domain. 
+
 
 ***
+
+### Methodology
+
+- Dataset: they collected over 2,500 legal case documents from the FindLaw websiteusing multi-threaded webcrawlers.
+- Implemented three unique document vector models, each of which is used to train a neural network.
+  1. **Document Relevance Mention Map**:  
+    - Hey
