@@ -3,7 +3,7 @@
 +++++++++++++++++++++++++++++++  
 <ins>Authors</ins>: Y. Shao et al.  
 <ins>Date</ins>: 2020-05  
-<ins>Tags</ins>: `bert`  
+<ins>Tags</ins>: `bert`, `rnn`  
 +++++++++++++++++++++++++++++++  
 
 
@@ -53,7 +53,7 @@ main. The lack of data brings obstacles to the training process of deep neural m
     - They then use a RNN structure (they explore both LSTM and GRU) to further encode the representation sequence. The attention mechanism is also employed to infer the importance of each position. They can then get the document-level representation via attentive aggregation.
     - Finally, Finally, the document-level representation is passed through a fully connected layer followed by a softmax function to make prediction.
     
-### Results
+### Experiments
 
 - They compared their model with three types of baselines:
   - Traditional bag-of-words retrieval models: VSM, BM25 and LMIR.
@@ -61,3 +61,8 @@ main. The lack of data brings obstacles to the training process of deep neural m
   - Top 2 teams in COLIEE-2019 competition:
     - JNLP: trained a supervised summarization model based on COLIEE 2018’s dataset and applied the model to encoding the case document into a continuous vector. They combined such the summary embeddings with lexical matching features, calculated by ROUGE and learned the document rankings via RankSVM.
     - ILPS: generated summaries by the TextRank algorithm first and assessed pairwise relevance by a carefully fine-tuned BERT model, combined with oversampling strategies.
+- Results:
+  - BERT-PLI outperformed the baseline methods by a large margin (F1 of 58.6%), including the traditional retrieval models (F1 of 53.1% for the top performing LMIR) and the deep learning ones (F1 of 18.7% for the top performing ARC-II).
+  - BERT-PLI outperformed the models from the top 2 teams (57.6% and 52.9% in F1 for JNLP and ILPS, respectively).
+  - The LSTM and GRU versions of BERT-PLI achieved similar performance (58.1% against 58.6% in F1, respectively).
+  - An ablation study investigating the effects of the fine-tuning stage showed that using the original parameters of the pre-trained BERT model results in a big drop in performance of about 10% in F1 compared with BERT-PLI.
