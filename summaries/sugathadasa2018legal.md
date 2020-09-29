@@ -30,7 +30,7 @@
   - The first problem was the lack of a standard and proper naming convention for the legal case names. This problem was solved by regular expression-based Information Extraction.
   - The second problem was the legal name reference using abbreviations of the case name in the text body. To solve this problem, extensive searching on the Findlaw Search Engine was done, and mention names were matched with the legal case document names.
 - The *mention map* is the base component of their study. From there, they implemented three unique document vector models, each of which was used to train a neural network:
-  - **doc2vec_NV** (Node2Vec Model) 
+  - **doc2vec<sub>NV</sub>** (Node2Vec Model) 
   - **doc2vec_SSM** (Sentence Similarity Model)
   - **doc2vec_NN** (Mapper Neural Network Model) 
 
