@@ -55,11 +55,10 @@
   - They then defined V' by sorting the vocabulary V by descending order of GTF-IDF values, and obtained the common base vector template B so that B is a word vector of lenght *p*, such that the *p* number of words that are most significant to the domain D (thus the first *p* elements of the sorted V') are contained in B.
 - <ins>Sentence Similarity Based Document Vector Representation</ins>
   - Next, they created a vector representation for documents in the text corpus.
-  - For the *j*th document, the *k* most important sentences are picked from the sentence similarity graph network.
+  - The vector representation of a document is a *p*-dimensional vector, representing the most important *p* terms from the context on the entire text corpus.
+  - More precisely, for each document, the *k* most important sentences are picked from the sentence similarity graph network. Then, they get the set of unique words in the selected *k* sentences. Then for each term of the base vector B, if that term is present in the set of unique words of the current document, get its tf-idf value form the TF-IDF weight matrix T. Otherwise, just put a 0 for that term.
   
-The vector representation of a document is a *p*-dimensional vector, representing the most important *p* terms from the context on the entire text corpus.
-
-
+  
 #### 3. doc2vec<sub>NN</sub>
 - The Mapper Neural Network model doc2vec<sub>NN</sub> was trained using the both models: doc2vec<sub>NV</sub> and doc2vec<sub>SSM</sub>.
 
