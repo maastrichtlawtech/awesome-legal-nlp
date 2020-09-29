@@ -28,6 +28,21 @@ main. The lack of data brings obstacles to the training process of deep neural m
 
 - In the past decades: bag-of-words IR models were used, including **VSM**, **BM25** and **LMIR**, which are widely applied in search systems and are mostly based on term-levl matching.
 - Since the mid-2000s, **LTR** (Learning to Rank) methods which are driven heavily by manual feature engineering, have been well studied and utilized by commercial web search engines as well.
-- In recent years, the development of deep learning has also inspired applications of neural models in IR. Generally, the methods can be categorized into two types:
+- In recent years, the development of **deep learning** has also inspired applications of neural models in IR. Generally, the methods can be categorized into two types:
   1. *methods of representation learning*: queries and documents are represented in the latent space by deep learning models, and the query-document relevance score is calculated based on their latent representations with a vector space scoring function, e.g., cosine similarity. Various neural network models have been applied to this task (e.g., DSSM, CNNs and RNNs), but most of the model structures are not designed for representing long documents (it is difficult for CNN models to represent the complex global semantic information while RNN models tend to forget important signals when dealing with a long sequence).
-  2. *methods of matching function learning*: first construct a matching matrix or capture local interactions based on the word-level matching, and then use neural networks to discover the high-level matching patterns and aggregate the final relevance score.
+  2. *methods of matching function learning*: first construct a matching matrix or capture local interactions based on the word-level matching, and then use neural networks to discover the high-level matching patterns and aggregate the final relevance score. Although these models work well for ad-hoc text retrieval, where the query is quite short, their performances are restricted in the scenario of legal case retrieval due to its quadratic time and memory complexity in constructing the whole interaction matrix.
+- Recently, some works have shed light on the application of BERT to ad-hoc retrieval by modeling evidence in query-sentence or query-passage pairs.
+
+
+### Method
+
+- Multi-stage pipeline inspired by the cascade framework, consisting of three stages:
+  - In Stage 1, we select top-K candidates from the initial candidate corpus with respect to the query case q according to **BM25** scores. 
+    - This stage inevitably hurts both recall and precision, but allows to reduce computational cost compared to using BERT on all candidate cases.
+  - In Stage 2, we fine-tune the BERT model on a sentence pair classification task with the legal case entailment dataset of COLIEE-2019. 
+    - Fine-tuning on this task enables BERT to infer the supportive relationships between paragraphs, which is useful for the legal case retrieval task. 
+    - They fine-tune all parameters of BERT on a sentence pair classification task in an end-to-end fashion. 
+    - The input is composed of the decision paragraph of a query case and a candidate paragraph in the relevant case. The text pair is separated by the [SEP] token and a [CLS] token is prepended to the text pair. 
+    - As for the output, they feed the final hidden state vector corresponding to the first input token ([CLS]) into a classification layer. In this task, they use a fully-connected layer to do binary classification, optimizing a cross-entropy loss.
+  - In Stage 3, BERT-PLI conducts relevance prediction with the fine-tuned BERT (Stage 2) among the selected candidates (Stage 1).
+    - To tackle the challenge brought by long and complex documents, they first break a document into paragraphs and model the interactions between paragraphs in the semantic level.
