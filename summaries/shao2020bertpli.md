@@ -3,7 +3,7 @@
 +++++++++++++++++++++++++++++++  
 <ins>Authors</ins>: Y. Shao et al.  
 <ins>Date</ins>: 2020-05  
-<ins>Tags</ins>:   
+<ins>Tags</ins>: `bert`  
 +++++++++++++++++++++++++++++++  
 
 
@@ -20,6 +20,14 @@ main. The lack of data brings obstacles to the training process of deep neural m
 ### Contributions
 
 - They propose BERT-PLI, a novel model that utilizes BERT to capture the semantic relationships at the paragraph-level and then infers the relevance between two cases by aggregating paragraph-level interactions.
-- We conduct extensive experiments on the benchmark of the relevant case retrieval task in COLIEE 2019, and show that their proposed method outperforms existing solutions.
+- They conduct extensive experiments on the benchmark of the relevant case retrieval task in COLIEE 2019, and show that their proposed method outperforms existing solutions.
 
 ***
+
+### Related work
+
+- In the past decades: bag-of-words IR models were used, including **VSM**, **BM25** and **LMIR**, which are widely applied in search systems and are mostly based on term-levl matching.
+- Since the mid-2000s, **LTR** (Learning to Rank) methods which are driven heavily by manual feature engineering, have been well studied and utilized by commercial web search engines as well.
+- In recent years, the development of deep learning has also inspired applications of neural models in IR. Generally, the methods can be categorized into two types:
+  1. *methods of representation learning*: queries and documents are represented in the latent space by deep learning models, and the query-document relevance score is calculated based on their latent representations with a vector space scoring function, e.g., cosine similarity. Various neural network models have been applied to this task (e.g., DSSM, CNNs and RNNs), but most of the model structures are not designed for representing long documents (it is difficult for CNN models to represent the complex global semantic information while RNN models tend to forget important signals when dealing with a long sequence).
+  2. *methods of matching function learning*: first construct a matching matrix or capture local interactions based on the word-level matching, and then use neural networks to discover the high-level matching patterns and aggregate the final relevance score.
