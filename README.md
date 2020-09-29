@@ -1,6 +1,6 @@
-# AI & Law
+# Artificial Intelligence & Law
 
-## Table of contents
+### Table of contents
 1. [Books](#books)
 2. [Papers](#papers)
     - [Overview](#overview)
