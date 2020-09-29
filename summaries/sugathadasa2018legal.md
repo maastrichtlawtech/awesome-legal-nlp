@@ -25,5 +25,8 @@
 
 - Dataset: they collected over 2,500 legal case documents from the FindLaw websiteusing multi-threaded webcrawlers.
 - Implemented three unique document vector models, each of which is used to train a neural network.
-  1. **Document Relevance Mention Map**:  
-    - Hey
+  - **Document Relevance Mention Map**:  
+    - Prior legal cases are often mentioned in legal cases as case law references.
+    - They defined the inverted *index structure*, where for each document is associated a list of documents which were referenced in that text.
+    - The listing of mentions and references of other legal cases was a non-trivial Information Extraction (IE) task. 
+      - The first problem was the lack of a standard and proper naming convention for the legal case names.
