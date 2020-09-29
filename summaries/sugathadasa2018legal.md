@@ -3,7 +3,7 @@
 +++++++++++++++++++++++++++++++  
 <ins>Authors</ins>: K. Sugathadasa et al.  
 <ins>Date</ins>: 2018-07  
-<ins>Tags</ins>: `tf-idf`, `graph`  
+<ins>Tags</ins>: `tf-idf`, `graph network`  
 +++++++++++++++++++++++++++++++  
 
 
@@ -54,6 +54,10 @@
   - They defined GTF-IDF (Global Term Frequency- Inverse Document Frequency) as an extension of TF-IDF.
   - They then defined V' by sorting the vocabulary V by descending order of GTF-IDF values, and obtained the common base vector template B so that B is a word vector of lenght *p*, such that the *p* number of words that are most significant to the domain D (thus the first *p* elements of the sorted V') are contained in B.
 - <ins>Sentence Similarity Based Document Vector Representation</ins>
+  - Next, they created a vector representation for documents in the text corpus.
+  - For the *j*th document, the *k* most important sentences are picked from the sentence similarity graph network.
+  
+The vector representation of a document is a *p*-dimensional vector, representing the most important *p* terms from the context on the entire text corpus.
 
 
 #### 3. doc2vec_NN
