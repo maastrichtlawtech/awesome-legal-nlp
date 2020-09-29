@@ -48,8 +48,12 @@
   - They created a *document corpus*, which is a subset of the entire text corpus, where we picked the *k* most important sentences in each of the documents, from the sentence similarity graph network.
 - <ins>Text Preprocessing</ins>
   - They pre-processed the *document corpus* to clean the text of unwanted characters and common words, in order to obtain the optimal size for the final vocabulary.
-  - In the linguistic preprocessing step, we used lemmatizing and case-folding to lowercase.
+  - In the linguistic preprocessing step, they used lemmatizing and case-folding to lowercase.
 - <ins>Document Base Vector Creation</ins>
+  - They ran **TF-IDF** on the document corpus and built a TF-IDF weight matrix T between the terms and documents.
+  - They defined GTF-IDF (Global Term Frequency- Inverse Document Frequency) as an extension of TF-IDF.
+  - They then defined V' by sorting the vocabulary V by descending order of GTF-IDF values, and obtained the common base vector template B so that B is a word vector of lenght *p*, such that the *p* number of words that are most significant to the domain D (thus the first *p* elements of the sorted V') are contained in B.
+- <ins>Sentence Similarity Based Document Vector Representation</ins>
 
 
 #### 3. doc2vec_NN
