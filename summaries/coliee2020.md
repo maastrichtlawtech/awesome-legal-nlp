@@ -11,7 +11,7 @@
 
 ### Task 1 - The Legal Case Retrieval Task
 
-1. <ins>Building legal case retrieval systems with lexical matching and summarization using a pre-trained phrase scoring model.</ins> (V. Tran et al., 2019)
+1. <ins>Building legal case retrieval systems with lexical matching and summarization using a pre-trained phrase scoring model.</ins> (V. Tran et al., 2019)  
   - Approach:
   
 
