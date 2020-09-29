@@ -62,3 +62,8 @@
 #### 3. doc2vec<sub>NN</sub>
 - The Mapper Neural Network model doc2vec<sub>NN</sub> was trained using the both models: doc2vec<sub>NV</sub> and doc2vec<sub>SSM</sub>.
 
+
+### Results
+
+- Their experiments are to compare and contrast the accuracy levels of the three models to varying *p* values, where *p* is the dimension of the document base vector B.
+- In brief, the doc2vec<sub>SSM</sub> is pretty bad (recall of 39.2% for *p*=250), while the doc2vec<sub>NV</sub> model gives good reults (recall of 87.7% for *p*=250) and the ensemble method doc2vec<sub>NN</sub> improves slightly the performance of doc2vec<sub>NV</sub> (recall of 90.3% for *p*=250).
