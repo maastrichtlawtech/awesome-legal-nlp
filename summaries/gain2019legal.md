@@ -18,7 +18,9 @@
 
 ***
 
-### Task 1: 
+### Task 1: - The Legal Case Retrieval Task
+
+This task consists in finding which cases, in the set of candidate cases, should be "noticed" with respect to a given query case.
 
 #### Approaches
 
