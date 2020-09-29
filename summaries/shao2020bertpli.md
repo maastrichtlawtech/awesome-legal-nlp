@@ -45,4 +45,19 @@ main. The lack of data brings obstacles to the training process of deep neural m
     - The input is composed of the decision paragraph of a query case and a candidate paragraph in the relevant case. The text pair is separated by the [SEP] token and a [CLS] token is prepended to the text pair. 
     - As for the output, they feed the final hidden state vector corresponding to the first input token ([CLS]) into a classification layer. In this task, they use a fully-connected layer to do binary classification, optimizing a cross-entropy loss.
   - **Stage 3**: BERT-PLI conducts relevance prediction with the fine-tuned BERT (Stage 2) among the selected candidates (Stage 1).
-    - To tackle the challenge brought by long and complex documents, they first break a document into paragraphs and model the interactions between paragraphs in the semantic level.
+    - To tackle the challenge brought by long and complex documents, they first break a document into paragraphs.
+    - For each paragraph in the query document *q* and the candidate document *d*, they construct a paragraph pair as the input of the fine-tuned BERT.
+    - The final hidden state vector of the [CLS] token is viewed as the aggregate representation of the input paragraph pair. 
+    - In that way, they get an interaction map of paragraphs, in which each component models the semantic relationship between the query paragraph and the candidate paragraph.
+    - For each paragraph of the query, they capture the strongest matching signals with the candidate document using the max-pooling strategy in the interaction map (i.e., max-pooling over all the [CLS] token representations of the input pairs for a given query paragraph). For a given query document, they then have a sequence of N (number of paragraphs in query document *q) vectors resulting from the max-pooling operation.
+    - They then use a RNN structure (they explore both LSTM and GRU) to further encode the representation sequence. The attention mechanism is also employed to infer the importance of each position. They can then get the document-level representation via attentive aggregation.
+    - Finally, Finally, the document-level representation is passed through a fully connected layer followed by a softmax function to make prediction.
+    
+### Results
+
+- They compared their model with three types of baselines:
+  - Traditional bag-of-words retrieval models: VSM, BM25 and LMIR.
+  - Deep retrieval models: ARC-II and MatchPyramid (two matching function learning models).
+  - Top 2 teams in COLIEE-2019 competition:
+    - JNLP: trained a supervised summarization model based on COLIEE 2018’s dataset and applied the model to encoding the case document into a continuous vector. They combined such the summary embeddings with lexical matching features, calculated by ROUGE and learned the document rankings via RankSVM.
+    - ILPS: generated summaries by the TextRank algorithm first and assessed pairwise relevance by a carefully fine-tuned BERT model, combined with oversampling strategies.
