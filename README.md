@@ -19,6 +19,7 @@
 
 ## A. Overview <a name="overview"></a>
 
+- [`2020-05`] *How Does NLP Benefit Legal System: A Summary of Legal Artificial Intelligence*, H. Zhong et al. [[pdf]](https://arxiv.org/pdf/2004.12158)[[summary]](./summaries/zhong2020how.md)
 - [`2019-09`] *A Brief History of the Changing Roles of Case Prediction in AI and Law*, K. Ashley [[pdf]](https://journals.latrobe.edu.au/index.php/law-in-context/article/download/88/157)[[summary]](./summaries/ashley2019history.md)
 - [`2018-12`] *Deep learning in law: early adaptation and legal word embeddings trained on large corpora*, I. Chalkidis et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-018-9238-9.pdf)[[summary]](./summaries/chalkidis2018deep.md)
 
