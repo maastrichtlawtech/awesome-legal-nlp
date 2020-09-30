@@ -1,19 +1,15 @@
 # Artificial Intelligence & Law
 
 ### Table of contents
-1. [Books](#books)
-2. [Papers](#papers)
+1. [Papers](#papers)
     - [Overview](#overview)
     - [Legal Judgment Prediction](#prediction)
     - [Legal Information Retrieval](#retrieval)
     - [Automated Analysis of Legal Text](#analysis)
+2. [Books](#books)
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
 
-
-# 📚  Books <a name="books"></a>
-
-- [`2017-07`] *Artificial Intelligence and Legal Analytics: New Tools for Law Practice in the Digital Age*, K. Ashley. [[link]](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0)
 
 # 📄  Papers <a name="papers"></a>
 
@@ -45,6 +41,11 @@
 - [`2019-02`] *CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service*, M. Lippi et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-019-09243-2.pdf)[[summary]](./summaries/lippi2019claudette.md)
 - [`2018-08`] *Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning*, H. Harkous et al. [[pdf]](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-harkous.pdf)[[summary]](./summaries/harkous2018polisis.md)
 
+
+
+# 📚  Books <a name="books"></a>
+
+- [`2017-07`] *Artificial Intelligence and Legal Analytics: New Tools for Law Practice in the Digital Age*, K. Ashley. [[link]](https://www.cambridge.org/core/books/artificial-intelligence-and-legal-analytics/E7D705EEF392501A1DB180645917E7E0)
 
 
 # 🎙  Talks <a name="talks"></a>
