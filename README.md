@@ -56,7 +56,8 @@
 # 🗓  Conferences & Workshops <a name="conferences"></a>
 
 - The International Conference on Artificial Intelligence and Law (ICAIL) [[website]](https://dl.acm.org/doi/proceedings/10.1145/3322640#issue-downloads)
-- The International Conference on Legal Knowledge and Information Systems (JURIX) [[website]](http://jurix.nl/)
+- The International Conference on Legal Knowledge and Information Systems (JURIX) [[website]](http://jurix.nl/)  
+
 - The Natural Legal Language Processing (NLLP) Workshop [[website]](https://sites.google.com/view/nllp/nllp-2019)
 - The EXplainable AI in Law (XAILA) Workshop [[website]](https://www.geist.re/xaila:start)
 - The International Workshop on Juris-informatics (JURISIN) [[website]](http://research.nii.ac.jp/~ksatoh/jurisin2020/)
