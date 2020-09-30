@@ -60,9 +60,9 @@
  
 ### Machine learning methodology
 
--  The study focuses two different tasks:  
+-  The study focuses two different tasks:
   - A detection task, aimed at predicting whether a given sentence contains a (potentially) unfair clause;
-  - A classification task, aimed at predicting the category an unfair clause belongs to.
+  - A classification task, aimed at predicting the category an unfair clause belongs to.  
 - <ins>Detecting potentially unfair contract clauses</ins>:
   - The problem is addressed as a binary sentence classification task. 
   - Such a task could be tackled by treating sentences independently of one another (*sentence-wide classification*) or by taking into account the structure of the document, in particular the sequence of sentences, so as to perform a *collective classification*. The potential advantage of the latter approach becomes apparent if we observe that unfair clauses often span across consecutive sentences in a document.
