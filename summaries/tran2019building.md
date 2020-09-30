@@ -3,7 +3,7 @@
 +++++++++++++++++++++++++++++++  
 <ins>Authors</ins>: V. Tran et al.  
 <ins>Date</ins>: 2019-06  
-<ins>Tags</ins>:   
+<ins>Tags</ins>: `cnn`, `mlp`  
 +++++++++++++++++++++++++++++++  
 
 
