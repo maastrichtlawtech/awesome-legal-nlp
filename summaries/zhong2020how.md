@@ -24,10 +24,10 @@
 
 ### 1. Methods and challenges
 
-- Two types of methods in LegalAI:
+- 2 types of methods in LegalAI:
   1. **Symbol-based methods**: apply interpretable hand-crafted symbols to legal tasks. More specifically, these methods utilize interpretable legal knowledge to reason between symbols in legal documents (like events and reltionships). The problem with interpretable symbolic methods is that they are not very effective.
   2. **Embedding-based methods**: aim at designing efficient neural models to achieve better performance. More specifically, these methods try to learn latent features from large scale data. The problem with embedding-based methods is that they cannot be interpreted, which may bring ethical issues to the legal system (such as gender bias and racial discrimination).
-- Primary challenges for both embedding-based and symbol-based methods in LegalAI:
+- 3 primary challenges for both embedding-based and symbol-based methods in LegalAI:
   1. *Knowledge Modelling*: Legal texts are well formalized, and there are many domain knowledge and concepts in LegalAI. How to utilize the legal knowledge is of great significance.
   2. *Legal Reasoning*: Although most tasks in NLP require reasoning, the LegalAI tasks are somehow different, as legal reasoning must strictly follow the rules well-defined in law.
   3. *Interpretability*: Decisions made in LegalAI usually should be interpretable to be applied to the real legal system. Otherwise, fairness may risk being compromised.
@@ -35,7 +35,7 @@
 
 ### 2. Embedding-based Methods
 
-- Embedding-based methods, also called **representation learning**, emphasize on representing legal facts and knowledge in embedding space, and they can utilize deep learning methods for corresponding tasks.
+Embedding-based methods, also called **representation learning**, emphasize on representing legal facts and knowledge in embedding space, and they can utilize deep learning methods for corresponding tasks.
 
 
 #### 2.1. Concept embeddings
@@ -53,7 +53,7 @@
 
 ### 3. Symbol-based Methods
 
-- Symbol-based methods, also called **structured prediction methods**, utilize legal domain symbols and knowledge for the tasks of LegalAI.
+Symbol-based methods, also called **structured prediction methods**, utilize legal domain symbols and knowledge for the tasks of LegalAI.
 
 #### 3.1. Information Extraction
 
