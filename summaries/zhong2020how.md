@@ -35,7 +35,16 @@
 
 ### Embedding-based Methods
 
-- 
+- Embedding-based methods, also called **representation learning**, emphasize on representing legal facts and knowledge in embedding space, and they can utilize deep learning methods for corresponding tasks.
+- **Concept embeddings**
+  - *Knowledge modelling* via embedding is challenging for two reasons:
+    1. The construction of the knowledge graph in LegalAI is complicated. In addition, different legal concepts have different representations and meanings under legal systems in different countries, which makes it challenging to construct a general legal knowledge graph.
+    2. A generalized legal knowledge graph is different in the form with those commonly used in NLP. Existing knowledge graphs concern the relationship between entities and concepts, but LegalAI focuses more on the explanation of legal concepts.
+- **Pre-trained language models**
+  - Although pre-trained language models have recently shown to be very effective for solving a number of language tasks, it may not lead to such satisfactory results when applied to legal tasks due to the specificity of legal texts which are often very different from open-domain texts.
+  - Legal domain-specific pre-trained language models provide a more qualified baseline system for the tasks of LegalAI.
+  - In the future, researchers can aim more at integrating knowledge into pretrained models, which can help the reasoning ability between legal concepts.
+
   
   
 
