@@ -22,7 +22,7 @@
 
 ***
 
-### Methods and challenges
+### 1. Methods and challenges
 
 - Two types of methods in LegalAI:
   1. **Symbol-based methods**: apply interpretable hand-crafted symbols to legal tasks. More specifically, these methods utilize interpretable legal knowledge to reason between symbols in legal documents (like events and reltionships). The problem with interpretable symbolic methods is that they are not very effective.
@@ -33,29 +33,38 @@
   3. *Interpretability*: Decisions made in LegalAI usually should be interpretable to be applied to the real legal system. Otherwise, fairness may risk being compromised.
 
 
-### Embedding-based Methods
+### 2. Embedding-based Methods
 
 - Embedding-based methods, also called **representation learning**, emphasize on representing legal facts and knowledge in embedding space, and they can utilize deep learning methods for corresponding tasks.
-- **Concept embeddings**
-  - *Knowledge modelling* via embedding is challenging for two reasons:
-    1. The construction of the knowledge graph in LegalAI is complicated. In addition, different legal concepts have different representations and meanings under legal systems in different countries, which makes it challenging to construct a general legal knowledge graph.
-    2. A generalized legal knowledge graph is different in the form with those commonly used in NLP. Existing knowledge graphs concern the relationship between entities and concepts, but LegalAI focuses more on the explanation of legal concepts.
-- **Pre-trained language models**
-  - Although pre-trained language models have recently shown to be very effective for solving a number of language tasks, it may not lead to such satisfactory results when applied to legal tasks due to the specificity of legal texts which are often very different from open-domain texts.
-  - Legal domain-specific pre-trained language models provide a more qualified baseline system for the tasks of LegalAI.
-  - In the future, researchers can aim more at integrating knowledge into pretrained models, which can help the reasoning ability between legal concepts.
 
 
-### Symbol-based Methods
+#### 2.1. Concept embeddings
+
+- *Knowledge modelling* via embedding is challenging for two reasons:
+  1. The construction of the knowledge graph in LegalAI is complicated. In addition, different legal concepts have different representations and meanings under legal systems in different countries, which makes it challenging to construct a general legal knowledge graph.
+  2. A generalized legal knowledge graph is different in the form with those commonly used in NLP. Existing knowledge graphs concern the relationship between entities and concepts, but LegalAI focuses more on the explanation of legal concepts.
+  
+#### 2.2. Pre-trained language models
+
+- Although pre-trained language models have recently shown to be very effective for solving a number of language tasks, it may not lead to such satisfactory results when applied to legal tasks due to the specificity of legal texts which are often very different from open-domain texts.
+- Legal domain-specific pre-trained language models provide a more qualified baseline system for the tasks of LegalAI.
+- In the future, researchers can aim more at integrating knowledge into pretrained models, which can help the reasoning ability between legal concepts.
+
+
+### 3. Symbol-based Methods
 
 - Symbol-based methods, also called **structured prediction methods**, utilize legal domain symbols and knowledge for the tasks of LegalAI.
-- **Information Extraction**
-  - Emphasizes on extracting valuable information from texts (includes *name entity recognition*, *relation extraction*, *event extraction*).
-  - To make better use of the particularity of legal texts, researchers try to use *ontology* or *global consistency* for named entity recognition in LegalAI.
-  - To extract relationship and events from legal documents, researchers attempt to apply different NLP technologies, including *hand-crafted rules*, *CRF*, joint models like *SVM, CNN, GRU* or *scale-free identifier network*.
-  - The extracted symbols have high benefist as they provide a legal basis as well as interpretability to legal applications. For example, identifying the relationship between the parties is vital in inheritance dispute, as those who have the closest relationship with the deceased can get more assets. Towards this goal, relation extraction in inheritance dispute cases can provide the reason for judgment results and improve performance.
-- **Legal Element Extraction**
-  - The extraction of legal elements focuses on extracting *constitutive elements of crime* (e.g., whether someone is killed or something is stolen).
+
+#### 3.1. Information Extraction
+
+- Emphasizes on extracting valuable information from texts (includes *name entity recognition*, *relation extraction*, *event extraction*).
+- To make better use of the particularity of legal texts, researchers try to use *ontology* or *global consistency* for named entity recognition in LegalAI.
+- To extract relationship and events from legal documents, researchers attempt to apply different NLP technologies, including *hand-crafted rules*, *CRF*, joint models like *SVM, CNN, GRU* or *scale-free identifier network*.
+- The extracted symbols have high benefist as they provide a legal basis as well as interpretability to legal applications. For example, identifying the relationship between the parties is vital in inheritance dispute, as those who have the closest relationship with the deceased can get more assets. Towards this goal, relation extraction in inheritance dispute cases can provide the reason for judgment results and improve performance.
+
+#### 3.2. Legal Element Extraction
+
+- The extraction of legal elements focuses on extracting *constitutive elements of crime* (e.g., whether someone is killed or something is stolen).
 
 
 
