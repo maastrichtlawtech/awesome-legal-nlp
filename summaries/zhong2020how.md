@@ -45,10 +45,17 @@
   - Legal domain-specific pre-trained language models provide a more qualified baseline system for the tasks of LegalAI.
   - In the future, researchers can aim more at integrating knowledge into pretrained models, which can help the reasoning ability between legal concepts.
 
-  
-  
 
+### Symbol-based Methods
 
+- Symbol-based methods, also called **structured prediction methods**, utilize legal domain symbols and knowledge for the tasks of LegalAI.
+- **Information Extraction**
+  - Emphasizes on extracting valuable information from texts (includes *name entity recognition*, *relation extraction*, *event extraction*).
+  - To make better use of the particularity of legal texts, researchers try to use *ontology* or *global consistency* for named entity recognition in LegalAI.
+  - To extract relationship and events from legal documents, researchers attempt to apply different NLP technologies, including *hand-crafted rules*, *CRF*, joint models like *SVM, CNN, GRU* or *scale-free identifier network*.
+  - The extracted symbols have high benefist as they provide a legal basis as well as interpretability to legal applications. For example, identifying the relationship between the parties is vital in inheritance dispute, as those who have the closest relationship with the deceased can get more assets. Towards this goal, relation extraction in inheritance dispute cases can provide the reason for judgment results and improve performance.
+- **Legal Element Extraction**
+  - The extraction of legal elements focuses on extracting *constitutive elements of crime* (e.g., whether someone is killed or something is stolen).
 
 
 
