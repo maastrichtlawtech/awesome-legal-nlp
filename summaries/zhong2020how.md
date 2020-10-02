@@ -85,10 +85,15 @@ Symbol-based methods, also called **structured prediction methods**, utilize leg
 #### 4.2. Similar Case Matching
 
 - In those countries with the Common Law system, decisions are made according to similar and representative cases in the past. As a result, how to identify the most similar case is the primary concern in the judgment of the Common Law system.
+- Similar Case Matching concentrate on finding pairs of similar cases, but the definition of similarity can be various (fact level, event level and element level).
 
 
 #### 4.3. Legal Question Answering
 
 - Legal Question Answering can provide consultancy for those who are unfamiliar with the legal domain.
-
+- Traditional methods of information retrieval:
+  - Statistical models: TF-IDF, BM25.
+  - Machine learning methods: SVD, factorization.
+  - Deep learning models: MLP, CNN, RNN.
+- Legal information retrieval datasets: COLIEE, CaseLaw, CM.
 
