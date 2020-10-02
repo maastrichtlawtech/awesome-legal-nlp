@@ -31,7 +31,15 @@
 - <ins>Phrase Scoring Model</ins>
   - The features of an n-gram phrase (window size containing n contiguous words of a sentence) are captured using a **convolutional neural layer** that takes as inputs the word embeddings of the given words (concatenated in a matrix). The phrase feature vector is then passed in a ReLU layer.
   - The features of a sentence is captured by applying **max-pooling** over all feature vectors of the n-gram phrases in the sentence (where max-pooling are operated over each dimension of vectors).
-  - The features of a document is then captured by applying max-pooling over all feature vectors of the sentences in thee document.
+  - The features of a document is then captured by applying max-pooling over all feature vectors of the sentences in the document.
   - Finally, they apply a **multilayer perceptron (MLP)** with one hidden and one output layer to compute the score (ranging from 0 to 1) of each n-gram phrase. The input is the concatenation of the feature vectors of the n-gram phrase, the sentence and the document, respectively.
-  - Training process: 
-  
+  - Training process:
+    - The main objective is the trained model should assign summary phrases with higher scores than document phrases if the summary belongs to the document and otherwise, assign summary phrases with lower scores than document phrases if the summary does not belong to the document.
+    - This main objective is realized by comparing the mean scores of summary phrases and document phrases:
+      1. Positive constraint: The mean score of summary phrases is higher than the mean score of document phrases;
+      2. Negative constraint: The mean score of summary phrases is lower than the one of document phrases when the summary does not belong to the document.
+      3. The maximum score of summary phrases is higher than the maximum score of document phrases (it is expected that there exists concise summary phrases which is typical and representative for the document but could not found in the document. Such summary phrases should get higher scores than document phrases).
+      4. The minimum score of summary phrases is higher than the mean score of document phrases. Once again, to emphasize the importance of summary phrases, all summary phrases should get higher score than the average score of document phrases.
+    - The loss function is composed from the four previous constraints.
+- <ins>Document Vector Composition</ins>
+  -
