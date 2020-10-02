@@ -65,6 +65,30 @@ Symbol-based methods, also called **structured prediction methods**, utilize leg
 #### 3.2. Legal Element Extraction
 
 - The extraction of legal elements focuses on extracting *constitutive elements of crime* (e.g., whether someone is killed or something is stolen).
+- They conducted experiments on a Chinese dataset for several existing methods (TextCNN, DPCNN, LSTM, BiDAF and BERT). The best results are given by BiDAF and BERT pre-trained on Chinese legal text.
 
+
+### 4. Applications of LegalAI
+
+#### 4.1. Legal Judgement Prediction
+
+- Legal Judgement Prediction concerns how to predict the judgment results from both the fact description of a case and the contents of the statutory articles in the Civil Law system. As a result, it is an essential and representative task in countries with Civil Law system.
+- They conducted experiments on C-LJP, a large-scale Chinese criminal judgment prediction dataset. They implemented several text classification models, including TextCNN, DPCNN, LSTM and BERT (pre-trained on Chinese criminal cases). They also implemented several methods designed for legal judgement prediction, including FactLaw, TopJudge and Gating Network. 
+- They found that the performance of BERT is not satisfactory, as it does not make much improvement from those models with fewer parameters. The main reason is that the length of the legal text is very long, but the maximum length that BERT can handle is 512.
+- Although embedding-based methods can achieve promising performance, we still need to consider combining symbol-based with embedding-based methods in LJP.
+- For better LJP performance, some challenges require the future efforts of researchers: 
+  - *Document understanding and reasoning techniques* are required to obtain global information from extremely long legal texts. 
+  - *Few-shot learning*: even low-frequency charges should not be ignored as they are part of legal integrity. 
+  - *Interpretability*: if we want to apply methods to real legal systems, we must understand how they make predictions. However, existing embedding-based methods work as a black box. What factors affected their predictions remain unknown, and this may introduce unfairness and ethical issues like gender bias to the legal systems.
+
+
+#### 4.2. Similar Case Matching
+
+- In those countries with the Common Law system, decisions are made according to similar and representative cases in the past. As a result, how to identify the most similar case is the primary concern in the judgment of the Common Law system.
+
+
+#### 4.3. Legal Question Answering
+
+- Legal Question Answering can provide consultancy for those who are unfamiliar with the legal domain.
 
 
