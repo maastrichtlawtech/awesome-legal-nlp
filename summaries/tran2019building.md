@@ -23,11 +23,13 @@
 
 ### Approach
 
-- In COLIEE-2019, the candidate cases are ≈2.7K-token long in average. The authors chose the approach of comparing the summaries of each query and its candidate cases. They, however, found that the summary of the query is not necessarily lexically similar to the summary of the candidate cases. Moreover, some candidate cases do not have summary at all.
+In COLIEE-2019, the candidate cases are ≈2.7K-token long in average. The authors chose the approach of comparing the summaries of each query and its candidate cases. They, however, found that the summary of the query is not necessarily lexically similar to the summary of the candidate cases. Moreover, some candidate cases do not have summary at all.
+
+#### Encoded Summarization 
 - They came up with the idea of encoding the entire document into vector space embedding the properties of summarization, and called it **encoded summarization**.
-  - This is a process of summarization for both the query and the candidates, for which they train a phrase scoring model for identifying important phrases which discuss contexts similar to those in the summary.
-  - Given a document, its phrasal scores are estimated given its summary (extracted using indicators ‘Summary:’ and ‘Present:’) and paragraphs. The phrase scoring model is trained with the objective that summary contents are expected to have higher scores than paragraph contents.
-  - From the phrase scoring model, they extract phrases to generate text summary for lexical matching with summary of the query since most of the candidate cases in COLIEE 2019 dataset do not have a summary.
+- This is a process of summarization for both the query and the candidates, for which they train a phrase scoring model for identifying important phrases which discuss contexts similar to those in the summary.
+- Given a document, its phrasal scores are estimated given its summary (extracted using indicators ‘Summary:’ and ‘Present:’) and paragraphs. The phrase scoring model is trained with the objective that summary contents are expected to have higher scores than paragraph contents.
+- From the phrase scoring model, they extract phrases to generate text summary for lexical matching with summary of the query since most of the candidate cases in COLIEE 2019 dataset do not have a summary.
 - <ins>Phrase Scoring Model</ins>
   - The features of an n-gram phrase (window size containing n contiguous words of a sentence) are captured using a **convolutional neural layer** that takes as inputs the word embeddings of the given words (concatenated in a matrix). The phrase feature vector is then passed in a ReLU layer.
   - The features of a sentence is captured by applying **max-pooling** over all feature vectors of the n-gram phrases in the sentence (where max-pooling are operated over each dimension of vectors).
@@ -43,4 +45,11 @@
     - The loss function is composed from the four previous constraints.
 - <ins>Document Vector Composition</ins>
   - Given a document, they first obtain its phrase scores and its internal representations (phrase level, sentence level and document level encodings). Then, they compose the document vector by weighting the the document internal representations by its summary (thus "encoded summarization").
+- <ins>Query-Candidate Relevance Vector</ins>
+  - They compute the query-candidate relevance vector as the element-wise product of query vector and candidate vector.
+- <ins>Generating Text Summary</ins>
+  - In this phase, they generate a summary given a document by selecting and joining document phrases scored by the phrase scoring model.
   
+#### Lexical Matching
+
+
