@@ -59,13 +59,13 @@ Symbol-based methods, also called **structured prediction methods**, utilize leg
 
 - Emphasizes on extracting valuable information from texts (includes *name entity recognition*, *relation extraction*, *event extraction*).
 - To make better use of the particularity of legal texts, researchers try to use *ontology* or *global consistency* for named entity recognition in LegalAI.
-- To extract relationship and events from legal documents, researchers attempt to apply different NLP technologies, including *hand-crafted rules*, *CRF*, joint models like *SVM, CNN, GRU* or *scale-free identifier network*.
+- To extract relationship and events from legal documents, researchers attempt to apply different NLP technologies, including **hand-crafted rules**, **CRF**, joint models like **SVM, CNN, GRU** or **scale-free identifier network**.
 - The extracted symbols have high benefist as they provide a legal basis as well as interpretability to legal applications. For example, identifying the relationship between the parties is vital in inheritance dispute, as those who have the closest relationship with the deceased can get more assets. Towards this goal, relation extraction in inheritance dispute cases can provide the reason for judgment results and improve performance.
 
 #### 3.2. Legal Element Extraction
 
 - The extraction of legal elements focuses on extracting *constitutive elements of crime* (e.g., whether someone is killed or something is stolen).
-- They conducted experiments on a Chinese dataset for several existing methods (TextCNN, DPCNN, LSTM, BiDAF and BERT). The best results are given by BiDAF and BERT pre-trained on Chinese legal text.
+- They conducted experiments on a Chinese dataset for several existing methods (**TextCNN, DPCNN, LSTM, BiDAF** and **BERT**). The best results are given by BiDAF and BERT pre-trained on Chinese legal text.
 
 
 ### 4. Applications of LegalAI
@@ -73,7 +73,7 @@ Symbol-based methods, also called **structured prediction methods**, utilize leg
 #### 4.1. Legal Judgement Prediction
 
 - Legal Judgement Prediction concerns how to predict the judgment results from both the fact description of a case and the contents of the statutory articles in the Civil Law system. As a result, it is an essential and representative task in countries with Civil Law system.
-- They conducted experiments on C-LJP, a large-scale Chinese criminal judgment prediction dataset. They implemented several text classification models, including TextCNN, DPCNN, LSTM and BERT (pre-trained on Chinese criminal cases). They also implemented several methods designed for legal judgement prediction, including FactLaw, TopJudge and Gating Network. 
+- They conducted experiments on C-LJP, a large-scale Chinese criminal judgment prediction dataset. They implemented several text classification models, including **TextCNN, DPCNN, LSTM** and **BERT** (pre-trained on Chinese criminal cases). They also implemented several methods designed for legal judgement prediction, including **FactLaw, TopJudge** and **Gating Network**. 
 - They found that the performance of BERT is not satisfactory, as it does not make much improvement from those models with fewer parameters. The main reason is that the length of the legal text is very long, but the maximum length that BERT can handle is 512.
 - Although embedding-based methods can achieve promising performance, we still need to consider combining symbol-based with embedding-based methods in LJP.
 - For better LJP performance, some challenges require the future efforts of researchers: 
@@ -86,14 +86,18 @@ Symbol-based methods, also called **structured prediction methods**, utilize leg
 
 - In those countries with the Common Law system, decisions are made according to similar and representative cases in the past. As a result, how to identify the most similar case is the primary concern in the judgment of the Common Law system.
 - Similar Case Matching concentrate on finding pairs of similar cases, but the definition of similarity can be various (fact level, event level and element level).
+- They conducted experiments on CM, a Chinese dataset for case similarity matching, which contains ~9,000 triples (A,B,C) of legal documents. The task designed in CM is to determine whether B or C is more similar to A. They implemented 4 types of baseline:
+  1. Term matching methods (**TF-IDF**).
+  2. Siamese Network with two parameter-shared encoders (**TextCNN, BiDAF, BERT**) and a distance function.
+  3. Semantic matching models in sentence level (**ABCNN**) and document level (**SMASH-RNN**).
+- From the results, they observe that existing neural models which are capable of capturing semantic information outperform TF-IDF.
+- But only considering term-level and semantic-level similarity is insufficient for the task. For the further study of SCM, there are two directions which need future effort:
+  1. **Elemental-based representation**: Researchers should focus more on symbols of legal documents, as the similarity of legal cases is related to these symbols like elements. 
+  2. **Knowledge incorporation**: As semantic-level matching is insufficient for SCM, we need to consider about incorporating legal knowledge into models to improve the performance and provide interpretability.
 
 
 #### 4.3. Legal Question Answering
 
 - Legal Question Answering can provide consultancy for those who are unfamiliar with the legal domain.
-- Traditional methods of information retrieval:
-  - Statistical models: TF-IDF, BM25.
-  - Machine learning methods: SVD, factorization.
-  - Deep learning models: MLP, CNN, RNN.
-- Legal information retrieval datasets: COLIEE, CaseLaw, CM.
+
 
