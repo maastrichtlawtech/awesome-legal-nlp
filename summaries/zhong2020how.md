@@ -99,5 +99,4 @@ Symbol-based methods, also called **structured prediction methods**, utilize leg
 #### 4.3. Legal Question Answering
 
 - Legal Question Answering can provide consultancy for those who are unfamiliar with the legal domain.
-
-
+- In LQA, the form of questions varies as some questions will emphasize on the explanation of some legal concepts, while others may concern the analysis of specific cases.
