@@ -1,4 +1,4 @@
-# Artificial Intelligence & Law
+# ⚖️ Artificial Intelligence & Law
 
 ### Table of contents
 1. [Papers](#papers)
@@ -9,6 +9,15 @@
 2. [Books](#books)
 3. [Talks](#talks)
 4. [Conferences & Workshops](#conferences)
+
+
+# 🗂 Datasets
+
+| Dataset                                                | Task                         | Language          |
+| ------------------------------------------------------ | ---------------------------- | ----------------- |
+| [COLIEE](https://sites.ualberta.ca/~rabelo/COLIEE2020/)| Legal Information Retrieval  | English, Japanese |
+
+
 
 
 # 📄  Papers <a name="papers"></a>
