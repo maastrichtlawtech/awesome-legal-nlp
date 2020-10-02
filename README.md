@@ -1,4 +1,4 @@
-# ⚖️ Artificial Intelligence & Law
+# Artificial Intelligence & Law
 
 ### Table of contents
 1. [Papers](#papers)
