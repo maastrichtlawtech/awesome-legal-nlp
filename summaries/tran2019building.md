@@ -44,12 +44,34 @@ In COLIEE-2019, the candidate cases are ≈2.7K-token long in average. The autho
       4. The minimum score of summary phrases is higher than the mean score of document phrases. Once again, to emphasize the importance of summary phrases, all summary phrases should get higher score than the average score of document phrases.
     - The loss function is composed from the four previous constraints.
 - <ins>Document Vector Composition</ins>
-  - Given a document, they first obtain its phrase scores and its internal representations (phrase level, sentence level and document level encodings). Then, they compose the document vector by weighting the the document internal representations by its summary (thus "encoded summarization").
+  - Given a document, they first obtain its phrase scores and its internal representations (phrase level, sentence level and document level encodings). Then, they compose the document vector by weighting the document internal representations by its summary (thus "encoded summarization").
 - <ins>Query-Candidate Relevance Vector</ins>
   - They compute the query-candidate relevance vector as the element-wise product of query vector and candidate vector.
 - <ins>Generating Text Summary</ins>
   - In this phase, they generate a summary given a document by selecting and joining document phrases scored by the phrase scoring model.
   
+  
 #### Lexical Matching
 
+- They perform multi-aspect lexical matching where they compare a query case with its candidates via different views:
+  - Summary vs. Summary: Matching the summary of the query case with the summary of candidates.
+  - Summary vs. Lead-sentences: Matching the summary of the query case with the opening of each paragraph of candidates.
+  - Summary vs. Paragraphs: Matching the summary of the query case with the details of candidates.
+  - Paragraphs vs. Summary: Matching the details of the query case with the summary of candidates.
+  - Paragraphs vs. Lead-sentences: Matching the details of the query case with the opening of each paragraph of candidates.
+  - Paragraphs vs. Paragraphs: Matching the details of the query case with candidates.
+- Most of the candidates do not have a summary, thus, they generate a summary for each candidate by utilizing their encoded summarization method.
+- They performed various kinds of text matching including: **n-gram, skip-gram, subsequence matching** formulas.
 
+
+### Learning to Rank Candidates
+
+- They formulate the task as ranking problem and devise the learning to ranking method to solve it.
+- They utilize pair-wise ranking strategy: pairing each supporting case with an irrelevant case from the candidate list.
+- They adopt Linear-SVM as the learning algorithm for solving the optimization problem. The final ranking model should assign high scores to supporting cases and low scores to non-noticed cases.
+
+
+### Results
+
+- The encoded summarization (ES) approach alone achieves lower performance than the best lexical combination (by far). Since the encoded summarization model is trained on only COLIEE 2018 dataset, some summary phenomena in COLIEE 2019 dataset may not be well captured.
+- The combination of encoded summarization and lexical features does improve performance significantly. It shows that, even though the encoded summarization does not perform well alone, it still provides useful information for identifying relevant cases.
