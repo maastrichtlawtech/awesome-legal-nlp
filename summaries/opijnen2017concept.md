@@ -28,7 +28,16 @@
 - They highlight two types of information systems: **legal expert systems (LES)** and **legal information retrieval (LIR)**.
 - LIR starts where LES isn’t able to provide an answer. And notwithstanding the improvements AI & Law brings to LES, there will always be questions left and relevant documents to be discovered, since the lack of any final scheme is inherent to the legal domain.
 
-#### 
+#### Characteristics of legal information
+
+1. **Volume**: The volume of legal materials is impressive. This holds true for public repositories (like case law databases) as well as for private repositories (e.g. case file within law firms or courts).
+2. **Document size**: Compared to other domains, legal documents tend to be quite long.
+3. **Structure**: many legal documents do not have any (computer readable) structure at all.
+4. **Heterogeneity of document types**: In the legal sphere, a variety of document types exist (e.g., legislation and court decisions, parliamentary documents, contracts, loose-leaf commentaries, case-law notes, etc).
+5. **Self-contained documents**: Documents in the legal domain are not just ‘about’ the domain, they actually contain the domain itself, the object to be retrieved embodies the object itself. (e.g., a statute is not merely a description of what the law is, it constitutes the law itself).
+6. **Temporal aspects**: Legislative texts and amendments follow one another and may overlap. One recurrent challenge is to retrieve the applicable law in respect to the timeframes covered by the events subject to regulation.
+7. **Importance of citations**: In most other scientific domains, citation indexes exist for academic papers while in the legal domain, citations are a more integral part of text and argumentation.
+
 
 ### Conclusions
 
