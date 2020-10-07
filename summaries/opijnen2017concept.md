@@ -44,6 +44,21 @@
 12. **Scatteredness of legal resources**: Legal information is to be found in a variety of resources, scattered in a complex way, with different access regimes, technical formats and interfaces.
 
 
+### 2. Relevance within legal search
+
+#### Dimensions of relevance in LIR
+
+1. **Algorithmic or system relevance**: computational relationship between a query and information objects, based on matching or a similarity between them.
+2. **Topical relevance**: relationship between the ‘topic’ (concept, subject) of a request and the information objects retrieved about that topic. ‘Aboutness’ is the traditional distinctive criterion.
+3. **Bibliographic relevance**: relationship between a request and the bibliographic closeness of the information objects. ‘Isness’ is the distinctive criterion.
+4. **Cognitive relevance or pertinence**: relationship between the information needs of a user and the information objects.
+5. **Situational relevance or utility**: relationship between the problem or task of the user and the information objects.
+6. **Domain relevance**: relationship between the legal domain itself and the information objects.
+
+
+
+
+
 ### Conclusions
 
 - Relevance, the basic notion of information retrieval is a thoroughly human notion and as all human notions, it is somewhat messy.
