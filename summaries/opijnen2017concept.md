@@ -9,6 +9,8 @@
 
 ### Intro
 
+- The number of legal documents published online is growing exponentially, but accessibility and searchability have not kept pace with this growth rate. An overload of information (particularly if of low-quality) carries the risk of undermining knowledge acquisition possibilities and even access to justice.
+- To limit the role of LIR within daily legal practice to just finding the court decisions relevant to the case at hand underestimates the complexities of the law and of legal information seeking behaviour. Any legal information retrieval system built without sufficient knowledge, not just of the actual legal information needs but also of the ‘juristic mind’, is apt to fail.
 - The concept of ‘relevance’ is crucial to legal information retrieval, but because of its intuitive understanding it goes undefined too easily and unexplored too often.
 
 
@@ -18,6 +20,15 @@
 - This framework can be used for the development and improvement of legal information retrieval systems.
 
 ***
+
+### 1. Legal Information Retrieval
+
+#### Inference vs. querying
+
+- They highlight two types of information systems: **legal expert systems (LES)** and **legal information retrieval (LIR)**.
+- LIR starts where LES isn’t able to provide an answer. And notwithstanding the improvements AI & Law brings to LES, there will always be questions left and relevant documents to be discovered, since the lack of any final scheme is inherent to the legal domain.
+
+#### 
 
 ### Conclusions
 
