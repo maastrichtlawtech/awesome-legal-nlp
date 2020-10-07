@@ -36,7 +36,12 @@
 4. **Heterogeneity of document types**: In the legal sphere, a variety of document types exist (e.g., legislation and court decisions, parliamentary documents, contracts, loose-leaf commentaries, case-law notes, etc).
 5. **Self-contained documents**: Documents in the legal domain are not just ‘about’ the domain, they actually contain the domain itself, the object to be retrieved embodies the object itself. (e.g., a statute is not merely a description of what the law is, it constitutes the law itself).
 6. **Temporal aspects**: Legislative texts and amendments follow one another and may overlap. One recurrent challenge is to retrieve the applicable law in respect to the timeframes covered by the events subject to regulation.
-7. **Importance of citations**: In most other scientific domains, citation indexes exist for academic papers while in the legal domain, citations are a more integral part of text and argumentation.
+7. **Importance of citations**: In most other scientific domains, citation indexes exist for academic papers while in the legal domain, citations are a more integral part of text and argumentation. Besides, citations can be explicit or implicit and they can express a whole variety of different relationships. And in general, most citations are poorly formatted and not computer readable.
+8. **Legal terminology**: Legal terminology has a rich and very specific vocabulary, characterized by synonymy, ambiguity, polysemy and definitions that are very precise and vague at the same time.
+9. **Audience**: Legal information is queried by a wide variety of audiences (scholars, judges, lawyers, notaries, library staff or legal aid workers) that have completely different work roles that influence their information needs.
+10. **Personal data**: Many legal documents contain personal data.
+11. **Multilingualism and multi-jurisdictionality**: Civil law jurisdictions have a variety of languages. As a result, European or international legal information retrieval poses very specific problems because of the strong relationship between jurisdiction and language.
+12. **Scatteredness of legal resources**: Legal information is to be found in a variety of resources, scattered in a complex way, with different access regimes, technical formats and interfaces.
 
 
 ### Conclusions
