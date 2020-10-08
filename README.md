@@ -8,6 +8,7 @@
     - [Overview](#overview)
     - [Legal Judgment Prediction](#prediction)
     - [Legal Information Retrieval](#retrieval)
+    - [Legal Network Analysis](#network)
     - [Automated Analysis of Legal Text](#analysis)
 4. [Talks](#talks)
 5. [Conferences & Workshops](#conferences)
@@ -53,6 +54,11 @@
 - [`2019-06`] *IITP in COLIEE@ ICAIL 2019: Legal Information Retrieval using BM25 and BERT*, B. Gain et al. [[pdf]](https://www.researchgate.net/profile/Baban_Gain/publication/334112555_IITP_in_COLIEEICAIL_2019_Legal_Information_Retrieval_using_BM25_and_BERT/links/5d177243299bf1547c87e7a6/IITP-in-COLIEEICAIL-2019-Legal-Information-Retrieval-using-BM25-and-BERT.pdf)[[summary]](./summaries/gain2019legal.md)
 - [`2018-07`] *Legal Document Retrieval using Document Vector Embeddings and Deep Learning*, K. Sugathadasa et al. [[pdf]](https://arxiv.org/pdf/1805.10685)[[summary]](./summaries/sugathadasa2018legal.md)
 - [`2017-03`] *On the concept of relevance in legal information retrieval*, M. van Opijnen et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-017-9195-8.pdf)[[summary]](./summaries/opijnen2017concept.md)
+
+
+### D. Legal Network Analysis <a name="network"></a>
+
+- [`2008-10`] *Promise and Pitfalls of Extending Google’s PageRank Algorithm to Citation Networks*, S. Maslov et al. [[pdf]](https://www.jneurosci.org/content/jneuro/28/44/11103.full.pdf)[[summary]](./summaries/maslov2008promise.md)
 
 
 ### D. Automated Analysis of Legal Text <a name="analysis"></a>
