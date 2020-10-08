@@ -56,6 +56,19 @@
 6. **Domain relevance**: relationship between the legal domain itself and the information objects.
 
 
+#### Algorithmic relevance
+
+- Algorithmic relevance is about the capability of the engine to retrieve a given set of information objects (the ‘gold standard’) that should be retrieved with a given query (measured in ‘recall’) with a minimum of false positives (measured in ‘precision’).
+- Various computational models for inferring similarity between query and information objects: text-based search (Boolean search, vector space model, TF-IDF, NLP), ontologies, network statistics.
+
+#### Topical relevance
+
+- Topical relevance is about the relevancy relation between the topic as (explicitly or implicitly) formulated in the user request and the topics of the information objects.
+- Different strategies have been explored to improve this relevance dimension:
+  1. *Mapping and indexing terms*: mapping the terms searched to the terms indexed from the information objects. It often renders poor results since legal concepts can be expressed in a variety of ways, while completely different concepts can textually be quite similar.
+  2. *Manual indexing*: adding head notes and keywords from taxonomies. Although aboutness is assumed to be an objective property and hence independent of any particular user, manual indexing is inherently subjective. Manual indexing is only as good as the ability of the indexer to anticipate questions to which the indexed document might be found relevant.
+  3. *Semi-automated classification*: automated classification is often considered for tagging huge public databases. But it turns out that it does not perform better than human indexing. A general drawback of such automated systems is the mandatory use of the classification scheme in the user interface (the available classes).
+  4. *Relation-based search*: Many topics in law (at least in the juristic mindset and information seeking behaviour) have a strong connection (chain) to other legal documents. In common law countries, citators are very popular for ‘topical citation search’
 
 
 
