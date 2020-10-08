@@ -59,6 +59,7 @@
 ### D. Legal Network Analysis <a name="network"></a>
 
 - [`2008-10`] *Promise and Pitfalls of Extending Google’s PageRank Algorithm to Citation Networks*, S. Maslov et al. [[pdf]](https://www.jneurosci.org/content/jneuro/28/44/11103.full.pdf)[[summary]](./summaries/maslov2008promise.md)
+- [`2007-08`] *Bringing PageRank to the citation analysis*, N. Ma et al. [[pdf]](https://www.sciencedirect.com/science/article/pii/S0306457307001203/pdfft?isDTMRedir=true&download=true)[[summary]](./summaries/ma2007bringing.md)
 
 
 ### E. Automated Analysis of Legal Text <a name="analysis"></a>
