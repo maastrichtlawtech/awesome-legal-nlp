@@ -61,7 +61,7 @@
 - [`2008-10`] *Promise and Pitfalls of Extending Google’s PageRank Algorithm to Citation Networks*, S. Maslov et al. [[pdf]](https://www.jneurosci.org/content/jneuro/28/44/11103.full.pdf)[[summary]](./summaries/maslov2008promise.md)
 
 
-### D. Automated Analysis of Legal Text <a name="analysis"></a>
+### E. Automated Analysis of Legal Text <a name="analysis"></a>
 
 - [`2019-02`] *CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service*, M. Lippi et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-019-09243-2.pdf)[[summary]](./summaries/lippi2019claudette.md)
 - [`2018-08`] *Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning*, H. Harkous et al. [[pdf]](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-harkous.pdf)[[summary]](./summaries/harkous2018polisis.md)
