@@ -23,13 +23,13 @@
 
 ### 1. Potential of technology for legal research
 
-- Case law traditionally relies on human analysis, that is analysis without software or other technical aid. Legal researchers manually search, read, and interpret court decisions. In this process, technological assistance is commonly available in the form of online search facilities (keyword search in electronic case law databases).
-- Case synthesis is the method commonly applied by legal researchers and law students when analysing court decisions. This method essentially entails that case outcomes are compared with the facts of the cases, with the purpose of explaining the differences in outcomes by the differences in facts. As a result of the high cognitive workload involved in this type of reasoning, case law is commonly analysed based on a relatively small number of cases, at least compared to the whole body of case law that is available. Data science methods enable computers to consider vastly more cases than human scholars.
-- With respect to case law, various research questions may be raised, including:
+- Case law traditionally relies on **human analysis**, that is analysis without software or other technical aid. Legal researchers manually search, read, and interpret court decisions. In this process, technological assistance is commonly available in the form of online search facilities (keyword search in electronic case law databases).
+- **Case synthesis** is the method commonly applied by legal researchers and law students when analysing court decisions. This method essentially entails that case outcomes are compared with the facts of the cases, with the purpose of explaining the differences in outcomes by the differences in facts. As a result of the high cognitive workload involved in this type of reasoning, case law is commonly analysed based on a relatively small number of cases, at least compared to the whole body of case law that is available. Data science methods enable computers to consider vastly more cases than human scholars.
+- With respect to case law, various **research questions** may be raised, including:
   - What are the cases surrounding the landmark cases?
   - Which clusters of decisions can be distinguished?
   - Are there other landmark cases that have remained undetected in the literature?
-- Answering questions such as those presented above requires a variety of analytical methods, ranging from network analysis, statistical methods to NLP. There are at least three important reasons why such research has not yet taken off:
+- Answering questions such as those presented above requires a variety of **analytical methods**, ranging from network analysis, statistical methods to NLP. There are at least three important reasons **why such research has not yet taken off**:
   1. Firstly, proper data infrastructures are not readily available to automatically find, extract and prepare legal information for analysis by software. Technologies such as web scraping, in principle, allow this information to be automatically extracted in larger volumes from public case law websites. However, these technologies have not been integrated into software that legal scholars can easily use to retrieve and prepare the information they need for analysis.
   2. Secondly, existing software platforms that provide access to legal information generally only focus on searching and browsing, neglecting to include functions for analysing the information using cutting-edge data science methods.
   3. Thirdly, those systems that do provide some features for analysing, exploring and visualising patterns in the information, do not provide interfaces that are user-friendly for non-data science experts in the legal domain.
@@ -37,8 +37,8 @@
 
 ### Computational tools addressing legal research
 
-- Data analytics has been a profitable enterprise for many corporate organisations in the last decade. The result is that, by far, available software for supporting analysis (not purely search) of legal information is predominantly developed by commercial enterprises.
-- Their criteria for selecting the analytics tools to survey are:
+- Data analytics has been a profitable enterprise for many **corporate organisations** in the last decade. The result is that, by far, available software for supporting analysis (not purely search) of legal information is predominantly developed by commercial enterprises.
+- Their **criteria** for selecting the analytics tools to survey are:
   1. the tools should have a graphical user interface (because the goal is to enable legal scholars with no programming or technical experience to use the platform); 
   2. the tool should be capable of analysing case law texts specifically; 
   3. the user interface should provide a visual way for representing results from its analysis.
