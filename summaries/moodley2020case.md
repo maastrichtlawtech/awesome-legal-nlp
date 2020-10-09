@@ -43,5 +43,7 @@
   2. the tool should be capable of analysing case law texts specifically; 
   3. the user interface should provide a visual way for representing results from its analysis.
 - Existing tools include:
-  - ROSS: software research engine that uses artificial intelligence to semi-automate legal research, claiming to make it more efficient and less expensive.
+  - <ins>ROSS Intelligence</ins>
+    - Software research engine that uses artificial intelligence to semi-automate legal research, claiming to make it more efficient and less expensive.
+    
 
