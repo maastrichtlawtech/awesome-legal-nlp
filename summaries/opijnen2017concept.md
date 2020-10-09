@@ -69,10 +69,10 @@
   2. *Manual indexing*: adding head notes and keywords from taxonomies. Although aboutness is assumed to be an objective property and hence independent of any particular user, manual indexing is inherently subjective. Manual indexing is only as good as the ability of the indexer to anticipate questions to which the indexed document might be found relevant.
   3. *Semi-automated classification*: automated classification is often considered for tagging huge public databases. But it turns out that it does not perform better than human indexing. A general drawback of such automated systems is the mandatory use of the classification scheme in the user interface (the available classes).
   4. *Relation-based search*: Many topics in law (at least in the juristic mindset and information seeking behaviour) have a strong connection (chain) to other legal documents. In common law countries, citators are very popular for ‘topical citation search’, but in national case law databases citation search is extremely difficult for a few reasons:
-    - A first reason is that judges have lousy citation habits: research showed that only 36% of cited EU acts was in conformity with the prescribed citation style, the other citations were made with a wide range of other styles.
-    - When searching for case law citations, additional complexity is added by the fact that one decision can be cited by many different identifiers (like case numbers, reporter codes, commercial references or judgment identifier).
-    - Case names (often containing the names of the parties to the case) are problematic since they have many different spelling variants and are less frequently used since court decisions are anonymized more often.
-    - Moreover, slashes, commas and hyphens are essential elements of legal identifiers, but are out-of-the-box interpreted by search engines as specific search instructions (e.g. ‘/’ means ‘near’ and ‘–’ means ‘not’).
+    1. A first reason is that judges have lousy citation habits: research showed that only 36% of cited EU acts was in conformity with the prescribed citation style, the other citations were made with a wide range of other styles.
+    2. When searching for case law citations, additional complexity is added by the fact that one decision can be cited by many different identifiers (like case numbers, reporter codes, commercial references or judgment identifier).
+    3. Case names (often containing the names of the parties to the case) are problematic since they have many different spelling variants and are less frequently used since court decisions are anonymized more often.
+    4. Moreover, slashes, commas and hyphens are essential elements of legal identifiers, but are out-of-the-box interpreted by search engines as specific search instructions (e.g. ‘/’ means ‘near’ and ‘–’ means ‘not’).
 
 
 
