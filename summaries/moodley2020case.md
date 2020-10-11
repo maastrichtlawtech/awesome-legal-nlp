@@ -45,5 +45,7 @@
 - Existing tools include:
   - <ins>ROSS Intelligence</ins>
     - Software research engine that uses artificial intelligence to semi-automate legal research, claiming to make it more efficient and less expensive.
+    - Its data sources include a comprehensive body of case law texts originating in the United States Supreme Court, Circuit Courts of Appeals, District Courts, Bankruptcy Courts, State Supreme and Appellate courts.
+    - To use ROSS, the user types in a natural language question (eg “What is the standard for gross negligence in New York after 2004?”) and submits it to the system. ROSS then uses NLP to “understand” or interpret the question using its proprietary algorithms. The jurisdiction and time range, for example, are identified (“New York” and “after 2004”). Thereafter, it searches the body of case law using the identified information to find a list of passages in the text that are relevant to the question. It also looks at citation graphs of
     
 
