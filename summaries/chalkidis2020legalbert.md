@@ -3,7 +3,7 @@
 +++++++++++++++++++++++++++++++  
 <ins>Authors</ins>: I. Chalkidis et al.  
 <ins>Date</ins>: 2020-10  
-<ins>Tags</ins>: `bert`  
+<ins>Tags</ins>: `bert`, `text classification`, `sequence tagging`    
 +++++++++++++++++++++++++++++++  
 
 
@@ -33,3 +33,15 @@
 
 ***
 
+### 1. Pre-training
+
+- Training corpora: **12 GB** of diverse English legal text from several fields (e.g., legislation, court cases, contracts) scraped from publicly available resources.
+- Legal-BERT-FP (further pre-training): While Devlin et al. (2019) suggested additional steps up to 100k, they also pre-train models up to **500k** to examine the effect of prolonged in-domain pre-training when fine-tuning on downstream tasks.
+- Legal-BERT-SC (scratch): they use a newly created **vocabulary** of equal size to BERT’s vocabulary. They also experiment with **LEGAL-BERT-SMALL**, a substantially smaller model, with 6 layers, 512 hidden units, and 8 attention heads (35M parameters, 32% the size of BERT-BASE).
+
+### 2. Experiments
+
+- They evaluate their models on **text classification** and **sequence tagging** using 3 datasets:
+  - EURLEX57K: a large-scale multi-label text classification dataset of EU laws.
+  - ECHR-CASES: contains cases from the European Court of Human Rights and can be used for binary and multi-label text classification.
+  - CONTRACTS-NER: dataset for named entity recognition on US contracts consisting of three subsets (namely, *contract header, dispute resolution*, and *lease details*).
