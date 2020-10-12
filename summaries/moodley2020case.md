@@ -51,7 +51,7 @@
     - The data sources used by LexPredict all concern case law and legislation originating from the US.
     - The LexPredict platform splits its functionality across multiple commercially licensed software applications including: LexSemble, CounselTracker, and LexReserve.
     -  LexPredict also develops publicly available open-source software such as LexNLP and ContraxSuite. LexNLP focuses on recognising specific types of information from legal text (date, parties, citations, references to courts, copyrights, etc), while ContraxSuite is build upon LexNLP and is used to analyse text in legal documents and provides dashboards and visual plots about patterns it identifies in legal texts. While the source code for the technologies underlying ContraxSuite is made publicly available, the source code for the complete software platform itself (with its graphical user interface) is not publicly available.
-  - <in>OpenLaw</ins>
+  - <ins>OpenLaw</ins>
     - Software platform (website) that provides similar search and retrieval functions to EUR-Lex, with the added benefit of having amore intuitive and user-friendly search interface.
   - <ins>ConsumerCases</ins>
     - Software that allows search and retrieval of legal documents, and beyond this, automatic annotation of the text with relevant entities (using NLP).
