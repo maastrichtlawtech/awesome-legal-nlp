@@ -41,8 +41,18 @@
 
 ### 2. Experiments
 
-- They evaluate their models on **text classification** and **sequence tagging** using 3 datasets:
-  - EURLEX57K: a large-scale multi-label text classification dataset of EU laws.
-  - ECHR-CASES: contains cases from the European Court of Human Rights and can be used for binary and multi-label text classification.
-  - CONTRACTS-NER: dataset for named entity recognition on US contracts consisting of three subsets (namely, *contract header, dispute resolution*, and *lease details*).
-- As a rule of thumb to fine-tune BERT for downstream tasks, Devlin et al. (2019) suggested a minimal **hyperparameter tuning strategy** relying on a gridsearch on the following ranges: learning rate {2e-5; 3e-5; 4e-5; 5e-5}, number of training epochs {3,4}, batch size {16, 32} and fixed dropout rate of 0.1. These not well justified suggestions are blindly followed in the literature. Interestingly, in preliminary experiments, they found that some models still underfit after 4 epochs, the maximum suggested, thus they use early stopping based on validation loss, without a fixed maximum number of training epochs. They also consider an additional lower learning rate (1e-5) to avoid overshooting local minima, and an additional higher drop-out rate (0.2) to improve regularization. They noticed that their enriched grid-search (tuned) has a substantial impact in most of the end-tasks compared to the default hyper-parameter strategy.
+- <ins>Legal NLP Tasks</ins>
+  - They evaluate their models on **text classification** and **sequence tagging** using 3 datasets:
+    - EURLEX57K: a large-scale multi-label text classification dataset of EU laws.
+    - ECHR-CASES: contains cases from the European Court of Human Rights and can be used for binary and multi-label text classification.
+    - CONTRACTS-NER: dataset for named entity recognition on US contracts consisting of three subsets (namely, *contract header, dispute resolution*, and *lease details*).
+- <ins>Hyperparameter tuning strategy</ins>
+  - As a rule of thumb to fine-tune BERT for downstream tasks, Devlin et al. (2019) suggested a minimal hyperparameter tuning strategy relying on a gridsearch on the following ranges: 
+    - learning rate {2e-5; 3e-5; 4e-5; 5e-5};
+    - number of training epochs {3,4};
+    - batch size {16, 32};
+    - fixed dropout rate of 0.1. 
+  - These not well justified suggestions are blindly followed in the literature. 
+  - They found that some models still underfit after 4 epochs, the maximum suggested, thus they use early stopping based on validation loss, without a fixed maximum number of training epochs. 
+  - They also consider an additional lower learning rate (1e-5) to avoid overshooting local minima, and an additional higher drop-out rate (0.2) to improve regularization. 
+  - They noticed that their enriched grid-search (tuned) has a substantial impact in most of the end-tasks compared to the default hyper-parameter strategy.
