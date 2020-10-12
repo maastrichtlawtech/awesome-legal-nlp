@@ -56,3 +56,19 @@
   - They found that some models still underfit after 4 epochs, the maximum suggested, thus they use early stopping based on validation loss, without a fixed maximum number of training epochs. 
   - They also consider an additional lower learning rate (1e-5) to avoid overshooting local minima, and an additional higher drop-out rate (0.2) to improve regularization. 
   - They noticed that their enriched grid-search (tuned) has a substantial impact in most of the end-tasks compared to the default hyper-parameter strategy.
+- <ins>Results</ins>
+  - Concerning the optimal number of (further) pre-training steps of Legal-BERT-FP (100k vs 500k):
+    - The results are very similarr for EURLEX57K, while it seems that fewer pre-training steps (100k) gives better results for ECHR-CASES and CONTRACTS-NER (except for the *contract header* subset).
+  - Concerning the most performant model on legal tasks:
+    - When evaluated on language modeling, a LEGAL-BERT variant always leads to lower perplexities (ppl) than both BERT-BASE and BERT-BASE tuned (for all three datasets).
+    - For EURLEX57K:
+      - BERT-BASE is far less performant (by ~.8-7.9% F1).
+      - BERT-BASE fine-tuned performs as good as LEGAL-BERT-FP and LEGAL-BERT-SC (0.1-0.2% F1 difference).
+      - LEGAL-BERT-SMALL is slightly less performant than LEGAL-BERT-FP and LEGAL-BERT-SC (by 0.2-0.9% F1).
+    - For ECHR-CASES:
+      - For multi-label classification, LEGAL-BERT-SC performs best among all other models (then comes LEGAL-BERT-FP (-0.6% F1), LEGAL-BERT-SMALL (-1.0% F1), BERT-BASE finetuned (-2.5% F1) and BERT-BASE (-3.4% F1).
+      - For binary classification, LEGAL-BERT-SC performs best while all other models perform equally.
+    - For CONTRACTS-NER:
+      - 
+      
+  
