@@ -1,4 +1,4 @@
-## IITP in COLIEE@ ICAIL 2019: Legal Information Retrieval using BM25 and BERT
+## Legal Information Retrieval using BM25 and BERT
 
 +++++++++++++++++++++++++++++++  
 <ins>Authors</ins>: B. Gain et al.  
