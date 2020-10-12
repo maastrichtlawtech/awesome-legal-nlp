@@ -35,7 +35,7 @@
   3. Thirdly, those systems that do provide some features for analysing, exploring and visualising patterns in the information, do not provide interfaces that are user-friendly for non-data science experts in the legal domain.
   
 
-### Computational tools addressing legal research
+### 2. Computational tools addressing legal research
 
 - Data analytics has been a profitable enterprise for many **corporate organisations** in the last decade. The result is that, by far, available software for supporting analysis (not purely search) of legal information is predominantly developed by commercial enterprises.
 - Their **criteria** for selecting the analytics tools to survey are:
@@ -52,5 +52,23 @@
     - The LexPredict platform splits its functionality across multiple commercially licensed software applications including: LexSemble, CounselTracker, and LexReserve.
     -  LexPredict also develops publicly available open-source software such as LexNLP and ContraxSuite. LexNLP focuses on recognising specific types of information from legal text (date, parties, citations, references to courts, copyrights, etc), while ContraxSuite is build upon LexNLP and is used to analyse text in legal documents and provides dashboards and visual plots about patterns it identifies in legal texts. While the source code for the technologies underlying ContraxSuite is made publicly available, the source code for the complete software platform itself (with its graphical user interface) is not publicly available.
   - <in>OpenLaw</ins>
-    - 
+    - Software platform (website) that provides similar search and retrieval functions to EUR-Lex, with the added benefit of having amore intuitive and user-friendly search interface.
+  - <ins>ConsumerCases</ins>
+    - Software that allows search and retrieval of legal documents, and beyond this, automatic annotation of the text with relevant entities (using NLP).
+    - With the click of a checkbox one can see the main entities (eg dates, legal persons, organisations, courts, articles cited etc) highlighted in the text.
+    - However, the task of identifying relationships or connections between cases is still left up to the user.
+  - <ins>UM/NLeSC</ins>
+    - Case law analytics application developed to analyse Dutch case law.
+    - The data was imported from Rechtspraak.nl and the tool helps the user perform network (citation) analysis on the cases.
+  - <ins>EUCaseNet</ins>
+    - Web-based software platform to perform analysis on EU case law specifically.
+    - The tool facilitates network analysis on the full body of case law from the Court of Justice of the EU.
+- Discussion: their main findings are that while the majority of the current platforms are dominated by the commercial sector, other platforms focus almost exclusively on search and retrieval of legal documents, and most platforms focus on case law from a single national database. From the above, they derive the need to develop software that:
+  1. is more user-friendly and accessible for the general legal scholar; 
+  2. performs advanced visual analysis of case law integrated from multiple national databases; 
+  3. is open-source, FAIR and designed for both researchers and students alike;
+  4. generates insights that are reproducible and shareable with other researchers and students.
+
+
+### 3. Proposing a research engine for legal data analytics
 
