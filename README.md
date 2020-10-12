@@ -9,7 +9,7 @@
     - [Legal Judgment Prediction](#prediction)
     - [Legal Information Retrieval](#retrieval)
     - [Legal Network Analysis](#network)
-    - [Automated Analysis of Legal Text](#analysis)
+    - [Legal Text Classification](#classification)
 4. [Talks](#talks)
 5. [Conferences & Workshops](#conferences)
 
@@ -63,8 +63,9 @@
 - [`2007-08`] *Bringing PageRank to the citation analysis*, N. Ma et al. [[pdf]](https://www.sciencedirect.com/science/article/pii/S0306457307001203/pdfft?isDTMRedir=true&download=true)[[summary]](./summaries/ma2007bringing.md)
 
 
-### E. Automated Analysis of Legal Text <a name="analysis"></a>
+### E. Legal Text Classification <a name="classification"></a>
 
+- [`2020-10`] *LEGAL-BERT: The Muppets straight out of Law School*, I. Chalkidis et al. [[pdf]](https://arxiv.org/pdf/2010.02559)[[summary]](./summaries/chalkidis2020legalbert.md)
 - [`2019-02`] *CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service*, M. Lippi et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-019-09243-2.pdf)[[summary]](./summaries/lippi2019claudette.md)
 - [`2018-08`] *Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning*, H. Harkous et al. [[pdf]](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-harkous.pdf)[[summary]](./summaries/harkous2018polisis.md)
 
