@@ -8,8 +8,8 @@
     - [Overview](#overview)
     - [Legal Judgment Prediction](#prediction)
     - [Legal Information Retrieval](#retrieval)
-    - [Legal Network Analysis](#network)
     - [Legal Text Classification](#classification)
+    - [Legal Network Analysis](#network)
 4. [Talks](#talks)
 5. [Conferences & Workshops](#conferences)
 
@@ -57,17 +57,17 @@
 - [`2017-03`] *On the concept of relevance in legal information retrieval*, M. van Opijnen et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-017-9195-8.pdf)[[summary]](./summaries/opijnen2017concept.md)
 
 
-### D. Legal Network Analysis <a name="network"></a>
-
-- [`2008-10`] *Promise and Pitfalls of Extending Google’s PageRank Algorithm to Citation Networks*, S. Maslov et al. [[pdf]](https://www.jneurosci.org/content/jneuro/28/44/11103.full.pdf)[[summary]](./summaries/maslov2008promise.md)
-- [`2007-08`] *Bringing PageRank to the citation analysis*, N. Ma et al. [[pdf]](https://www.sciencedirect.com/science/article/pii/S0306457307001203/pdfft?isDTMRedir=true&download=true)[[summary]](./summaries/ma2007bringing.md)
-
-
-### E. Legal Text Classification <a name="classification"></a>
+### D. Legal Text Classification <a name="classification"></a>
 
 - [`2020-10`] *LEGAL-BERT: The Muppets straight out of Law School*, I. Chalkidis et al. [[pdf]](https://arxiv.org/pdf/2010.02559)[[summary]](./summaries/chalkidis2020legalbert.md)
 - [`2019-02`] *CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service*, M. Lippi et al. [[pdf]](https://link.springer.com/content/pdf/10.1007/s10506-019-09243-2.pdf)[[summary]](./summaries/lippi2019claudette.md)
 - [`2018-08`] *Polisis: Automated Analysis and Presentation of Privacy Policies Using Deep Learning*, H. Harkous et al. [[pdf]](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-harkous.pdf)[[summary]](./summaries/harkous2018polisis.md)
+
+
+### E. Legal Network Analysis <a name="network"></a>
+
+- [`2008-10`] *Promise and Pitfalls of Extending Google’s PageRank Algorithm to Citation Networks*, S. Maslov et al. [[pdf]](https://www.jneurosci.org/content/jneuro/28/44/11103.full.pdf)[[summary]](./summaries/maslov2008promise.md)
+- [`2007-08`] *Bringing PageRank to the citation analysis*, N. Ma et al. [[pdf]](https://www.sciencedirect.com/science/article/pii/S0306457307001203/pdfft?isDTMRedir=true&download=true)[[summary]](./summaries/ma2007bringing.md)
 
 
 
