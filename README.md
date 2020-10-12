@@ -19,7 +19,6 @@
 | Dataset                                                                           | Task                         | Language          |
 | --------------------------------------------------------------------------------- | ---------------------------- | ----------------- |
 | [COLIEE](https://sites.ualberta.ca/~rabelo/COLIEE2020/)                           | Legal Information Retrieval  | English, Japanese |
-| [CaseLaw](http://ielab.io/caselaw/)                                               | Legal Information Retrieval  | English           |
 | [CAIL2019-SCM](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm)| Legal Information Retrieval  | Chinese           |
 
 
