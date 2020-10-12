@@ -46,6 +46,11 @@
   - <ins>ROSS Intelligence</ins>
     - Software research engine that uses artificial intelligence to semi-automate legal research, claiming to make it more efficient and less expensive.
     - Its data sources include a comprehensive body of case law texts originating in the United States Supreme Court, Circuit Courts of Appeals, District Courts, Bankruptcy Courts, State Supreme and Appellate courts.
-    - To use ROSS, the user types in a natural language question (eg “What is the standard for gross negligence in New York after 2004?”) and submits it to the system. ROSS then uses NLP to “understand” or interpret the question using its proprietary algorithms. The jurisdiction and time range, for example, are identified (“New York” and “after 2004”). Thereafter, it searches the body of case law using the identified information to find a list of passages in the text that are relevant to the question. It also looks at citation graphs of
-    
+    - To use ROSS, the user types in a natural language question (eg “What is the standard for gross negligence in New York after 2004?”) and submits it to the system. ROSS then uses NLP to “understand” or interpret the question using its proprietary algorithms. The jurisdiction and time range, for example, are identified (“New York” and “after 2004”). Thereafter, it searches the body of case law using the identified information to find a list of passages in the text that are relevant to the question. It also looks at citation graphs of the cases to identify other relevant case passages to “read”. Once the final list of texts is retrieved, the texts are ordered according to relevance using a combination of machine learning algorithms.
+  - <ins>LexPredict</ins>
+    - The data sources used by LexPredict all concern case law and legislation originating from the US.
+    - The LexPredict platform splits its functionality across multiple commercially licensed software applications including: LexSemble, CounselTracker, and LexReserve.
+    -  LexPredict also develops publicly available open-source software such as LexNLP and ContraxSuite. LexNLP focuses on recognising specific types of information from legal text (date, parties, citations, references to courts, copyrights, etc), while ContraxSuite is build upon LexNLP and is used to analyse text in legal documents and provides dashboards and visual plots about patterns it identifies in legal texts. While the source code for the technologies underlying ContraxSuite is made publicly available, the source code for the complete software platform itself (with its graphical user interface) is not publicly available.
+  - <in>OpenLaw</ins>
+    - 
 
