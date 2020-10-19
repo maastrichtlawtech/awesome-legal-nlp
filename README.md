@@ -40,13 +40,13 @@
 ### B. Legal Judgment Prediction <a name="prediction"></a>
 
 - [`2019-06`] *Semi-Supervised Methods for Explainable Legal Prediction*, K. Branting et al. [[pdf]](https://www.researchgate.net/profile/Alex_Yeh/publication/334643454_Semi-Supervised_Methods_for_Explainable_Legal_Prediction/links/5e33eb4792851c7f7f0ecb26/Semi-Supervised-Methods-for-Explainable-Legal-Prediction.pdf)[[summary]](./summaries/branting2019semi.md)
-- [`2017-05`] *Inducing Predictive Models for Decision Support in Administrative Adjudication*, K. Branting et al. [[pdf]](https://www.mirelproject.eu/MIRELws@ICAIL/MIRELwsPubs/Branting-etal-MIRELwsAtICAIL.pdf)[[summary]](./summaries/branting2017inducing.md) 😍
+- [`2017-05`] *Inducing Predictive Models for Decision Support in Administrative Adjudication*, K. Branting et al. 😍 [[pdf]](https://www.mirelproject.eu/MIRELws@ICAIL/MIRELwsPubs/Branting-etal-MIRELwsAtICAIL.pdf)[[summary]](./summaries/branting2017inducing.md)
 - [`2014-07`] *Predicting the Behavior of the Supreme Court of the United States: A General Approach*, D. Katz et al. [[pdf]](https://arxiv.org/pdf/1407.6333)[[summary]](./summaries/katz2014predicting.md)
 
 
 ### C. Legal Information Retrieval <a name="retrieval"></a>
 
-- [`2020-05`] *BERT-PLI: Modeling Paragraph-Level Interactions for Legal Case Retrieval*, Y. Shao et al. [[pdf]](https://www.ijcai.org/Proceedings/2020/0484.pdf)[[summary]](./summaries/shao2020bertpli.md) 😍
+- [`2020-05`] *BERT-PLI: Modeling Paragraph-Level Interactions for Legal Case Retrieval*, Y. Shao et al. 😍 [[pdf]](https://www.ijcai.org/Proceedings/2020/0484.pdf)[[summary]](./summaries/shao2020bertpli.md)
 - [`2020-04`] *The Case for a Linked Data Research Engine for Legal Scholars*, K. Moodley et al. [[pdf]](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0504E09F0D943CEC262822E65230BA4C/S1867299X19000515a.pdf/div-class-title-the-case-for-a-linked-data-research-engine-for-legal-scholars-div.pdf)[[summary]](./summaries/moodley2020case.md)
 - [`2019-06`] *Building Legal Case Retrieval Systems with Lexical Matching and Summarization using A Pre-Trained Phrase Scoring Model*, V. Tran et al. [[pdf]](https://arxiv.org/pdf/2009.14083)[[summary]](./summaries/tran2019building.md)
 - [`2019-06`] *Legal Information Retrieval with Generalized Language Models*, J. Rossi et al. [[pdf]](https://pure.uva.nl/ws/files/44471967/COLIEE_2019.pdf)[[summary]](./summaries/rossi2019legal.md)
