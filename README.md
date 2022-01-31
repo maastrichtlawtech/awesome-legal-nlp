@@ -4,9 +4,9 @@
 
 | Dataset | Task | Language | Size | Paper | Year |
 |---|---|---|---|---|---|
-| [BSARD](https://github.com/maastrichtlawtech/bsard) [(🤗)](https://huggingface.co/datasets/bsard) [[arxiv]](https://arxiv.org/abs/2108.11792) | Statutory Article Retrieval | 🇫🇷  | 1108 questions, 22633 candidate articles | [[arxiv]](https://arxiv.org/abs/2108.11792) | 2022 |
 | [LexGLUE](https://github.com/coastalcph/lex-glue) [(🤗)](https://huggingface.co/datasets/lex_glue) | Legal Language Understanding | 🇬🇧  | / | [[arxiv]](https://arxiv.org/abs/2110.00976) | 2021 |
 | [Swiss-Judgment-Prediction](https://github.com/JoelNiklaus/SwissJudgementPrediction) [(🤗)](https://huggingface.co/datasets/swiss_judgment_prediction) | Legal Judgment Prediction | 🇩🇪, 🇫🇷, 🇮🇹      | 85000 cases | [[arxiv]](https://arxiv.org/abs/2110.00806) | 2021 |
+| [BSARD](https://github.com/maastrichtlawtech/bsard) | Statutory Article Retrieval | 🇫🇷  | 1108 questions, 22633 candidate articles | [[arxiv]](https://arxiv.org/abs/2108.11792) | 2021 |
 | [GLC](https://github.com/christospi/glc-nllp-21) [(🤗)](https://huggingface.co/datasets/greek_legal_code) | Legal Text Classification | 🇬🇷  | 47563 documents | [[arxiv]](https://arxiv.org/abs/2109.15298) | 2021 |
 | [MultiEURLEX](https://github.com/nlpaueb/multi-eurlex) [(🤗)](https://huggingface.co/datasets/multi_eurlex) | Legal Document Classification | 🇬🇧, 🇩🇪, 🇫🇷, 🇮🇹, 🇪🇸, 🇵🇱, 🇷🇴, 🇳🇱, 🇬🇷, 🇭🇺, 🇵🇹, 🇨🇿, 🇸🇪, 🇧🇬, 🇩🇰, 🇫🇮, 🇸🇰, 🇱🇹, 🇭🇷, 🇸🇮, 🇪🇪, 🇱🇻, 🇲🇹                                              | 65000 EU laws, 4591 labels | [[arxiv]](https://arxiv.org/abs/2109.00904) | 2021 |
 | [CUAD](https://github.com/TheAtticusProject/cuad) [(🤗)](https://huggingface.co/datasets/cuad) | Legal Contract Review | 🇬🇧  | 510 contracts, 13000 annotations | [[arxiv]](https://arxiv.org/abs/2103.06268) | 2021 |
@@ -18,6 +18,15 @@
 | [CJRC](https://github.com/china-ai-law-challenge/CAIL2019) | Judicial Reading Comprehension | 🇨🇳  | 50000 question-answers, 10000 documents | [[arxiv]](https://arxiv.org/abs/1912.09156) | 2019 |
 | [EURLEX-57K](http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/index.html) | Legal Document Classification | 🇬🇧  | 57000 EU laws, 4300 labels | [[arxiv]](https://arxiv.org/abs/1906.02192) | 2019 |
 | [ECHR](https://archive.org/details/ECHR-ACL2019) | Legal Judgment Prediction | 🇬🇧  | 11478 documents | [[arxiv]](https://arxiv.org/abs/1906.02059) | 2019 |
+
+
+## 🔥 Models
+
+| Model | Language | Size | Paper | Year |
+|---|---|---|---|---|
+| [JuriBERT](http://master2-bigdata.polytechnique.fr/resources#juribert)  | 🇫🇷  | 6M, 15M, 42M, 110M | [[arxiv]](https://arxiv.org/abs/2110.01485) | 2021 |
+| LEGAL-BERT [(🤗)](https://huggingface.co/nlpaueb/legal-bert-base-uncased) | 🇬🇧  | 35M, 110M | [[arxiv]](https://arxiv.org/abs/2010.02559) | 2020 |
+| Greek-BERT [(🤗)](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) | 🇬🇷  | 110M | [[arxiv]](https://arxiv.org/abs/2008.12014) | 2020 |
 
 
 ## 📚  Books
