@@ -2,11 +2,10 @@
 
 ## 🗂 Datasets
 
-| Dataset                                                                           | Task                         | Language          |
-| --------------------------------------------------------------------------------- | ---------------------------- | ----------------- |
-| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/)                      | Legal Information Retrieval  | English, Japanese |
-| [CAIL2019-SCM](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm)| Legal Information Retrieval  | Chinese           |
-
+| Dataset                                                                            | Paper                                                                         | Task                        | Language          | Size |
+|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|-----------------------------|-------------------|------|
+| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/)                       | [[pdf](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf)] | Legal Information Retrieval | English, Japanese |      |
+| [CAIL2019-SCM](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) | [[pdf](https://arxiv.org/abs/1911.08962)]                                     | Legal Information Retrieval | Chinese           |      |
 
 
 ## 📚  Books
@@ -64,9 +63,9 @@
 
 ## 🗓  Conferences & Workshops
 
+- The Natural Legal Language Processing (NLLP) Workshop [[website]](https://nllpw.org/workshop/)
 - The International Conference on Artificial Intelligence and Law (ICAIL) [[website]](https://dl.acm.org/doi/proceedings/10.1145/3322640#issue-downloads)
 - The International Conference on Legal Knowledge and Information Systems (JURIX) [[website]](http://jurix.nl/)  
-- The Natural Legal Language Processing (NLLP) Workshop [[website]](https://sites.google.com/view/nllp/nllp-2019)
 - The EXplainable AI in Law (XAILA) Workshop [[website]](https://www.geist.re/xaila:start)
 - The International Workshop on Juris-informatics (JURISIN) [[website]](http://research.nii.ac.jp/~ksatoh/jurisin2020/)
 - The Competition on Legal Information Extraction/Entailment (COLIEE) [[website]](https://sites.ualberta.ca/~rabelo/COLIEE2020/)
