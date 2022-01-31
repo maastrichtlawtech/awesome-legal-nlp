@@ -4,7 +4,7 @@
 
 | Dataset | Task | Language | Size | Paper |
 |---|---|---|---|---|
-| [LexGLUE](https://github.com/coastalcph/lex-glue)[^1] [(🤗)](https://huggingface.co/datasets/lex_glue) | Legal Language Understanding | 🇬🇧  | / | [Chalkidis et al. (2021)](https://arxiv.org/abs/2110.00976) |
+| [LexGLUE](https://github.com/coastalcph/lex-glue) [(🤗)](https://huggingface.co/datasets/lex_glue) | Legal Language Understanding | 🇬🇧  | / | [Chalkidis et al. (2021)](https://arxiv.org/abs/2110.00976) |
 | [Swiss-Judgment-Prediction](https://github.com/JoelNiklaus/SwissJudgementPrediction) [(🤗)](https://huggingface.co/datasets/swiss_judgment_prediction) | Legal Judgment Prediction | 🇩🇪, 🇫🇷, 🇮🇹      | 85000 cases | [Niklaus et al. (2021)](https://arxiv.org/abs/2110.00806) |
 | [BSARD](https://github.com/maastrichtlawtech/bsard) | Statutory Article Retrieval | 🇫🇷  | 1108 questions, 22633 candidate articles | [Louis et al. (2021)](https://arxiv.org/abs/2108.11792) |
 | [GLC](https://github.com/christospi/glc-nllp-21) [(🤗)](https://huggingface.co/datasets/greek_legal_code) | Legal Text Classification | 🇬🇷  | 47563 documents | [Papaloukas et al. (2021)](https://arxiv.org/abs/2109.15298) |
