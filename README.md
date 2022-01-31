@@ -5,11 +5,9 @@
 | Dataset | Task | Language | Size | Paper | Year |
 |---|---|---|---|---|---|
 | [BSARD](https://github.com/maastrichtlawtech/bsard) ([🤗](https://huggingface.co/datasets/bsard)) | Statutory Article Retrieval | 🇫🇷  | 1108 questions, 22633 candidate articles | [[arxiv]](https://arxiv.org/abs/2108.11792) | 2022 |
-| [CUAD](https://github.com/TheAtticusProject/cuad) [[🤗]](https://huggingface.co/datasets/cuad) | Legal Contract Review | 🇬🇧  | 510 contracts, 13000 annotations | [[arxiv]](https://arxiv.org/abs/2103.06268) | 2021 |
+| [CUAD](https://github.com/TheAtticusProject/cuad) ([🤗](https://huggingface.co/datasets/cuad)) | Legal Contract Review | 🇬🇧  | 510 contracts, 13000 annotations | [[arxiv]](https://arxiv.org/abs/2103.06268) | 2021 |
 | [JEC-QA](https://jecqa.thunlp.org/) | Legal Question Answering | 🇨🇳  | 26365 multiple-choice questions | [[arxiv]](https://arxiv.org/abs/1911.12011) | 2020 |
-| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Case Law Retrieval | 🇬🇧  | 650 base cases, 128000 candidate cases | [[pdf]](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) | 2020 |
-|  | Case Law Entailment | 🇬🇧  | 425 base cases |  |  |
-|  | Statutory Article Retrieval | 🇬🇧, 🇯🇵    | 808 questions, 768 candidate articles |  |  |
+| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Case Law Retrieval<br>Case Law Entailment<br>Statutory Article Retrieval | 🇬🇧<br>🇬🇧<br>🇬🇧, 🇯🇵  | 650 base cases, 128000 candidate cases<br>425 base cases<br>808 questions, 768 candidate articles | [[pdf]](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) | 2020 |
 | [CAIL2019-SCM](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) | Similar Case Matching | 🇨🇳  | 8964 triplets of cases | [[arxiv]](https://arxiv.org/abs/1911.08962) | 2019 |
 | [CJRC](https://github.com/china-ai-law-challenge/CAIL2019) | Judicial Reading Comprehension | 🇨🇳  | 50000 question-answers, 10000 documents | [[arxiv]](https://arxiv.org/abs/1912.09156) | 2019 |
 |  |  |  |  |  | 2019 |
