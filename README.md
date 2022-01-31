@@ -19,6 +19,7 @@
 | [EURLEX-57K](http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/index.html) | Legal Document Classification | 🇬🇧  | 57000 EU laws, 4300 labels | [[arxiv]](https://arxiv.org/abs/1906.02192) | 2019 |
 | [ECHR](https://archive.org/details/ECHR-ACL2019) | Legal Judgment Prediction | 🇬🇧  | 11478 documents | [[arxiv]](https://arxiv.org/abs/1906.02059) | 2019 |
 
+[^1]: Test
 
 ## 🔥 Models
 
