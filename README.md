@@ -1,11 +1,15 @@
 # Artificial Intelligence & Law
 
 ## 🗂 Datasets
-| Dataset                                                                            | Task                        | Language          | Size |
-|------------------------------------------------------------------------------------|-----------------------------|-------------------|------|
-| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/)                       | Legal Information Retrieval | English, Japanese |      |
-| [CAIL2019-SCM](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) | Legal Information Retrieval | Chinese           |      |
 
+| Dataset                                                                            | Task                        | Language          | Size                                     | Paper                                                                                        |
+|------------------------------------------------------------------------------------|-----------------------------|-------------------|------------------------------------------|----------------------------------------------------------------------------------------------|
+| [BSARD](https://huggingface.co/datasets/bsard)                                     | Statutory Article Retrieval | French            | 1108 questions, 22633 candidate articles | [Louis et al. (2022)](https://arxiv.org/abs/2108.11792)                                      |
+| [CUAD](https://huggingface.co/datasets/cuad)                                       | Legal Question-Answering    | English           | 510 contracts, 13000 annotations         | [Hendrycks et al. (2021)](https://arxiv.org/abs/2103.06268)                                  |
+| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/)                       | Case Law Retrieval          | English           | 650 base cases, 128000 candidate cases   | [Rabelo et al. (2020)](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) |
+| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/)                       | Case Law Entailment         | English           | 425 base cases                           | [Rabelo et al. (2020)](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) |
+| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/)                       | Statutory Article Retrieval | English, Japanese | 808 questions, 768 candidate articles    | [Rabelo et al. (2020)](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) |
+| [CAIL2019-SCM](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) | Similar Case Matching       | Chinese           | 8964 triplets of cases                   | [Xiao et al. (2019)](https://arxiv.org/abs/1911.08962)                                       |
 
 ## 📚  Books
 
