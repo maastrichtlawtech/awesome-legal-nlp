@@ -1,11 +1,10 @@
 # Artificial Intelligence & Law
 
 ## 🗂 Datasets
-
-| Dataset                                                                                                                                      | Task                        | Language          | Size |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|-------------------|------|
-| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/) [[paper](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf)] | Legal Information Retrieval | English, Japanese |      |
-| [CAIL2019-SCM](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) [[paper](https://arxiv.org/abs/1911.08962)]               | Legal Information Retrieval | Chinese           |      |
+| Dataset                                                                            | Task                        | Language          | Size |
+|------------------------------------------------------------------------------------|-----------------------------|-------------------|------|
+| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/)                       | Legal Information Retrieval | English, Japanese |      |
+| [CAIL2019-SCM](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) | Legal Information Retrieval | Chinese           |      |
 
 
 ## 📚  Books
