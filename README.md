@@ -4,29 +4,29 @@
 
 | Dataset | Task | Language | Size |
 |---|---|---|---|
-| [LexGLUE](https://github.com/coastalcph/lex-glue) [(🤗)](https://huggingface.co/datasets/lex_glue) [(📄)](https://arxiv.org/abs/2110.00976)  | Legal Language Understanding | 🇬🇧  |  |
-| [Swiss-Judgment-Prediction](https://github.com/JoelNiklaus/SwissJudgementPrediction) [(🤗)](https://huggingface.co/datasets/swiss_judgment_prediction) [(📄)](https://arxiv.org/abs/2110.00806)  | Legal Judgment Prediction | 🇩🇪, 🇫🇷, 🇮🇹      | 85000 cases |
-| [BSARD](https://github.com/maastrichtlawtech/bsard) [(📄)](https://arxiv.org/abs/2108.11792) | Statutory Article Retrieval | 🇫🇷  | 1108 questions, 22633 candidate articles |
-| [GLC](https://github.com/christospi/glc-nllp-21) [(🤗)](https://huggingface.co/datasets/greek_legal_code) [(📄)](https://arxiv.org/abs/2109.15298)  | Legal Text Classification | 🇬🇷  | 47563 documents |
-| [MultiEURLEX](https://github.com/nlpaueb/multi-eurlex) [(🤗)](https://huggingface.co/datasets/multi_eurlex) [(📄)](https://arxiv.org/abs/2109.00904)  | Legal Document Classification | 🇬🇧, 🇩🇪, 🇫🇷, 🇮🇹, 🇪🇸, 🇵🇱, 🇷🇴, 🇳🇱, 🇬🇷, 🇭🇺, 🇵🇹, 🇨🇿, 🇸🇪, 🇧🇬, 🇩🇰, 🇫🇮, 🇸🇰, 🇱🇹, 🇭🇷, 🇸🇮, 🇪🇪, 🇱🇻, 🇲🇹                                              | 65000 EU laws, 4591 labels |
-| [CUAD](https://github.com/TheAtticusProject/cuad) [(🤗)](https://huggingface.co/datasets/cuad) [(📄)](https://arxiv.org/abs/2103.06268)  | Legal Contract Review | 🇬🇧  | 510 contracts, 13000 annotations |
-| [ECtHR](https://archive.org/details/ECHR-ACL2019) [(🤗)](https://huggingface.co/datasets/ecthr_cases) [(📄)](https://arxiv.org/abs/2103.13084)  | Rationale Extraction | 🇬🇧  | 11000 cases |
-| (i) [EU2UK](https://archive.org/details/eacl2021_regir_datasets) [(📄)](https://arxiv.org/abs/2101.10726)<br>(ii) [UK2EU](https://archive.org/details/eacl2021_regir_datasets) | Regulatory Information Retrieval | 🇬🇧  | (i) 2000 query documents, 52515 candidate documents<br>(ii) 2100 query documents, 3930 candidate documents |
-| [JEC-QA](https://jecqa.thunlp.org/) [(📄)](https://arxiv.org/abs/1911.12011) | Legal Question Answering | 🇨🇳  | 26365 multiple-choice questions |
-| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/) [(📄)](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) | (i) Case Law Retrieval<br>(ii) Case Law Entailment<br>(iii) Statutory Article Retrieval | (i) 🇬🇧<br>(ii) 🇬🇧<br>(iii) 🇬🇧, 🇯🇵  | (i) 650 base cases, 128000 candidate cases<br>(ii) 425 base cases<br>(iii) 808 questions, 768 candidate articles |
-| [CAIL2019-SCM](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) [(📄)](https://arxiv.org/abs/1911.08962) | Similar Case Matching | 🇨🇳  | 8964 triplets of cases |
-| [CJRC](https://github.com/china-ai-law-challenge/CAIL2019) [(📄)](https://arxiv.org/abs/1912.09156) | Judicial Reading Comprehension | 🇨🇳  | 50000 question-answers, 10000 documents |
-| [EURLEX-57K](http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/index.html) [(📄)](https://arxiv.org/abs/1906.02192) | Legal Document Classification | 🇬🇧  | 57000 EU laws, 4300 labels |
-| [ECHR](https://archive.org/details/ECHR-ACL2019) [(📄)](https://arxiv.org/abs/1906.02059) | Legal Judgment Prediction | 🇬🇧  | 11478 documents |
+| [LexGLUE](https://github.com/coastalcph/lex-glue) [🤗](https://huggingface.co/datasets/lex_glue) [📄](https://arxiv.org/abs/2110.00976)  | Legal Language Understanding | 🇬🇧  |  |
+| [Swiss-Judgment-Prediction](https://github.com/JoelNiklaus/SwissJudgementPrediction) [🤗](https://huggingface.co/datasets/swiss_judgment_prediction) [📄](https://arxiv.org/abs/2110.00806)  | Legal Judgment Prediction | 🇩🇪, 🇫🇷, 🇮🇹      | 85000 cases |
+| [BSARD](https://github.com/maastrichtlawtech/bsard) [📄](https://arxiv.org/abs/2108.11792) | Statutory Article Retrieval | 🇫🇷  | 1108 questions, 22633 candidate articles |
+| [GLC](https://github.com/christospi/glc-nllp-21) [🤗](https://huggingface.co/datasets/greek_legal_code) [📄](https://arxiv.org/abs/2109.15298)  | Legal Text Classification | 🇬🇷  | 47563 documents |
+| [MultiEURLEX](https://github.com/nlpaueb/multi-eurlex) [🤗](https://huggingface.co/datasets/multi_eurlex) [📄](https://arxiv.org/abs/2109.00904)  | Legal Document Classification | 🇬🇧, 🇩🇪, 🇫🇷, 🇮🇹, 🇪🇸, 🇵🇱, 🇷🇴, 🇳🇱, 🇬🇷, 🇭🇺, 🇵🇹, 🇨🇿, 🇸🇪, 🇧🇬, 🇩🇰, 🇫🇮, 🇸🇰, 🇱🇹, 🇭🇷, 🇸🇮, 🇪🇪, 🇱🇻, 🇲🇹                                              | 65000 EU laws, 4591 labels |
+| [CUAD](https://github.com/TheAtticusProject/cuad) [🤗](https://huggingface.co/datasets/cuad) [📄](https://arxiv.org/abs/2103.06268)  | Legal Contract Review | 🇬🇧  | 510 contracts, 13000 annotations |
+| [ECtHR](https://archive.org/details/ECHR-ACL2019) [🤗](https://huggingface.co/datasets/ecthr_cases) [📄](https://arxiv.org/abs/2103.13084)  | Rationale Extraction | 🇬🇧  | 11000 cases |
+| (i) [EU2UK](https://archive.org/details/eacl2021_regir_datasets) [📄](https://arxiv.org/abs/2101.10726)<br>(ii) [UK2EU](https://archive.org/details/eacl2021_regir_datasets) | Regulatory Information Retrieval | 🇬🇧  | (i) 2000 query documents, 52515 candidate documents<br>(ii) 2100 query documents, 3930 candidate documents |
+| [JEC-QA](https://jecqa.thunlp.org/) [📄](https://arxiv.org/abs/1911.12011) | Legal Question Answering | 🇨🇳  | 26365 multiple-choice questions |
+| [COLIEE-2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/) [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) | (i) Case Law Retrieval<br>(ii) Case Law Entailment<br>(iii) Statutory Article Retrieval | (i) 🇬🇧<br>(ii) 🇬🇧<br>(iii) 🇬🇧, 🇯🇵  | (i) 650 base cases, 128000 candidate cases<br>(ii) 425 base cases<br>(iii) 808 questions, 768 candidate articles |
+| [CAIL2019-SCM](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) [📄](https://arxiv.org/abs/1911.08962) | Similar Case Matching | 🇨🇳  | 8964 triplets of cases |
+| [CJRC](https://github.com/china-ai-law-challenge/CAIL2019) [📄](https://arxiv.org/abs/1912.09156) | Judicial Reading Comprehension | 🇨🇳  | 50000 question-answers, 10000 documents |
+| [EURLEX-57K](http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/index.html) [📄](https://arxiv.org/abs/1906.02192) | Legal Document Classification | 🇬🇧  | 57000 EU laws, 4300 labels |
+| [ECHR](https://archive.org/details/ECHR-ACL2019) [📄](https://arxiv.org/abs/1906.02059) | Legal Judgment Prediction | 🇬🇧  | 11478 documents |
 
 
 ## 🔥 Models
 
-| Model | Language | Size | Paper | Year |
-|---|---|---|---|---|
-| [JuriBERT](http://master2-bigdata.polytechnique.fr/resources#juribert)  | 🇫🇷  | 6M, 15M, 42M, 110M | [[arxiv]](https://arxiv.org/abs/2110.01485) | 2021 |
-| LEGAL-BERT [(🤗)](https://huggingface.co/nlpaueb/legal-bert-base-uncased) | 🇬🇧  | 35M, 110M | [[arxiv]](https://arxiv.org/abs/2010.02559) | 2020 |
-| Greek-BERT [(🤗)](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) | 🇬🇷  | 110M | [[arxiv]](https://arxiv.org/abs/2008.12014) | 2020 |
+| Model | Task | Language | Size |
+|---|---|---|---|
+| [JuriBERT](http://master2-bigdata.polytechnique.fr/resources#juribert) [📄](https://arxiv.org/abs/2110.01485) | Language Modeling | 🇫🇷  | 6M, 15M, 42M, 110M |
+| LEGAL-BERT [(🤗)](https://huggingface.co/nlpaueb/legal-bert-base-uncased) [📄](https://arxiv.org/abs/2010.02559)  | Language Modeling | 🇬🇧  | 35M, 110M |
+| Greek-BERT [(🤗)](https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1) [📄](https://arxiv.org/abs/2008.12014)  | Language Modeling | 🇬🇷  | 110M |
 
 
 ## 📚  Books
