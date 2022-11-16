@@ -5,7 +5,7 @@
 
 ## 🗂 Datasets
 
-### <ins>Legal Judgement Prediction (LJP)</ins>
+#### <ins>Legal Judgement Prediction</ins> (LJP)
 
 | Dataset | Links | Domain | Language | Size |
 |---|---|---|---|---|
@@ -14,7 +14,7 @@
 | ECHR (Aletras et al., 2019) | [📄](https://arxiv.org/abs/1906.02059) [💾](https://archive.org/details/ECHR-ACL2019) | EU court judgments | 🇬🇧 | 11.5K cases w/ 11 outcomes |
 | CAIL (Xiao et al., 2018) | [📄](https://arxiv.org/abs/1807.02478) [💻](https://github.com/china-ai-law-challenge/CAIL2018) | Chinese court judgements | 🇨🇳 | 2.6M cases w/ 6 outcomes |
 
-### Legal Topic Classification (LTC)
+#### <ins>Legal Topic Classification</ins> (LTC)
 
 | Dataset | Links | Domain | Language | Size |
 |---|---|---|---|---|
@@ -24,7 +24,7 @@
 | EURLEX-57K (Chalkidis et al., 2019) | [📄](https://arxiv.org/abs/1906.02192) [💾](http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/index.html) | EU legislation | 🇬🇧  | 57,000 laws w/ 4,300 labels |
 | Unfair-ToS (Lippi et al., 2018) | [📄](https://arxiv.org/abs/1805.01217) | Contracts | 🇬🇧 | 9.4K sentences w/ 9 labels |
 
-### Legal Information Retrieval (LIR)
+#### <ins>Legal Information Retrieval</ins> (LIR)
 
 | Dataset | Links | Domain | Language | Size |
 |---|---|---|---|---|
@@ -35,7 +35,7 @@
 | COLIEE-Statute-Law-Retrieval (Rabelo et al., 2020) | [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) [💾](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Japanese legislation | 🇬🇧 🇯🇵 |  808 questions w/ 768 candidate statutory articles |
 | CAIL2019-SCM (Xiao et al., 2019) | [📄](https://arxiv.org/abs/1911.08962) [💻](https://github.com/china-ai-law-challenge/CAIL2019/tree/master/scm) | Chinese court judgements | 🇨🇳 | 8.9K triplets of cases |
 
-### Legal Question Answering (LQA)
+#### <ins>Legal Question Answering</ins> (LQA)
 
 | Dataset | Links | Domain | Language | Size |
 |---|---|---|---|---|
@@ -43,20 +43,20 @@
 | JEC-QA (Zhong et al., 2019) | [📄](https://arxiv.org/abs/1911.12011) [💾](https://jecqa.thunlp.org/) | Chinese law | 🇨🇳  | 26.3K multiple-choice questions |
 | CJRC (Duan et al., 2019) | [📄](https://arxiv.org/abs/1912.09156) [💻](https://github.com/china-ai-law-challenge/CAIL2019) | Chinese court judgements | 🇨🇳 | 50K question-answers from 10K documents |
 
-### Legal Textual Entailment (LTE)
+#### <ins>Legal Textual Entailment</ins> (LTE)
 
 | Dataset | Links | Domain | Language | Size |
 |---|---|---|---|---|
 | COLIEE-Case-Law-Entailment (Rabelo et al., 2020) | [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) [💾](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Canadian precedents | 🇬🇧 |  425 cases w/ related case |
 | COLIEE-Statute-Law-Entailment (Rabelo et al., 2020) | [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) [💾](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Japanese legislation | 🇬🇧 🇯🇵 |  808 questions w/ related statutory article |
 
-### Legal Language Modeling (LLM)
+#### <ins>Legal Language Modeling</ins> (LLM)
 
 | Dataset | Links | Language | Size |
 |---|---|---|---|
 | Pile of Law (Henderson et al., 2022) | [📄](https://arxiv.org/abs/2207.00220) [🤗](https://huggingface.co/datasets/pile-of-law/pile-of-law) [💻](https://github.com/Breakend/PileOfLaw) | 🇬🇧 | ~256GB of legal and administrative legal text |
 
-### Benchmarks
+#### <ins>Benchmarks</ins>
 
 | Dataset | Task | Language | Tasks |
 |---|---|---|---|
