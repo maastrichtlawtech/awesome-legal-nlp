@@ -10,19 +10,23 @@
 | Dataset | Links | Domain | Language | Size |
 |---|---|---|---|---|
 | FSCS (Niklaus et al., 2021) | [📄](https://arxiv.org/abs/2110.00806) [🤗](https://huggingface.co/datasets/swiss_judgment_prediction) [💻](https://github.com/JoelNiklaus/SwissJudgementPrediction) | Swiss court judgments | 🇩🇪 🇫🇷 🇮🇹 | 85K cases w/ 2 outcomes |
-| ECtHR (Chalkidis et al., 2021) | [📄](https://arxiv.org/abs/2103.13084) [🤗](https://huggingface.co/datasets/ecthr_cases) | EU court judgments | 🇬🇧  | 11K cases w/ 11 outcomes |
+| ECtHR (Chalkidis et al., 2021) | [📄](https://arxiv.org/abs/2103.13084) [🤗](https://huggingface.co/datasets/ecthr_cases) | EU court judgments | 🇬🇧 | 11K cases w/ 11 outcomes |
 | ECHR (Aletras et al., 2019) | [📄](https://arxiv.org/abs/1906.02059) [💾](https://archive.org/details/ECHR-ACL2019) | EU court judgments | 🇬🇧 | 11.5K cases w/ 11 outcomes |
 | CAIL (Xiao et al., 2018) | [📄](https://arxiv.org/abs/1807.02478) [💻](https://github.com/china-ai-law-challenge/CAIL2018) | Chinese court judgements | 🇨🇳 | 2.6M cases w/ 6 outcomes |
 
-#### <ins>Legal Topic Classification</ins> (LTC)
+#### <ins>Legal Text Classification</ins> (LTC)
 
 | Dataset | Links | Domain | Language | Size |
 |---|---|---|---|---|
 | GLC (Papaloukas et al., 2021) | [📄](https://arxiv.org/abs/2109.15298) [🤗](https://huggingface.co/datasets/greek_legal_code) [💻](https://github.com/christospi/glc-nllp-21) | Greek legislation | 🇬🇷  | 47.5K laws w/ 2.7K labels |
-| CUAD (Hendrycks et al., 2021) | [📄](https://arxiv.org/abs/2103.06268) [🤗](https://huggingface.co/datasets/cuad) [💻](https://github.com/TheAtticusProject/cuad)| Contracts | 🇬🇧  | 510 contracts w/ 41 labels |
-| MultiEURLEX (Chalkidis et al., 2021) | [📄](https://arxiv.org/abs/2109.00904) [🤗](https://huggingface.co/datasets/multi_eurlex) [💻](https://github.com/nlpaueb/multi-eurlex) | EU legislation | 🇬🇧 🇩🇪 🇫🇷 🇮🇹 🇪🇸 (18+) | 65,000 laws w/ 4,591 labels |
-| EURLEX-57K (Chalkidis et al., 2019) | [📄](https://arxiv.org/abs/1906.02192) [💾](http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/index.html) | EU legislation | 🇬🇧  | 57,000 laws w/ 4,300 labels |
-| Unfair-ToS (Lippi et al., 2018) | [📄](https://arxiv.org/abs/1805.01217) | Contracts | 🇬🇧 | 9.4K sentences w/ 9 labels |
+| CUAD (Hendrycks et al., 2021) | [📄](https://arxiv.org/abs/2103.06268) [🤗](https://huggingface.co/datasets/cuad) [💻](https://github.com/TheAtticusProject/cuad)| Contracts | 🇬🇧  | 510 contracts w/ 41 classes |
+| MultiEURLEX (Chalkidis et al., 2021) | [📄](https://arxiv.org/abs/2109.00904) [🤗](https://huggingface.co/datasets/multi_eurlex) [💻](https://github.com/nlpaueb/multi-eurlex) | EU legislation | 🇬🇧 🇩🇪 🇫🇷 🇮🇹 🇪🇸 (18+) | 65K laws w/ 4.5K labels |
+| LEDGAR (Tuggener et al., 2020) |  [📄](https://aclanthology.org/2020.lrec-1.155) [💾](https://drive.switch.ch/index.php/s/j9S0GRMAbGZKa1A) | Contracts | 🇬🇧 | 60.5K contracts w/ 12.6K labels |
+| Contract Discovery (Borchmann et al., 2020) | [📄](https://arxiv.org/abs/1911.03911) [💻](https://github.com/applicaai/contract-discovery) | Contracts | 🇬🇧 | 2.6K clauses w/ 21 classes |
+| EURLEX-57K (Chalkidis et al., 2019) | [📄](https://arxiv.org/abs/1906.02192) [💾](http://nlp.cs.aueb.gr/software_and_datasets/EURLEX57K/index.html) | EU legislation | 🇬🇧  | 57K laws w/ 4.3K labels |
+| Unfair-ToS (Lippi et al., 2018) | [📄](https://arxiv.org/abs/1805.01217) [💾](http://155.185.228.137/claudette/ToS.zip) | Contracts | 🇬🇧 | 9.4K sentences w/ 9 classes |
+| Contract Elements (Chalkidis et al., 2017) | [📄](https://dl.acm.org/doi/10.1145/3086512.3086515) [💾](http://nlp.cs.aueb.gr/software_and_datasets/CONTRACTS_ICAIL2017/index.html) | Contracts | 🇬🇧 | 2.4K contracts w/ 10 classes |
+| OPP-115 (Wilson et al., 2016) | [📄](https://aclanthology.org/P16-1126) [💾](https://usableprivacy.org/data) | Privacy laws | 🇬🇧 | 115 policies w/ 23K labels |
 
 #### <ins>Legal Information Retrieval</ins> (LIR)
 
@@ -49,6 +53,11 @@
 |---|---|---|---|---|
 | COLIEE-Case-Law-Entailment (Rabelo et al., 2020) | [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) [💾](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Canadian precedents | 🇬🇧 |  425 cases w/ related case |
 | COLIEE-Statute-Law-Entailment (Rabelo et al., 2020) | [📄](https://sites.ualberta.ca/~rabelo/COLIEE2021/COLIEE_2020_summary.pdf) [💾](https://sites.ualberta.ca/~rabelo/COLIEE2020/) | Japanese legislation | 🇬🇧 🇯🇵 |  808 questions w/ related statutory article |
+
+#### <ins>Legal Text Summarization</ins> (LTS)
+
+| Dataset | Links | Domain | Language | Size |
+|---|---|---|---|---|
 
 #### <ins>Legal Language Modeling</ins> (LLM)
 
@@ -98,3 +107,10 @@
 - The International Workshop on Juris-informatics (JURISIN) [[website]](http://research.nii.ac.jp/~ksatoh/jurisin2020/)
 - The Competition on Legal Information Extraction/Entailment (COLIEE) [[website]](https://sites.ualberta.ca/~rabelo/COLIEE2020/)
 - The International Workshop on Legal Information Retrieval [[website]](https://tmr.liacs.nl/legalIR/)
+
+<!---
+Datasets to add:
+- https://github.com/neelguha/legal-ml-datasets
+- https://nllpw.org/resources/
+- https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics#datasets-and-data
+-->
