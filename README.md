@@ -76,6 +76,7 @@
 
 | Model | Links | Language | Size |
 |---|---|---|---|
+| Legal-HeBERT (Chriqui et al., 2022) | [📄](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4147127) [🤗](https://huggingface.co/avichr/Legal-heBERT) [💻](https://github.com/avichaychriqui/Legal-HeBERT) | 🇮🇱 | 110M |
 | PoL-BERT-Large (Henderson et al., 2022) | [📄](https://arxiv.org/abs/2207.00220) [🤗](https://huggingface.co/pile-of-law/legalbert-large-1.7M-1) [💻](https://github.com/Breakend/PileOfLaw) | 🇬🇧 | 336M |
 | Italian-LEGAL-BERT (Licari and Comande, 2022) | [📄](https://ceur-ws.org/Vol-3256/km4law3.pdf) [🤗](https://huggingface.co/dlicari/Italian-Legal-BERT)| 🇮🇹 | 110M |
 | JuriBERT (Douka et al., 2021) | [📄](https://arxiv.org/abs/2110.01485) [💾](http://master2-bigdata.polytechnique.fr/resources#juribert) | 🇫🇷  | {6M, 15M, 42M, 110M} |
