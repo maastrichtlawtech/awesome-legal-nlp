@@ -58,6 +58,8 @@
 
 | Dataset | Links | Domain | Language | Size |
 |---|---|---|---|---|
+| TOS;DR (Manor et al., 2019) | [📄](https://aclanthology.org/W19-2201/) [💻](https://github.com/lauramanor/legal_summarization) | Terms of service | 🇬🇧 | 421 pairs of (agreement text, summary) from data privacy policies |
+| TL;DRLegal (Manor et al., 2019) | [📄](https://aclanthology.org/W19-2201/) [💻](https://github.com/lauramanor/legal_summarization) | Terms of service | 🇬🇧 | 84 pairs of (agreement text, summary) from software licenses |
 
 #### <ins>Legal Language Modeling</ins> (LLM)
 
