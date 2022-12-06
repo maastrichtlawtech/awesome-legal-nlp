@@ -46,6 +46,7 @@
 | CaseHOLD (Zheng et al., 2021) | [📄](https://arxiv.org/abs/2104.08671) [💻](https://github.com/reglab/casehold) | US case holdings | 🇬🇧 | 53.1K multiple-choice questions |
 | JEC-QA (Zhong et al., 2019) | [📄](https://arxiv.org/abs/1911.12011) [💾](https://jecqa.thunlp.org/) | Chinese law | 🇨🇳  | 26.3K multiple-choice questions |
 | CJRC (Duan et al., 2019) | [📄](https://arxiv.org/abs/1912.09156) [💻](https://github.com/china-ai-law-challenge/CAIL2019) | Chinese court judgements | 🇨🇳 | 50K question-answers from 10K documents |
+| PrivacyQA (Ravichander et al., 2019) | [📄](https://arxiv.org/abs/1911.00841) [💻](https://github.com/AbhilashaRavichander/PrivacyQA_EMNLP) | Privacy policies | 🇬🇧 | 1.7K question-answers from 35 documents |
 
 #### <ins>Legal Textual Entailment</ins> (LTE)
 
@@ -58,8 +59,15 @@
 
 | Dataset | Links | Domain | Language | Size |
 |---|---|---|---|---|
-| TOS;DR (Manor et al., 2019) | [📄](https://aclanthology.org/W19-2201/) [💻](https://github.com/lauramanor/legal_summarization) | Terms of service | 🇬🇧 | 421 pairs of (agreement text, summary) from data privacy policies |
-| TL;DRLegal (Manor et al., 2019) | [📄](https://aclanthology.org/W19-2201/) [💻](https://github.com/lauramanor/legal_summarization) | Terms of service | 🇬🇧 | 84 pairs of (agreement text, summary) from software licenses |
+| UK-Abs (Shukla et al., 2022) | [📄](https://arxiv.org/abs/2210.07544) [💻](https://github.com/Law-AI/summarization/tree/aacl/dataset#uk-abs) [💾](https://zenodo.org/record/7152317#.Yz6mJ9JByC0) | UK court cases | 🇬🇧 | 793 pairs of (case, abastractive summary) from the UK Supreme Court |
+| IN-Abs (Shukla et al., 2022) | [📄](https://arxiv.org/abs/2210.07544) [💻](hhttps://github.com/Law-AI/summarization/tree/aacl/dataset#in-abs) [💾](https://zenodo.org/record/7152317#.Yz6mJ9JByC0) | Indian court cases | 🇬🇧 | 7.1K pairs of (case, abastractive summary) from the Indian Supreme Court |
+| IN-Ext (Shukla et al., 2022) | [📄](https://arxiv.org/abs/2210.07544) [💻](https://github.com/Law-AI/summarization/tree/aacl/dataset#in-ext) [💾](https://zenodo.org/record/7152317#.Yz6mJ9JByC0) | Indian court cases | 🇬🇧 | 50 pairs of (case, extractive summary) from the Indian Supreme Court |
+| TOS;DR (Keymanesh et al., 2020) | [📄](https://ceur-ws.org/Vol-2645/paper3.pdf) [💻](https://github.com/senjed/Summarization-of-Privacy-Policies/commit/e6fabba8639593f45cde7d42639a5f354f5d9c3a) | Terms of service | 🇬🇧 | 1.6K pairs of (agreement text, summary) from data privacy policies |
+| BillSum (Kornilova et al., 2019) | [📄](https://aclanthology.org/D19-5406/) [💻](https://github.com/FiscalNote/BillSum) [💾](https://drive.google.com/file/d/1SkwK-PfcHzznKUHy2S3jfdITR4D5MD5u/view) | US Congressional bills | 🇬🇧 | 22.2K pairs of (bill, summary) |
+| TL;DRLegal (Manor et al., 2019) | [📄](https://aclanthology.org/W19-2201/) [💻](https://github.com/lauramanor/legal_summarization/blob/master/tldrlegal_v1.json) | Terms of service | 🇬🇧 | 84 pairs of (agreement text, summary) from software licenses |
+| TOS;DR (Manor et al., 2019) | [📄](https://aclanthology.org/W19-2201/) [💻](https://github.com/lauramanor/legal_summarization/blob/master/tosdr_annotated_v1.json) | Terms of service | 🇬🇧 | 421 pairs of (agreement text, summary) from data privacy policies |
+| BVA Cases (Zhong et al., 2019) | [📄](https://dl.acm.org/doi/10.1145/3322640.3326728) [💻](https://github.com/luimagroup/bva-summarization) | US court cases | 🇬🇧 | 92 pairs of (case, summary) from the US Board of Veterans' Appeal |
+| LCR (Galgani et al., 2012) | [📄](https://aclanthology.org/W12-0515/) [💾](https://archive.ics.uci.edu/ml/datasets/Legal+Case+Reports) | Australian court cases | 🇬🇧 | 3.9K pairs of (case, catchphrases) |
 
 #### <ins>Legal Language Modeling</ins> (LLM)
 
