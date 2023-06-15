@@ -1,0 +1,12 @@
+name: Typos and doc fixes
+description: Tell us about how we can improve our documentation
+labels: ["documentation", "invalid"]
+body:
+  - type: textarea
+    validations:
+        required: true
+    attributes:
+      label: 📚 Documentation
+      description: A clear and detailed description of the mistake
+      placeholder: |
+        Please describe any typos or mistakes you found in our list.
