@@ -1,0 +1,10 @@
+name: Documentation Fix
+description: Tell us about how we can improve our list
+labels: ["documentation", "invalid"]
+body:
+  - type: textarea
+    validations:
+        required: true
+    attributes:
+      label: Description
+      description: A clear description of the typo or mistake you found in the list.
