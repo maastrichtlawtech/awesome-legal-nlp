@@ -1,4 +1,4 @@
-name: New Addition Request
+name: Addition Request
 description: Propose a new resource
 labels: ["documentation", "enhancement"]
 body:
