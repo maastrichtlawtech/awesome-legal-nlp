@@ -121,6 +121,16 @@
 
 <!---
 Datasets to add:
+- "FALQU: Finding Answers to Legal Questions"
+- “MultiLegalSBD: A Multilingual Legal Sentence Boundary Detection Dataset”
+- “ClassActionPrediction: A Challenging Benchmark for Legal Judgment Prediction of Class Action Cases in the US”
+- "MultiLegalPile: A 689GB Multilingual Legal Corpus"
+- "LeXFiles and LegalLAMA: Facilitating English Multinational Legal Language Model Development"
+- "LEXTREME: A Multi-Lingual and Multi-Task Benchmark for the Legal Domain"
+- "A Dataset for Evaluating Legal Question Answering on Private International Law"
+- "EQUALS: A Real-world Dataset for Legal Questions Answering via Reading Chinese Laws"
+
+Other cool resources to check:
 - https://github.com/neelguha/legal-ml-datasets
 - https://nllpw.org/resources/
 - https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics#datasets-and-data
