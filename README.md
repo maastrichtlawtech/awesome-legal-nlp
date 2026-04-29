@@ -62,6 +62,7 @@
 | LLeQA (2024) | [📄](https://arxiv.org/abs/2309.17050) [🤗](https://huggingface.co/datasets/maastrichtlawtech/lleqa) [💻](https://github.com/maastrichtlawtech/lleqa) | French-Belgian statutes | 🇫🇷 | 1,868 expert-annotated long-form QA |
 | IndicLegalQA (2025) | [📄](https://www.sciencedirect.com/science/article/pii/S2352340925003774) | Indian Supreme Court judgments | 🇮🇳 | 10K QA pairs from 1,256 judgments |
 | GerLayQA (2024) | [📄](https://aclanthology.org/2024.eacl-long.122/) [💻](https://github.com/trusthlt/eacl24-german-legal-questions)| German civil law | 🇩🇪 | 21K laymen legal Qs with lawyer answers |
+| Avukatistan Legal Questions | [🌐](https://avukatistan.com/sorular) | Turkish legal questions and lawyer answers | 🇹🇷 | Public web collection |
 | LEGAL-UQA (2024) | [📄](https://arxiv.org/abs/2410.13013) | Legal questions | 🇵🇰 | 619 parallel Urdu–English QA pairs |
 
 #### <ins>Legal Textual Entailment</ins> (LTE)
