@@ -50,6 +50,7 @@
 | CLERC (2024) | [📄](https://arxiv.org/abs/2406.17186) [🤗](https://huggingface.co/datasets/jhu-clsp/CLERC) [💻](https://github.com/bohanhou14/CLERC) | Legal case retrieval | 🇬🇧 | Large corpus for retrieval and RAG |
 | LEAD (2024) | [📄](https://arxiv.org/abs/2410.06581) [💻](https://github.com/thunlp/LEAD) | Legal case retrieval | Various | 100K+ pairs of similar legal cases |
 | Legal IR Philippines (2024) | [📄](https://aclanthology.org/2024.paclic-1.35.pdf) | Philippine legal documents | 🇵🇭 | Datasets with synthetic queries |
+| MiniLex / wellsa-ai (2026) | [🌐](https://minilex.wellsa.ai) [🤗](https://huggingface.co/wellsa-ai) [💻](https://github.com/wellsa-ai) | Korean public legal corpora (7-domain) | 🇰🇷 | 397K+ docs (statutes 5.6K, admin rules 10.8K, precedents 171K, interpretations 8.7K, const. decisions 38K, local ordinances 160K, treaties 6.9K) |
 
 #### <ins>Legal Question Answering</ins> (LQA)
 
@@ -63,6 +64,7 @@
 | IndicLegalQA (2025) | [📄](https://www.sciencedirect.com/science/article/pii/S2352340925003774) | Indian Supreme Court judgments | 🇮🇳 | 10K QA pairs from 1,256 judgments |
 | GerLayQA (2024) | [📄](https://aclanthology.org/2024.eacl-long.122/) [💻](https://github.com/trusthlt/eacl24-german-legal-questions)| German civil law | 🇩🇪 | 21K laymen legal Qs with lawyer answers |
 | LEGAL-UQA (2024) | [📄](https://arxiv.org/abs/2410.13013) | Legal questions | 🇵🇰 | 619 parallel Urdu–English QA pairs |
+| MiniLex demo (2026) | [🌐](https://minilex.wellsa.ai/demo) [🤗](https://huggingface.co/wellsa-ai) | Korean civic-scenario legal Q&A (deepfake takedown, unpaid wages, unfair dismissal, personal data leakage, stalking) | 🇰🇷 | 5 validated civic scenarios w/ source-cited answers over 1.36M+ articles |
 
 #### <ins>Legal Textual Entailment</ins> (LTE)
 
