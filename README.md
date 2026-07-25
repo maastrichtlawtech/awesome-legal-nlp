@@ -103,6 +103,7 @@
 |---|---|---|---|
 | FairLex (Chalkidis et al., 2022) | [📄](https://arxiv.org/abs/2203.07228) [🤗](https://huggingface.co/datasets/coastalcph/fairlex) [💻](https://github.com/coastalcph/fairlex) | 🇬🇧 🇩🇪 🇫🇷 🇮🇹 🇨🇳 | Clasification (x1), legal judgement prediction (x3) |
 | LexGLUE (Chalkidis et al., 2022) | [📄](https://arxiv.org/abs/2110.00976) [🤗](https://huggingface.co/datasets/lex_glue) [💻](https://github.com/coastalcph/lex-glue) | 🇬🇧  | Classsification (x6), multiple-choice QA (x1) |
+| CA Civil Litigation Corrections (Meta-Flywheel Ventures, 2026) | [🤗](https://huggingface.co/datasets/MyfilmsAI/california-civil-litigation-legal-ai-corrections-sample) [💻](https://github.com/myfilms79/california-civil-litigation-legal-ai-corrections) | 🇺🇸 | Correction-pair evaluation (x8 craft dimensions), graduated rubric scoring (x5 levels) |
 
 ## 🔥 Models
 
