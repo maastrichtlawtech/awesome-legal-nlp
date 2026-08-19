@@ -194,6 +194,7 @@ Other cool resources to check:
 
 - Embedding Benchmarking Tools: MTEB, Hugging Face evaluate, LegalBench, COLIEE [[🌐]](https://milvus.io/ai-quick-reference/what-tools-can-benchmark-embeddings-for-legal-datasets)
 - Legal Argument Mining Tools: RMU:ECHR corpus and mining models [[💻]](https://github.com/trusthlt/mining-legal-arguments)
+- OKF-Legal: an open markdown+YAML profile for directed-reason extraction (verbatim quote + holding direction + ratio/obiter status + source instance), with a Polish case-law corpus (~1,100 judgments, ~135k reasoning atoms) and anti-hallucination consumption rules [[💻]](https://github.com/apiotrowski-afk/okf-legal)
 - Multilingual Legal Processing: Evaluation pipelines for multilingual legal LLMs [[📄]](https://arxiv.org/html/2509.22472v1)
 
 ### Quality Assessment Frameworks
