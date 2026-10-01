@@ -196,6 +196,10 @@ Other cool resources to check:
 - Legal Argument Mining Tools: RMU:ECHR corpus and mining models [[💻]](https://github.com/trusthlt/mining-legal-arguments)
 - Multilingual Legal Processing: Evaluation pipelines for multilingual legal LLMs [[📄]](https://arxiv.org/html/2509.22472v1)
 
+### Legal QA Applications
+
+- LawQ (律问): Legal QA over 26k Chinese statutes in force — BM25 retrieval with citation-grounded LLM answers (web + WeChat Mini Program) [[💻]](https://github.com/thu-lawyer/lawq)
+
 ### Quality Assessment Frameworks
 
 - LegalEval-Q: Quality evaluation for LLM-generated legal text [[📄]](https://arxiv.org/html/2505.24826v1)
