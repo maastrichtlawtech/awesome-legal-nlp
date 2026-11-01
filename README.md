@@ -195,6 +195,7 @@ Other cool resources to check:
 - Embedding Benchmarking Tools: MTEB, Hugging Face evaluate, LegalBench, COLIEE [[🌐]](https://milvus.io/ai-quick-reference/what-tools-can-benchmark-embeddings-for-legal-datasets)
 - Legal Argument Mining Tools: RMU:ECHR corpus and mining models [[💻]](https://github.com/trusthlt/mining-legal-arguments)
 - Multilingual Legal Processing: Evaluation pipelines for multilingual legal LLMs [[📄]](https://arxiv.org/html/2509.22472v1)
+- German Caselaw RAG & Document Pipeline: Open architecture and local RAG workflows for German caselaw analysis [[🌐]](https://legaltech.top/) [[💻]](https://github.com/legaltech-kanzlei/legaltech-kanzlei.github.io)
 
 ### Quality Assessment Frameworks
 
