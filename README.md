@@ -50,6 +50,7 @@
 | CLERC (2024) | [📄](https://arxiv.org/abs/2406.17186) [🤗](https://huggingface.co/datasets/jhu-clsp/CLERC) [💻](https://github.com/bohanhou14/CLERC) | Legal case retrieval | 🇬🇧 | Large corpus for retrieval and RAG |
 | LEAD (2024) | [📄](https://arxiv.org/abs/2410.06581) [💻](https://github.com/thunlp/LEAD) | Legal case retrieval | Various | 100K+ pairs of similar legal cases |
 | Legal IR Philippines (2024) | [📄](https://aclanthology.org/2024.paclic-1.35.pdf) | Philippine legal documents | 🇵🇭 | Datasets with synthetic queries |
+| Lebanese Legislation (2026) | [🤗](https://huggingface.co/datasets/taktekhq/lebanese-legislation) [💻](https://github.com/taktekhq/lebanese-legislation) | Lebanese legislation and court rulings | 🇱🇧 🇫🇷 | 103K laws and decrees w/ 389K articles, 47.7K court rulings |
 
 #### <ins>Legal Question Answering</ins> (LQA)
 
