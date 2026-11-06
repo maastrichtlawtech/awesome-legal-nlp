@@ -96,6 +96,7 @@
 |---|---|---|---|
 | Pile of Law (Henderson et al., 2022) | [📄](https://arxiv.org/abs/2207.00220) [🤗](https://huggingface.co/datasets/pile-of-law/pile-of-law) [💻](https://github.com/Breakend/PileOfLaw) | 🇬🇧 | ~256GB of legal and administrative legal text |
 | MultiLegalPile (2024) | [📄](https://aclanthology.org/2024.acl-long.805/) [🤗](https://huggingface.co/datasets/joelniklaus/Multi_Legal_Pile) | 🌍 | 689GB multilingual legal corpus from 17 jurisdictions |
+| Global Law (Lexifina, 2026) | [💻](https://github.com/lexifina/global-law) | 🌍 | Legislation of 208 jurisdictions (714 corpora), every version of each act as a dated git commit, one file per provision |
 
 #### <ins>Benchmarks</ins>
 
